@@ -1,0 +1,278 @@
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%	The MIT License (MIT)
+%
+%	Copyright (c) 2021 Jitin Nair
+%
+%	Permission is hereby granted, free of charge, to any person obtaining a copy
+%	of this software and associated documentation files (the "Software"), to deal
+%	in the Software without restriction, including without limitation the rights
+%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%	copies of the Software, and to permit persons to whom the Software is
+%	furnished to do so, subject to the following conditions:
+%	
+%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+%	THE SOFTWARE.
+%	
+%
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT DEFINITION
+%----------------------------------------------------------------------------------------
+
+% article class because we want to fully customize the page and not use a cv template
+\documentclass[a4paper,12pt]{article}
+
+%----------------------------------------------------------------------------------------
+%	FONT
+%----------------------------------------------------------------------------------------
+
+% % fontspec allows you to use TTF/OTF fonts directly
+% \usepackage{fontspec}
+% \defaultfontfeatures{Ligatures=TeX}
+
+% % modified for ShareLaTeX use
+% \setmainfont[
+% SmallCapsFont = Fontin-SmallCaps.otf,
+% BoldFont = Fontin-Bold.otf,
+% ItalicFont = Fontin-Italic.otf
+% ]
+% {Fontin.otf}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage{url}
+\usepackage{parskip} 	
+
+%other packages for formatting
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9]{geometry}
+
+%tabularx environment
+\usepackage{tabularx}
+
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+
+%custom \section
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{6pt}
+
+%for publications
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+%Setup hyperref package, and colours for links
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\addbibresource{citations.bib}
+\setlength\bibitemsep{1em}
+
+%for social icons
+\usepackage{fontawesome5}
+
+%debug page outer frames
+%\usepackage{showframe}
+
+
+% job listing environments
+\newenvironment{jobshort}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill &  #2 \\[3.75pt]
+    \end{tabularx}
+    }
+    {
+    }
+
+\newenvironment{joblong}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill &  #2 \\[2pt]
+    \end{tabularx}
+    \begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt,label=--]
+    }
+    {
+    \end{itemize}
+    \end{minipage}    
+    }
+
+
+
+%----------------------------------------------------------------------------------------
+%	BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+% non-numbered pages
+\pagestyle{empty} 
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+% \begin{tabularx}{\linewidth}{ @{}X X@{} }
+% \huge{Your Name}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
+% \raisebox{-0.05\height}\faGithub\ username \ | \
+% \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
+% \end{tabularx}
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Abunesh R P} \\[5pt]
+\normalsize{AI \& Data Science Engineer | Full-Stack Developer} \\[3pt]
+\href{https://github.com/Abunesh126}{\raisebox{-0.05\height}\faGithub\ Abunesh126} \ $|$ \ 
+\href{https://linkedin.com/in/abunesh-r-p-803677278}{\raisebox{-0.05\height}\faLinkedin\ abunesh-r-p-803677278} \ $|$ \ 
+\href{mailto:abunesh2006@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ abunesh2006@gmail.com} \ $|$ \ 
+\href{tel:+919042845355}{\raisebox{-0.05\height}\faMobile \ +91 9042845355} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+% EXPERIENCE SECTIONS
+%----------------------------------------------------------------------------------------
+
+%Interests/ Keywords/ Summary
+\section{About Me}
+A passionate B.Tech AI \& Data Science student with expertise in Full-Stack Development, Machine Learning, and Cloud Computing. Experienced in building innovative AI solutions including speech-to-sign conversion and military surveillance systems. Enthusiastic about emerging technologies and committed to solving real-world problems through AI and engineering innovation. Strong foundation in multiple programming languages and frameworks with hands-on project experience.
+
+%Core Expertise
+\section{Core Expertise}
+\begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=$\bullet$]
+\item Artificial Intelligence \& Machine Learning
+\item Full-Stack Development 
+\item Cloud Computing \& DevOps
+\item Cybersecurity \& Signal Processing
+\end{itemize}
+
+%Experience
+\section{Key Projects \& Experience}
+
+\begin{joblong}{Innovation Engineer (Personal Projects)}{2024 - Present}
+\item Led development of cutting-edge AI solutions including DOVE (Speech-to-Sign AI), CLAVE (Military Aviation Surveillance AI), and HydroWatch (Water Quality AI Analysis)
+\item Focus on real-world applications and emerging technologies with practical implementation
+\item Built end-to-end AI systems from concept to deployment with measurable impact
+\end{joblong}
+
+\begin{joblong}{Smart India Hackathon Participant}{2024}
+\item Developed Micro Doppler based target classification project using advanced signal processing and machine learning
+\item Competed among top engineering teams nationwide in prestigious government hackathon
+\item Showcased innovation in defense technology with practical applications for military use
+\end{joblong}
+
+\begin{joblong}{Full-Stack Developer (Academic \& Personal)}{2023 - Present}
+\item Built responsive web applications using React, TypeScript, and Flask with modern frameworks
+\item Specialized in creating clean UI/UX designs and integrating ML models with web interfaces
+\item Experience in both frontend and backend development with focus on scalable architecture
+\end{joblong}
+
+\begin{joblong}{Web Development Intern - Nandha Infotech}{2024}
+\item Gained hands-on experience developing responsive web applications using React.js, Laravel, and MySQL
+\item Implemented CRUD operations, optimized forms, and improved UI/UX with responsive design
+\item Utilized version control with Git/GitHub for collaborative development workflow
+\end{joblong}
+
+%Projects
+\section{Featured Projects}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{DOVE - Speech to Sign AI} & \hfill GitHub $|$ 2024 \\[2pt]
+\multicolumn{2}{@{}X@{}}{Revolutionary AI system converting speech to sign language using deep learning models. Implemented LSTM and CNN architectures for real-time gesture recognition and translation. Addresses accessibility challenges for deaf and hard-of-hearing communities through cutting-edge technology.}  \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{CLAVE - Military Aviation AI} & \hfill Innovation Project $|$ 2024 \\[2pt]
+\multicolumn{2}{@{}X@{}}{Advanced surveillance system for drone and aircraft detection using computer vision and radar analysis. Built for military radiation air defense applications with high accuracy target classification. Combines multiple sensor inputs for enhanced detection capabilities.}  \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{HydroWatch - Water Quality AI} & \hfill Environmental Tech $|$ 2024 \\[2pt]
+\multicolumn{2}{@{}X@{}}{AI-powered water tank monitoring system analyzing water level and health conditions. Integrated IoT sensors with machine learning for predictive maintenance and quality assessment. Contributes to smart city infrastructure and environmental sustainability.}  \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Smart Bike Position Detector} & \hfill Personal Project $|$ 2023 \\[2pt]
+\multicolumn{2}{@{}X@{}}{Intelligent bike sitting position notification system using sensors and AI. Detects and alerts riders about optimal positioning for safety and comfort. Demonstrates practical application of IoT and machine learning in everyday transportation.}  \\
+\end{tabularx}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+\begin{tabularx}{\linewidth}{@{}l X@{}}	
+2022 - 2026 & B.Tech in AI \& Data Science at \textbf{Engineering College} \hfill \normalsize (3rd Year Student) \\
+& \textit{Focus: Machine Learning, Deep Learning, Data Analytics, and AI Applications} \\
+& \textit{Strong academic performance with hands-on project experience} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL DETAILS
+%----------------------------------------------------------------------------------------
+\section{Personal Details}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Nationality: & Indian \\
+Born: & 2006 \\
+Location: & India \\
+Status: & 3rd Year B.Tech Student \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS
+%----------------------------------------------------------------------------------------
+\section{Technical Skills}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Programming Languages &  \normalsize{Python, Java, C++, JavaScript, TypeScript, HTML/CSS, SQL}\\
+AI \& Machine Learning &  \normalsize{TensorFlow, PyTorch, Scikit-learn, OpenCV, LSTM, CNN, Computer Vision, NLP}\\
+Data Science \& Analytics &  \normalsize{Pandas, NumPy, Matplotlib, Seaborn, Jupyter, Data Visualization}\\
+Web \& Cloud Technologies &  \normalsize{React.js, Node.js, Flask, FastAPI, Laravel, AWS, Docker, MongoDB, MySQL}\\
+Databases \& Tools &  \normalsize{MySQL, MongoDB, PostgreSQL, Git/GitHub, VS Code, PyCharm}\\
+Specializations &  \normalsize{AI Applications, Data Science, Cybersecurity, IoT, Signal Processing, Deep Learning}\\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	CERTIFICATIONS \& ACHIEVEMENTS
+%----------------------------------------------------------------------------------------
+\section{Certifications \& Achievements}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Academic Certifications & Introduction to Data Science, Machine Learning Fundamentals \\
+& Advanced Python for Data Science, Artificial Intelligence Basics \\
+Professional Development & Web Development Certification, Full-Stack Development \\
+& Database Management, Cloud Computing Fundamentals \\
+Hackathon Achievements & Smart India Hackathon 2024 Participant \\
+& Innovation in Defense Technology and AI Applications \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	AVAILABILITY
+%----------------------------------------------------------------------------------------
+\section{Professional Availability}
+\begin{tabularx}{\linewidth}{@{}X@{}}
+Available for internships, collaborative projects, and entry-level positions in AI/ML, Data Science, and Software Development. Open to remote opportunities and eager to contribute to innovative technology solutions. Currently seeking summer 2025 internships and project collaborations.
+\end{tabularx}
+
+\center{\footnotesize Last updated: \today}
+
+\end{document}
