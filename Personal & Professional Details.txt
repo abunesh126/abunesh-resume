@@ -1,0 +1,42 @@
+Personal & Professional Details
+
+Name: Abunesh R P
+
+Title: Front-End Developer | AI & Computer Vision Enthusiast
+
+Email: abunesh2006@gmail.com
+
+Phone: +91-9042845355 (add if you want it public)
+
+Location: Karunya University, Coimbatore, India
+
+LinkedIn:
+https://www.linkedin.com/in/abunesh-r-p-803677278
+
+GitHub:
+https://github.com/abuneshrp
+ (update if different)
+
+Portfolio:
+https://abuneshrp.netlify.app
+
+Twitter (optional):
+Not added (you can include later if needed)
+
+Bio (Short – 1–2 sentences)
+
+A passionate Front-End Developer and AI & Data Science student focused on building modern web applications and intelligent systems using machine learning and computer vision.
+
+About (Detailed)
+
+I am a technology enthusiast and B.Tech student specializing in Artificial Intelligence and Data Science at Karunya University, Coimbatore. I enjoy building clean, responsive user interfaces and developing real-world AI solutions. My experience includes working with Flask APIs, computer vision systems, deep learning models (CNN, RNN, LSTM), and projects such as radar-based target classification and automated smart parking systems. I am continuously learning new technologies and enjoy collaborating on innovative projects that solve practical problems.
+
+If you want, I can now:
+
+Optimize this specifically for your portfolio website
+
+Convert it into a GitHub README.md
+
+Rewrite it for LinkedIn “About” section
+
+Make a shorter, recruiter-friendly version

@@ -1,0 +1,65 @@
+Hi there 👋, I'm Abunesh R P
+About Me
+I am a technology enthusiast and AI & Data Science student, passionate about building innovative solutions and exploring the ever-evolving world of technology.
+
+🌱 Currently Learning
+React.js & TypeScript
+Flutter & Dart
+MySQL & Data Structures
+Java & Python
+💼 Skills
+Programming Languages: Python, Java, JavaScript, HTML, CSS
+Frameworks & Libraries: Flask, React, Flutter, TensorFlow, Keras
+Tools & Platforms: Git, GitHub, VS Code, Tableau, Jupyter Notebook
+AI & ML: Deep Learning (CNN, RNN, LSTM), Data Analysis, ML Models
+👯 I’m Looking to Collaborate On
+Open-source AI & ML projects
+Web and Mobile App Development
+Data Science & Analysis Projects
+🤔 Looking for Help With
+Advanced Deep Learning concepts
+Full-stack project architecture
+Optimizing ML models for performance
+📫 How to Reach Me
+Email: abunesh2006@gmail.com
+LinkedIn: linkedin.com/in/abunesh-r-p-803677278
+Portfolio: abuneshrp.netlify.app
+💻 Tech Stack
+React TypeScript JavaScript Python TensorFlow FastAPI Docker Tableau
+
+📊 GitHub Stats
+Abunesh's GitHub stats
+
+✍️ Random Dev Quote
+"Code is like humor. When you have to explain it, it’s bad." – Cory House
+
+
+Name: Abunesh R P
+
+Title: Front-End Developer | AI & Computer Vision Enthusiast
+
+Email: yourname@email.com
+
+Phone: +91-XXXXXXXXXX
+
+Location: India
+
+LinkedIn: https://www.linkedin.com/in/your-linkedin-username
+
+GitHub: https://github.com/your-github-username
+
+Twitter (optional): https://twitter.com/your-twitter-handle
+
+Bio:
+A passionate front-end developer and AI enthusiast focused on building modern web applications and intelligent systems using computer vision and machine learning.
+
+About:
+I am a B.Tech student specializing in Artificial Intelligence and Data Science with a strong interest in front-end development and real-world AI applications. I have worked on projects involving Flask APIs, computer vision, radar-based classification, and automated systems like smart parking solutions. I enjoy learning new technologies, building clean user interfaces, and solving practical problems through code.
+
+
+
+karunya university
+Coimbatore
+abunesh2006@gmail.com
+https://abuneshrp.netlify.app/
+https://www.linkedin.com/in/abunesh-r-p-803677278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
