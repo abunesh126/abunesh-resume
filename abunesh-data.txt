@@ -1,0 +1,611 @@
+================================================================================
+          COMPLETE A TO Z PROFESSIONAL PROFILE — ABUNESH R P
+           Full Stack Developer | AI & Data Science Engineer
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+A — ABOUT ME
+────────────────────────────────────────────────────────────────────────────────
+
+I am a passionate and dedicated B.Tech student specializing in Artificial
+Intelligence and Data Science at Karunya University, Coimbatore, Tamil Nadu,
+India. I am a technology enthusiast focused on building innovative solutions
+that bridge modern web development, machine learning, and intelligent systems.
+
+My journey began with foundational web design and has evolved into building
+full-stack AI applications, computer vision systems, and automation platforms.
+I believe in a "Learn → Build → Integrate → Optimize" approach to every
+challenge I take on.
+
+────────────────────────────────────────────────────────────────────────────────
+B — BIO / PERSONAL INFORMATION
+────────────────────────────────────────────────────────────────────────────────
+
+  Name          : Abunesh R P
+  Date of Birth : 2006
+  Nationality   : Indian
+  Location      : Karunya University, Coimbatore, Tamil Nadu, India
+  Status        : 3rd Year B.Tech Student (AI & Data Science, 2022–2026)
+
+  Email         : abunesh2006@gmail.com
+  Phone         : +91 9042845355
+  Portfolio     : https://abuneshrp.netlify.app
+  GitHub        : https://github.com/Abunesh126
+  LinkedIn      : https://www.linkedin.com/in/abunesh-r-p-803677278
+
+────────────────────────────────────────────────────────────────────────────────
+C — CORE EXPERTISE
+────────────────────────────────────────────────────────────────────────────────
+
+  • Artificial Intelligence & Machine Learning
+  • Full-Stack Web Development (Frontend + Backend + Database)
+  • Computer Vision & Image Processing
+  • Cloud Computing & Deployment
+  • Data Science & Analytics
+  • Cybersecurity Fundamentals
+  • Automation & AI Systems
+
+────────────────────────────────────────────────────────────────────────────────
+D — DEGREE / EDUCATION
+────────────────────────────────────────────────────────────────────────────────
+
+  Degree        : B.Tech in Artificial Intelligence & Data Science
+  Institution   : Karunya University, Coimbatore, Tamil Nadu, India
+  Duration      : 2022 – 2026 (Currently in 3rd Year)
+
+  Focus Areas:
+    - Machine Learning & Deep Learning
+    - Data Analytics & Data Science
+    - AI Applications & Systems
+    - Core CS Fundamentals (Data Structures, Algorithms, OS, Theory of
+      Computation)
+
+────────────────────────────────────────────────────────────────────────────────
+E — EXPERIENCE & ROLES
+────────────────────────────────────────────────────────────────────────────────
+
+  1. Innovation Engineer (2024 – Present)
+     ─────────────────────────────────────
+     Led end-to-end development of three major AI systems:
+     • DOVE  — Speech-to-Sign Language AI (accessibility platform)
+     • CLAVE — Military Aviation Surveillance AI (air defense system)
+     • HydroWatch — Water Quality AI Analysis (smart city infrastructure)
+
+  2. Full-Stack Developer (2023 – Present)
+     ──────────────────────────────────────
+     • Built responsive, multi-page web applications using React, TypeScript,
+       and Flask.
+     • Integrated ML models into web interfaces via REST APIs.
+     • Implemented end-to-end pipelines: frontend → backend → database →
+       deployment.
+
+  3. Web Development Intern — Nandha Info Tech
+     ───────────────────────────────────────────
+     • Gained practical experience in web application development.
+     • Worked on frontend and backend integration in a professional team.
+     • Learned real-world project structuring, workflows, and collaboration.
+
+  4. Smart India Hackathon Participant (2024)
+     ──────────────────────────────────────────
+     • Developed a Micro Doppler Based Target Classification system using
+       signal processing and machine learning.
+     • Competed at the national level representing Karunya University.
+
+────────────────────────────────────────────────────────────────────────────────
+F — FEATURED PROJECTS
+────────────────────────────────────────────────────────────────────────────────
+
+  1. DOVE — Speech to Sign Language AI (2024)
+     ───────────────────────────────────────────
+     Description : Converts spoken speech into sign language using imitation
+                   learning techniques.
+     Impact      : Enhances accessibility for the deaf and hard-of-hearing
+                   community.
+     Tech Used   : Python, Deep Learning, AI/ML Models, Web Integration
+
+  2. CLAVE — Military Aviation Surveillance AI (2024)
+     ────────────────────────────────────────────────────
+     Description : Detects and classifies drones and aircraft using computer
+                   vision and radar signal analysis.
+     Impact      : Built for air defense and military surveillance applications.
+     Tech Used   : Computer Vision, Radar Signal Processing, Python, ML Models
+
+  3. HydroWatch — Water Quality AI (2024)
+     ──────────────────────────────────────
+     Description : Monitors water tank health and predicts water quality using
+                   IoT sensors and LSTM neural networks.
+     Impact      : Supports smart city infrastructure and environmental health.
+     Tech Used   : IoT Sensors, LSTM, Python, Time-Series Forecasting
+
+  4. Micro Doppler Based Target Classification (2024)
+     ────────────────────────────────────────────────────
+     Description : Classifies aerial targets (drone vs. bird) using radar
+                   micro-doppler signatures.
+     Context     : Smart India Hackathon 2024
+     Tech Used   : Python, Signal Processing, ML Models, .mat file handling
+
+  5. Flower Classification System
+     ─────────────────────────────
+     Description : AI-powered image classification web app to identify flower
+                   species (Daisy, Dandelion, Rose, Sunflower, Tulip).
+     Tech Used   : Flask, Deep Learning Model, HTML/CSS/JavaScript
+
+  6. Water Level Prediction (LSTM)
+     ────────────────────────────────
+     Description : Time-series prediction system that forecasts future water
+                   levels based on historical environmental data.
+     Tech Used   : LSTM Neural Network, Python, RNN, Historical Data Analysis
+
+  7. College Attendance Management System
+     ──────────────────────────────────────
+     Description : Full-stack DBMS project for tracking student attendance
+                   with subject-wise reports.
+     Tech Used   : Flask, MySQL, HTML/CSS/JavaScript
+
+  8. Real-Time Speech-to-Text System
+     ────────────────────────────────────
+     Description : Real-time audio transcription system with low latency using
+                   OpenAI Whisper AI with GPU acceleration.
+     Tech Used   : Whisper AI, Python, CUDA (GPU Acceleration)
+
+  9. Smart Bike Position Detector (2023)
+     ──────────────────────────────────────
+     Description : Alerts riders about their optimal sitting posture using
+                   sensors and AI analysis.
+     Tech Used   : Sensors, AI/ML, Python
+
+  10. Weather Data Pipeline Project
+      ──────────────────────────────
+      Description : End-to-end data engineering pipeline covering ingestion,
+                    transformation, storage, and visualization.
+      Tech Used   : Prefect, PostgreSQL, Snowflake, Power BI
+
+  11. Nutri Choice (Java Project)
+      ─────────────────────────────
+      Description : Application that recommends grocery items based on user
+                    salary and nutritional requirements.
+      Tech Used   : Java, Database Logic, OOP Concepts
+
+  12. Portfolio Website (React.js)
+      ──────────────────────────────
+      Description : Multi-section personal portfolio with Experience,
+                    Education, Projects, and Contact pages.
+      Tech Used   : React.js, Styled-Components, Responsive Design
+
+  13. Networking Projects (Cisco Packet Tracer)
+      ────────────────────────────────────────────
+      Description : Configured VLANs, Inter-VLAN Routing, and EtherChannel
+                    in simulated real-world network scenarios.
+      Tech Used   : Cisco Packet Tracer
+
+────────────────────────────────────────────────────────────────────────────────
+G — GOAL & CAREER OBJECTIVE
+────────────────────────────────────────────────────────────────────────────────
+
+  Short-Term Goal:
+  To build production-level AI-powered full-stack applications that solve
+  real-world problems and gain deep expertise in AI/ML and software engineering.
+
+  Long-Term Goal:
+  To become a highly skilled Full Stack AI Engineer capable of designing and
+  shipping complete intelligent products — from ideation to deployment — that
+  combine modern web applications, artificial intelligence, and automation.
+
+  Career Identity:
+    Role     : Full Stack + AI Developer
+    Strength : Practical, project-based learning
+    Approach : Learn → Build → Integrate → Optimize
+
+────────────────────────────────────────────────────────────────────────────────
+H — HACKATHONS & COMPETITIONS
+────────────────────────────────────────────────────────────────────────────────
+
+  Smart India Hackathon 2024 (National Level)
+  ─────────────────────────────────────────────
+  Project : Micro Doppler Based Target Classification
+  Task    : Classify drones vs. birds using radar signal processing and ML.
+  Outcome : Built a complete AI prediction pipeline for aerial object
+            identification based on radar micro-doppler patterns.
+
+────────────────────────────────────────────────────────────────────────────────
+I — INTERNSHIP
+────────────────────────────────────────────────────────────────────────────────
+
+  Organization  : Nandha Info Tech
+  Role          : Web Development Intern
+  Key Learnings :
+    • Real-world web application development
+    • Frontend and backend integration workflows
+    • Team collaboration and professional project structuring
+
+────────────────────────────────────────────────────────────────────────────────
+J — JOURNEY (CAREER PROGRESSION TIMELINE)
+────────────────────────────────────────────────────────────────────────────────
+
+  Phase 1 — Foundation (Web Development Beginner)
+  ─────────────────────────────────────────────────
+    Started With   : HTML, CSS, Basic JavaScript, UI Design Principles
+    Key Learnings  : Responsive design, layout structuring, styling systems,
+                     component-based thinking
+    Tools          : VS Code, Figma, Git (basics)
+    Achievement    : Designed personal portfolio layouts and clean web pages
+
+  Phase 2 — Frontend Development Growth
+  ──────────────────────────────────────
+    Technologies   : Advanced CSS, Flexbox & Grid, Dark/Light Mode, React +
+                     TypeScript, Tailwind CSS
+    Projects Built : Multi-page Portfolio Website (Home, Study, Certificates,
+                     Projects, Contact, Navbar, Footer)
+    Skills Gained  : Component architecture, clean UI systems, UX thinking
+
+  Phase 3 — Backend & Full Stack Development
+  ────────────────────────────────────────────
+    Backend Stack  : Python, Flask Framework, REST API Development
+    Major Work     : Created /api/predict endpoints, frontend-backend
+                     integration, form handling, data processing pipelines
+
+  Phase 4 — Artificial Intelligence & Machine Learning
+  ──────────────────────────────────────────────────────
+    Projects       : Micro Doppler Classification, Flower Classification,
+                     Water Level Prediction (LSTM)
+    Tech Used      : Python, ML Models, Signal Processing, Deep Learning
+
+  Phase 5 — Automation & AI Systems Exploration
+  ────────────────────────────────────────────────
+    Concepts       : Workflow automation, AI agents, API-based automation
+    Tools Explored : n8n, RPA concepts (UiPath comparison)
+    Goal           : Build intelligent automated systems that perform real
+                     tasks autonomously
+
+  Phase 6 — Advanced Development (Current Stage)
+  ────────────────────────────────────────────────
+    Focus Areas    : Full Stack AI Applications, Intelligent Web Systems,
+                     AI + Automation Integration, High-performance UI/UX
+    Tech Stack     : React + TypeScript + Tailwind (Frontend),
+                     Python + Flask + APIs (Backend),
+                     ML + Deep Learning + LSTM (AI)
+
+────────────────────────────────────────────────────────────────────────────────
+K — KEY STRENGTHS
+────────────────────────────────────────────────────────────────────────────────
+
+  • Strong problem-solving ability
+  • Quick learner across new and emerging technologies
+  • Hands-on, project-based experience across multiple domains
+  • Balanced knowledge of frontend, backend, and AI/ML
+  • Ability to work independently and in team environments
+  • Clear and structured thinking in system design
+
+────────────────────────────────────────────────────────────────────────────────
+L — LEARNING (CURRENTLY PURSUING)
+────────────────────────────────────────────────────────────────────────────────
+
+  • React.js & TypeScript (advanced patterns)
+  • Flutter & Dart (mobile development)
+  • MySQL & Data Structures (deeper mastery)
+  • Java & Python (advanced concepts)
+  • Advanced Deep Learning (custom training, fine-tuning, optimization)
+  • Full-stack project architecture and design patterns
+  • Software testing, monitoring, and deployment best practices
+
+────────────────────────────────────────────────────────────────────────────────
+M — MACHINE LEARNING & AI SPECIALIZATIONS
+────────────────────────────────────────────────────────────────────────────────
+
+  Models & Architectures:
+    • CNN (Convolutional Neural Networks)
+    • RNN (Recurrent Neural Networks)
+    • LSTM (Long Short-Term Memory)
+    • Classification Models (Supervised Learning)
+    • Imitation Learning
+    • Object Detection (YOLO-style models)
+
+  AI Tools & Frameworks:
+    • TensorFlow
+    • PyTorch
+    • Keras
+    • Whisper AI (OpenAI)
+    • OpenCV (Computer Vision)
+
+  AI Application Areas:
+    • Speech-to-Sign Language Conversion
+    • Aerial Object Detection & Classification
+    • Water Quality Monitoring
+    • Image Classification
+    • Time-Series Forecasting
+    • Real-Time Speech Transcription
+
+────────────────────────────────────────────────────────────────────────────────
+N — NETWORKING & SYSTEMS KNOWLEDGE
+────────────────────────────────────────────────────────────────────────────────
+
+  Networking Skills:
+    • VLAN Configuration
+    • Inter-VLAN Routing
+    • EtherChannel Setup
+    • Cisco Packet Tracer simulations
+    • Basic API Communication Patterns
+
+  Systems Knowledge:
+    • Operating Systems (Processes, Threads, Scheduling, Memory Management)
+    • Linux / Ubuntu environment
+    • Docker & DevOps basics
+    • Environment variables, domain mapping, CI/CD patterns
+
+────────────────────────────────────────────────────────────────────────────────
+O — OPEN SOURCE & COLLABORATION
+────────────────────────────────────────────────────────────────────────────────
+
+  Looking to collaborate on:
+    • Open-source AI & ML projects
+    • Web and Mobile App Development
+    • Data Science & Analysis Projects
+    • Full-stack AI platforms and tools
+
+  GitHub Profile  : https://github.com/Abunesh126
+  Contribution    : Active project committer; uses GitHub for version control,
+                    collaboration, and code reviews.
+
+────────────────────────────────────────────────────────────────────────────────
+P — PROGRAMMING LANGUAGES
+────────────────────────────────────────────────────────────────────────────────
+
+  Primary Languages:
+    • Python        — AI/ML, Flask backend, data pipelines, automation
+    • JavaScript    — Frontend (React, Node.js), web interactions
+    • TypeScript    — Strongly-typed React applications
+    • Java          — OOP projects, academic applications
+
+  Supporting Languages:
+    • C / C++       — Foundational programming and systems concepts
+    • HTML5         — Web markup and structure
+    • CSS3          — Styling, responsive layouts, design systems
+    • SQL           — Database queries and management
+    • Dart          — Flutter mobile development (currently learning)
+    • PHP           — Laravel backend (explored)
+
+────────────────────────────────────────────────────────────────────────────────
+Q — QUALITIES & SOFT SKILLS
+────────────────────────────────────────────────────────────────────────────────
+
+  • Continuous Learner         — Constantly upskilling through projects
+  • Problem Solver             — Analytical thinking for real-world challenges
+  • Innovative Thinker         — Applies creative solutions in AI/ML contexts
+  • Self-Driven                — Initiates and completes personal projects
+  • Team Collaborator          — Works effectively in team settings
+  • Detail-Oriented            — Focused on clean UI/UX and code quality
+  • Communicative              — Able to explain technical concepts clearly
+  • Goal-Oriented              — Defined career vision with actionable steps
+
+────────────────────────────────────────────────────────────────────────────────
+R — ROLES ASPIRED / CAREER TARGETS
+────────────────────────────────────────────────────────────────────────────────
+
+  Current Identity  : Full Stack + AI Developer
+  Target Roles      :
+    • Full Stack AI Engineer
+    • AI/ML Engineer
+    • Computer Vision Engineer
+    • Software Development Engineer (SDE)
+    • AI Product Engineer
+    • Research-Driven Developer
+
+  Target Work Types :
+    • AI SaaS Products
+    • Intelligent Automation Platforms
+    • AI-Powered Web Applications
+    • Computer Vision Systems
+    • Top Tech Companies or Own Startup
+
+────────────────────────────────────────────────────────────────────────────────
+S — SKILLS (COMPLETE TECHNICAL STACK)
+────────────────────────────────────────────────────────────────────────────────
+
+  FRONTEND DEVELOPMENT
+  ────────────────────
+    React.js / React + TypeScript
+    HTML5, CSS3
+    Tailwind CSS
+    Styled Components
+    Chakra UI
+    Flexbox & Grid Layouts
+    Responsive Design
+    Dark / Light Mode UI
+    Component-Based Architecture
+
+  BACKEND DEVELOPMENT
+  ───────────────────
+    Flask (Python)
+    FastAPI (Python)
+    Node.js
+    Laravel (PHP)
+    REST API Development
+    API Versioning & Authentication
+
+  DATABASE MANAGEMENT
+  ────────────────────
+    MySQL
+    PostgreSQL
+    MongoDB
+    Supabase
+    SQL Query Optimization
+
+  AI & MACHINE LEARNING
+  ──────────────────────
+    TensorFlow
+    PyTorch
+    Keras
+    Whisper AI
+    OpenCV (Computer Vision)
+    YOLO Object Detection
+    LSTM / RNN / CNN
+    Imitation Learning
+    Signal Processing
+    Data Preprocessing & EDA
+
+  DATA SCIENCE & ANALYTICS
+  ──────────────────────────
+    Pandas
+    Matplotlib / Seaborn
+    Plotly
+    Tableau / Power BI
+    Data Pipelines (Prefect, Airbyte, Snowflake)
+
+  CLOUD & DEVOPS
+  ──────────────
+    AWS (Amazon Web Services)
+    Docker
+    Netlify / Render Deployment
+    GitHub Actions (CI/CD basics)
+    Linux (Ubuntu)
+
+  TOOLS & PLATFORMS
+  ─────────────────
+    VS Code
+    Git & GitHub
+    Figma (UI/UX Prototyping)
+    Jupyter Notebook
+    Cisco Packet Tracer
+    Hugging Face / PyTorch Hub
+
+────────────────────────────────────────────────────────────────────────────────
+T — TECH STACK (QUICK REFERENCE)
+────────────────────────────────────────────────────────────────────────────────
+
+  ┌─────────────┬────────────────────────────────────────────────────────┐
+  │ Layer       │ Technologies                                           │
+  ├─────────────┼────────────────────────────────────────────────────────┤
+  │ Frontend    │ React, TypeScript, Tailwind CSS, HTML5, CSS3          │
+  │ Backend     │ Python, Flask, FastAPI, Node.js, REST APIs            │
+  │ Database    │ MySQL, PostgreSQL, MongoDB, Supabase                  │
+  │ AI / ML     │ TensorFlow, PyTorch, Keras, Whisper, OpenCV, YOLO    │
+  │ Data        │ Pandas, Matplotlib, Plotly, Power BI, Snowflake       │
+  │ DevOps      │ Docker, Git, GitHub, AWS, Linux, Netlify              │
+  │ Design      │ Figma, Styled Components, Chakra UI                   │
+  └─────────────┴────────────────────────────────────────────────────────┘
+
+────────────────────────────────────────────────────────────────────────────────
+U — UNIQUE VALUE PROPOSITION
+────────────────────────────────────────────────────────────────────────────────
+
+  Abunesh brings a rare combination of:
+
+  1. Deep AI/ML expertise — Capable of building and deploying real models
+     (LSTM, CNN, YOLO, Whisper) in practical applications.
+
+  2. Full-Stack capability — Can handle everything from UI design to backend
+     APIs to database management, all independently.
+
+  3. Problem-first mindset — Every project started from a real-world problem
+     (accessibility, defense, environment, health).
+
+  4. Rapid execution — Went from web design fundamentals to full AI-powered
+     systems within 2–3 years.
+
+  5. Cross-domain knowledge — Combines computer vision, NLP, data engineering,
+     cloud deployment, and networking into unified solutions.
+
+────────────────────────────────────────────────────────────────────────────────
+V — VISION (FUTURE GOALS)
+────────────────────────────────────────────────────────────────────────────────
+
+  • Build AI SaaS products that scale globally
+  • Develop intelligent automation platforms combining AI and web tech
+  • Create high-impact computer vision and NLP web applications
+  • Contribute to open-source AI and engineering projects
+  • Master software architecture, design patterns, and system design
+  • Work at a top-tier tech company or found an AI-driven startup
+  • Deepen expertise in custom model training, fine-tuning, and deployment
+    optimization
+
+────────────────────────────────────────────────────────────────────────────────
+W — WORK PHILOSOPHY & LEARNING STYLE
+────────────────────────────────────────────────────────────────────────────────
+
+  Philosophy    : "Code is like humor. When you have to explain it, it's bad."
+                  — Cory House
+
+  Learning Style:
+    • Project-first approach: learns by doing, then iterating
+    • Researches tools thoroughly before selecting the right stack
+    • Uses AI assistants, documentation, and GitHub Copilot-style tools
+    • Prefers clean, maintainable code over quick but messy solutions
+    • Benchmarks and compares tools (frameworks, libraries, platforms) before
+      committing to a stack
+
+  Workflow:
+    → Research → Plan → Build → Test → Iterate → Deploy → Optimize
+
+────────────────────────────────────────────────────────────────────────────────
+X — CROSS-FUNCTIONAL CAPABILITIES
+────────────────────────────────────────────────────────────────────────────────
+
+  Abunesh can operate across multiple domains simultaneously:
+
+  ✔ Design         — UI/UX prototyping in Figma, clean interface building
+  ✔ Frontend       — React/TypeScript responsive web apps
+  ✔ Backend        — Python/Flask REST APIs and business logic
+  ✔ Database       — MySQL, PostgreSQL, MongoDB schema and queries
+  ✔ AI/ML          — Model training, deployment, and API integration
+  ✔ Data           — EDA, visualization, and data pipeline engineering
+  ✔ DevOps         — Docker, Git, Linux, cloud deployment
+  ✔ Networking     — VLAN, Inter-VLAN, EtherChannel (Cisco)
+  ✔ Automation     — n8n, RPA concepts, workflow automation tools
+
+────────────────────────────────────────────────────────────────────────────────
+Y — YEAR-BY-YEAR PROGRESS SUMMARY
+────────────────────────────────────────────────────────────────────────────────
+
+  2022 — Joined B.Tech AI & Data Science at Karunya University
+          Started learning programming fundamentals (C, Java, HTML, CSS)
+
+  2023 — Expanded into JavaScript and web development
+          Built first React-based projects and portfolio website
+          Built Smart Bike Position Detector (first AI-hardware integration)
+          Completed Web Development Internship at Nandha Info Tech
+
+  2024 — Led development of DOVE, CLAVE, and HydroWatch (AI systems)
+          Participated in Smart India Hackathon (Micro Doppler Classification)
+          Built Flower Classification, Speech-to-Text, and Water Level
+          Prediction projects
+          Expanded into data pipelines, cloud tools, and DevOps
+
+  2025 — (Current) Advanced stage: AI + Full Stack integration, automation
+          systems, and preparation for professional career/startup ventures
+
+────────────────────────────────────────────────────────────────────────────────
+Z — ZONE OF IMPACT & CONCLUSION
+────────────────────────────────────────────────────────────────────────────────
+
+  Abunesh R P is not just a student — he is an active builder who has already
+  contributed to meaningful real-world domains:
+
+  ♿ Accessibility   — DOVE: Making communication accessible for the deaf
+  🛡️  Defense        — CLAVE: Strengthening military aerial surveillance
+  💧 Environment    — HydroWatch: Supporting clean water infrastructure
+  🌐 Open Web       — Portfolio & web apps that demonstrate modern standards
+  📊 Data Science   — Pipelines and visualizations for insight-driven systems
+
+  With a strong foundation in both theory and practice, a clear career vision,
+  and a growing portfolio of AI-powered projects, Abunesh R P is positioned
+  to become a leading Full Stack AI Engineer — ready to build the next
+  generation of intelligent, scalable, and impactful technology.
+
+  ─────────────────────────────────────────────────────────────────────────────
+  "Build things that matter. Code solutions that scale. Create impact."
+  ─────────────────────────────────────────────────────────────────────────────
+
+================================================================================
+  CONTACT ABUNESH R P
+================================================================================
+
+  Email     : abunesh2006@gmail.com
+  Phone     : +91 9042845355
+  Portfolio : https://abuneshrp.netlify.app
+  GitHub    : https://github.com/Abunesh126
+  LinkedIn  : https://www.linkedin.com/in/abunesh-r-p-803677278
+  Location  : Karunya University, Coimbatore, Tamil Nadu, India
+
+================================================================================
+           END OF COMPLETE A TO Z PROFILE — ABUNESH R P
+================================================================================
