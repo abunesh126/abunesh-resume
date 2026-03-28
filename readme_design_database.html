@@ -1,0 +1,686 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-sans)}
+.db{padding:1.5rem 0}
+.nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1.5rem}
+.nav button{font-size:12px;padding:6px 14px;border-radius:20px;cursor:pointer;border:0.5px solid var(--color-border-secondary);background:transparent;color:var(--color-text-secondary);transition:all .15s}
+.nav button.active{background:var(--color-background-info);color:var(--color-text-info);border-color:var(--color-border-info)}
+.section{display:none}
+.section.show{display:block}
+.timeline{display:flex;flex-direction:column;gap:0}
+.ver{display:flex;gap:0;align-items:stretch}
+.ver-line{display:flex;flex-direction:column;align-items:center;width:40px;flex-shrink:0}
+.ver-dot{width:14px;height:14px;border-radius:50%;flex-shrink:0;margin-top:18px}
+.ver-track{width:2px;flex:1;background:var(--color-border-tertiary)}
+.ver-track.last{display:none}
+.ver-card{flex:1;background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1rem 1.25rem;margin:8px 0 8px 0}
+.ver-header{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.ver-num{font-size:13px;font-weight:500;color:var(--color-text-primary)}
+.ver-tag{font-size:11px;padding:2px 8px;border-radius:10px}
+.ver-desc{font-size:13px;color:var(--color-text-secondary);line-height:1.6;margin-bottom:10px}
+.ver-details{display:grid;grid-template-columns:repeat(auto-fit,minmax(0,1fr));gap:8px}
+.detail-block{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:10px 12px}
+.detail-label{font-size:11px;color:var(--color-text-tertiary);margin-bottom:4px;text-transform:uppercase;letter-spacing:.04em}
+.detail-val{font-size:12px;color:var(--color-text-secondary);line-height:1.5}
+.swatch-row{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.swatch{width:24px;height:24px;border-radius:4px;border:0.5px solid var(--color-border-tertiary);flex-shrink:0;cursor:pointer;position:relative}
+.swatch:hover::after{content:attr(data-hex);position:absolute;bottom:28px;left:50%;transform:translateX(-50%);background:var(--color-background-primary);border:0.5px solid var(--color-border-secondary);border-radius:4px;padding:2px 6px;font-size:11px;white-space:nowrap;z-index:10;color:var(--color-text-primary)}
+.font-sample{font-size:18px;color:var(--color-text-primary);margin-top:4px;line-height:1.3}
+.badge-row{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.badge{font-size:11px;padding:3px 8px;border-radius:10px;font-weight:500}
+.compare-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:1rem}
+.cmp-card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1rem;overflow:hidden}
+.cmp-stripe{height:6px;margin:-1rem -1rem 12px -1rem}
+.cmp-title{font-size:13px;font-weight:500;color:var(--color-text-primary);margin-bottom:6px}
+.cmp-row{display:flex;justify-content:space-between;align-items:center;padding:4px 0;border-bottom:0.5px solid var(--color-border-tertiary)}
+.cmp-row:last-child{border-bottom:none}
+.cmp-key{font-size:11px;color:var(--color-text-tertiary)}
+.cmp-v{font-size:11px;color:var(--color-text-secondary);font-weight:500}
+.palette-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-top:1rem}
+.pal-card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:.75rem 1rem}
+.pal-name{font-size:12px;font-weight:500;color:var(--color-text-primary);margin-bottom:8px}
+.pal-swatches{display:flex;gap:3px}
+.pal-sw{height:28px;flex:1;border-radius:3px;cursor:pointer}
+.pal-sw:first-child{border-radius:6px 3px 3px 6px}
+.pal-sw:last-child{border-radius:3px 6px 6px 3px}
+.font-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:1rem}
+.font-card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1rem 1.25rem}
+.font-meta{font-size:11px;color:var(--color-text-tertiary);margin-bottom:4px}
+.font-name{font-size:13px;font-weight:500;color:var(--color-text-primary);margin-bottom:8px}
+.font-preview{line-height:1.4;color:var(--color-text-primary)}
+.font-used{font-size:11px;color:var(--color-text-secondary);margin-top:8px;padding-top:8px;border-top:0.5px solid var(--color-border-tertiary)}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:1.5rem}
+.stat-card{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:.75rem 1rem}
+.stat-n{font-size:22px;font-weight:500;color:var(--color-text-primary)}
+.stat-l{font-size:12px;color:var(--color-text-tertiary);margin-top:2px}
+.anim-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:1rem}
+.anim-card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1rem}
+.anim-name{font-size:13px;font-weight:500;color:var(--color-text-primary);margin-bottom:4px}
+.anim-desc{font-size:12px;color:var(--color-text-secondary);line-height:1.5;margin-bottom:8px}
+.anim-meta{display:flex;gap:6px;flex-wrap:wrap}
+.anim-tag{font-size:11px;padding:2px 7px;border-radius:8px;background:var(--color-background-secondary);color:var(--color-text-secondary)}
+.change-list{display:flex;flex-direction:column;gap:6px;margin-top:8px}
+.change-item{display:flex;gap:8px;align-items:flex-start}
+.change-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0;margin-top:5px}
+.change-text{font-size:12px;color:var(--color-text-secondary);line-height:1.5}
+</style>
+
+<div class="db">
+<div class="nav">
+  <button class="active" onclick="show('timeline',this)">Timeline</button>
+  <button onclick="show('colors',this)">Colors</button>
+  <button onclick="show('fonts',this)">Typography</button>
+  <button onclick="show('animations',this)">Animations</button>
+  <button onclick="show('compare',this)">Style compare</button>
+  <button onclick="show('stats',this)">Stats</button>
+</div>
+
+<div id="timeline" class="section show">
+
+<div class="timeline">
+
+  <div class="ver">
+    <div class="ver-line">
+      <div class="ver-dot" style="background:#D85A30"></div>
+      <div class="ver-track"></div>
+    </div>
+    <div class="ver-card">
+      <div class="ver-header">
+        <span class="ver-num">v1 — Original</span>
+        <span class="ver-tag" style="background:#FAECE7;color:#993C1D">Gold &amp; Black Luxury</span>
+      </div>
+      <div class="ver-desc">Heavy decoration. Gold capsule-render banners, animated waving header/footer, gold-only color scheme. Overloaded with badges, special characters (◈, ✦), and for-the-badge style everywhere. Felt like a fashion portfolio, not a tech profile.</div>
+      <div class="ver-details">
+        <div class="detail-block">
+          <div class="detail-label">Accent colors</div>
+          <div class="swatch-row">
+            <div class="swatch" style="background:#FFD700" data-hex="#FFD700 Gold"></div>
+            <div class="swatch" style="background:#D4AF37" data-hex="#D4AF37 Gold-300"></div>
+            <div class="swatch" style="background:#B8860B" data-hex="#B8860B Gold-dark"></div>
+            <div class="swatch" style="background:#DAA520" data-hex="#DAA520 Goldenrod"></div>
+            <div class="swatch" style="background:#0d0d0d" data-hex="#0d0d0d Pure black"></div>
+          </div>
+        </div>
+        <div class="detail-block">
+          <div class="detail-label">Fonts used</div>
+          <div class="font-sample" style="font-family:'Playfair Display',serif">Playfair Display</div>
+          <div class="detail-val" style="margin-top:4px">Weight 700 · Size 22px typing SVG</div>
+        </div>
+        <div class="detail-block">
+          <div class="detail-label">Badge style</div>
+          <div class="badge-row">
+            <span class="badge" style="background:#D4AF37;color:#0d0d0d">for-the-badge</span>
+          </div>
+          <div class="detail-val" style="margin-top:6px">All badges gold background, dark text</div>
+        </div>
+        <div class="detail-block">
+          <div class="detail-label">Problems</div>
+          <div class="change-list">
+            <div class="change-item"><div class="change-dot" style="background:#E24B4A"></div><div class="change-text">capsule-render banners too flashy</div></div>
+            <div class="change-item"><div class="change-dot" style="background:#E24B4A"></div><div class="change-text">◈ ✦ decorative chars unprofessional</div></div>
+            <div class="change-item"><div class="change-dot" style="background:#E24B4A"></div><div class="change-text">python dict block looks gimmicky</div></div>
+            <div class="change-item"><div class="change-dot" style="background:#E24B4A"></div><div class="change-text">no tech stack table — icon rows only</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ver">
+    <div class="ver-line">
+      <div class="ver-dot" style="background:#888780"></div>
+      <div class="ver-track"></div>
+    </div>
+    <div class="ver-card">
+      <div class="ver-header">
+        <span class="ver-num">v2 — Plain Markdown</span>
+        <span class="ver-tag" style="background:#F1EFE8;color:#5F5E5A">Minimal / Flat</span>
+      </div>
+      <div class="ver-desc">Overcorrection. Stripped all visuals — no badges, no icons, no animations. Pure markdown with `#` headings and prose. Looked like a txt file. Lost all personality and scanability.</div>
+      <div class="ver-details">
+        <div class="detail-block">
+          <div class="detail-label">Colors</div>
+          <div class="detail-val">None — black text on white background only. No accent.</div>
+        </div>
+        <div class="detail-block">
+          <div class="detail-label">Fonts</div>
+          <div class="detail-val">GitHub default markdown rendering. No custom font choices.</div>
+        </div>
+        <div class="detail-block">
+          <div class="detail-label">Animations</div>
+          <div class="detail-val">None removed entirely</div>
+        </div>
+        <div class="detail-block">
+          <div class="detail-label">Why it failed</div>
+          <div class="change-list">
+            <div class="change-item"><div class="change-dot" style="background:#E24B4A"></div><div class="change-text">no visual hierarchy — walls of text</div></div>
+            <div class="change-item"><div class="change-dot" style="background:#E24B4A"></div><div class="change-text">no icons — skills not scannable</div></div>
+            <div class="change-item"><div class="change-dot" style="background:#E24B4A"></div><div class="change-text">felt like a resume draft, not a profile</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ver">
+    <div class="ver-line">
+      <div class="ver-dot" style="background:#378ADD"></div>
+      <div class="ver-track"></div>
+    </div>
+    <div class="ver-card">
+      <div class="ver-header">
+        <span class="ver-num">v3 — GitHub Blue</span>
+        <span class="ver-tag" style="background:#E6F1FB;color:#185FA5">Professional / Refined</span>
+      </div>
+      <div class="ver-desc">Replaced gold with GitHub's native blue (#58A6FF). Added flat-square badges with dark background. Introduced tech stack table using skillicons.dev. Added GitHub trophies, streak stats, and activity graph. Single consistent accent color.</div>
+      <div class="ver-details">
+        <div class="detail-block">
+          <div class="detail-label">Accent colors</div>
+          <div class="swatch-row">
+            <div class="swatch" style="background:#58A6FF" data-hex="#58A6FF GitHub Blue"></div>
+            <div class="swatch" style="background:#1f6feb" data-hex="#1f6feb Blue-dark"></div>
+            <div class="swatch" style="background:#0d1117" data-hex="#0d1117 BG dark"></div>
+            <div class="swatch" style="background:#161b22" data-hex="#161b22 BG card"></div>
+            <div class="swatch" style="background:#8b949e" data-hex="#8b949e Text muted"></div>
+          </div>
+        </div>
+        <div class="detail-block">
+          <div class="detail-label">Font (typing SVG)</div>
+          <div class="font-sample" style="font-family:'JetBrains Mono',monospace;font-size:15px">JetBrains Mono</div>
+          <div class="detail-val" style="margin-top:4px">Weight 600 · Size 20px</div>
+        </div>
+        <div class="detail-block">
+          <div class="detail-label">Badge style</div>
+          <div class="badge-row">
+            <span class="badge" style="background:#161b22;color:#58A6FF;border:0.5px solid #58A6FF">flat-square</span>
+          </div>
+          <div class="detail-val" style="margin-top:6px">Dark bg · brand color logo · consistent</div>
+        </div>
+        <div class="detail-block">
+          <div class="detail-label">New additions</div>
+          <div class="change-list">
+            <div class="change-item"><div class="change-dot" style="background:#639922"></div><div class="change-text">Tech stack table with skillicons.dev</div></div>
+            <div class="change-item"><div class="change-dot" style="background:#639922"></div><div class="change-text">GitHub trophies row</div></div>
+            <div class="change-item"><div class="change-dot" style="background:#639922"></div><div class="change-text">Streak + activity graph</div></div>
+            <div class="change-item"><div class="change-dot" style="background:#639922"></div><div class="change-text">yaml code block (About Me)</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ver">
+    <div class="ver-line">
+      <div class="ver-dot" style="background:#7F77DD"></div>
+      <div class="ver-track"></div>
+    </div>
+    <div class="ver-card">
+      <div class="ver-header">
+        <span class="ver-num">v4 — Purple/Cyan/Pink</span>
+        <span class="ver-tag" style="background:#EEEDFE;color:#534AB7">Premium Neon Theme</span>
+      </div>
+      <div class="ver-desc">Full premium redesign. Switched from GitHub blue to a purple-cyan-pink neon palette. Added coding GIF, dual typing SVGs, waving footer, "Currently Learning" section, "Open to Collaborate" section. Fixed broken username (Abunesh126). Tokyonight stat theme.</div>
+      <div class="ver-details">
+        <div class="detail-block">
+          <div class="detail-label">Accent colors</div>
+          <div class="swatch-row">
+            <div class="swatch" style="background:#c084fc" data-hex="#c084fc Purple accent"></div>
+            <div class="swatch" style="background:#7c3aed" data-hex="#7c3aed Purple deep"></div>
+            <div class="swatch" style="background:#67e8f9" data-hex="#67e8f9 Cyan"></div>
+            <div class="swatch" style="background:#f472b6" data-hex="#f472b6 Pink highlight"></div>
+            <div class="swatch" style="background:#0d1117" data-hex="#0d1117 BG"></div>
+            <div class="swatch" style="background:#0d1b2a" data-hex="#0d1b2a BG mid"></div>
+          </div>
+        </div>
+        <div class="detail-block">
+          <div class="detail-label">Font (typing SVG)</div>
+          <div class="font-sample" style="font-family:'JetBrains Mono',monospace;font-size:15px">JetBrains Mono</div>
+          <div class="detail-val" style="margin-top:4px">Weight 700 · Size 22px · Dual SVG lines</div>
+        </div>
+        <div class="detail-block">
+          <div class="detail-label">New sections</div>
+          <div class="change-list">
+            <div class="change-item"><div class="change-dot" style="background:#639922"></div><div class="change-text">Coding GIF (animated, centered)</div></div>
+            <div class="change-item"><div class="change-dot" style="background:#639922"></div><div class="change-text">Currently Learning section</div></div>
+            <div class="change-item"><div class="change-dot" style="background:#639922"></div><div class="change-text">Open to Collaborate section</div></div>
+            <div class="change-item"><div class="change-dot" style="background:#639922"></div><div class="change-text">Waving footer banner</div></div>
+          </div>
+        </div>
+        <div class="detail-block">
+          <div class="detail-label">Stat theme</div>
+          <div class="detail-val">tokyonight — purple title, cyan icons, muted text on dark bg</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ver">
+    <div class="ver-line">
+      <div class="ver-dot" style="background:#1D9E75"></div>
+      <div class="ver-track last"></div>
+    </div>
+    <div class="ver-card" style="border:1.5px solid var(--color-border-success)">
+      <div class="ver-header">
+        <span class="ver-num">v5 — Current (Natural + Flowchart)</span>
+        <span class="ver-tag" style="background:#E1F5EE;color:#0F6E56">In Progress</span>
+      </div>
+      <div class="ver-desc">About Me section moved from yaml code block to natural prose bullets. Vision & Roadmap replaced text block with a structured SVG flowchart: Mission → 3 Pillars → 4 Roadmap nodes → Convergence → Outcome → Philosophy quote. More human, more presentation-grade.</div>
+      <div class="ver-details">
+        <div class="detail-block">
+          <div class="detail-label">Colors (same as v4)</div>
+          <div class="swatch-row">
+            <div class="swatch" style="background:#c084fc" data-hex="#c084fc Purple"></div>
+            <div class="swatch" style="background:#7c3aed" data-hex="#7c3aed Deep purple"></div>
+            <div class="swatch" style="background:#67e8f9" data-hex="#67e8f9 Cyan"></div>
+            <div class="swatch" style="background:#f472b6" data-hex="#f472b6 Pink"></div>
+          </div>
+        </div>
+        <div class="detail-block">
+          <div class="detail-label">Key changes</div>
+          <div class="change-list">
+            <div class="change-item"><div class="change-dot" style="background:#639922"></div><div class="change-text">About Me: yaml → prose bullets</div></div>
+            <div class="change-item"><div class="change-dot" style="background:#639922"></div><div class="change-text">Vision: text → SVG flowchart</div></div>
+            <div class="change-item"><div class="change-dot" style="background:#639922"></div><div class="change-text">Profile card SVG visualization added</div></div>
+          </div>
+        </div>
+        <div class="detail-block">
+          <div class="detail-label">About Me style</div>
+          <div class="detail-val">Natural prose · 5 emoji bullets · No code block · Conversational tone</div>
+        </div>
+        <div class="detail-block">
+          <div class="detail-label">Roadmap style</div>
+          <div class="detail-val">SVG flowchart · 3-pillar branch · 4-node fan · convergence · philosophy</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<div id="colors" class="section">
+  <div class="palette-grid">
+    <div class="pal-card">
+      <div class="pal-name">v1 — Gold luxury</div>
+      <div class="pal-swatches">
+        <div class="pal-sw" style="background:#0d0d0d" title="#0d0d0d"></div>
+        <div class="pal-sw" style="background:#1a1200" title="#1a1200"></div>
+        <div class="pal-sw" style="background:#B8860B" title="#B8860B"></div>
+        <div class="pal-sw" style="background:#D4AF37" title="#D4AF37"></div>
+        <div class="pal-sw" style="background:#DAA520" title="#DAA520"></div>
+        <div class="pal-sw" style="background:#FFD700" title="#FFD700"></div>
+        <div class="pal-sw" style="background:#FFF8DC" title="#FFF8DC"></div>
+      </div>
+      <div style="font-size:11px;color:var(--color-text-tertiary);margin-top:8px">Primary: #FFD700 · BG: #0d0d0d</div>
+    </div>
+    <div class="pal-card">
+      <div class="pal-name">v2 — Plain markdown</div>
+      <div class="pal-swatches">
+        <div class="pal-sw" style="background:#ffffff" title="#ffffff"></div>
+        <div class="pal-sw" style="background:#f6f8fa" title="#f6f8fa"></div>
+        <div class="pal-sw" style="background:#d0d7de" title="#d0d7de"></div>
+        <div class="pal-sw" style="background:#656d76" title="#656d76"></div>
+        <div class="pal-sw" style="background:#1f2328" title="#1f2328"></div>
+      </div>
+      <div style="font-size:11px;color:var(--color-text-tertiary);margin-top:8px">GitHub defaults only · No custom color</div>
+    </div>
+    <div class="pal-card">
+      <div class="pal-name">v3 — GitHub blue</div>
+      <div class="pal-swatches">
+        <div class="pal-sw" style="background:#0d1117" title="#0d1117"></div>
+        <div class="pal-sw" style="background:#161b22" title="#161b22"></div>
+        <div class="pal-sw" style="background:#1f6feb" title="#1f6feb"></div>
+        <div class="pal-sw" style="background:#58A6FF" title="#58A6FF"></div>
+        <div class="pal-sw" style="background:#8b949e" title="#8b949e"></div>
+        <div class="pal-sw" style="background:#ffffff" title="#ffffff"></div>
+      </div>
+      <div style="font-size:11px;color:var(--color-text-tertiary);margin-top:8px">Primary: #58A6FF · BG: #0d1117</div>
+    </div>
+    <div class="pal-card">
+      <div class="pal-name">v4 — Purple / cyan / pink</div>
+      <div class="pal-swatches">
+        <div class="pal-sw" style="background:#0d1117" title="#0d1117"></div>
+        <div class="pal-sw" style="background:#0d1b2a" title="#0d1b2a"></div>
+        <div class="pal-sw" style="background:#7c3aed" title="#7c3aed"></div>
+        <div class="pal-sw" style="background:#c084fc" title="#c084fc"></div>
+        <div class="pal-sw" style="background:#67e8f9" title="#67e8f9"></div>
+        <div class="pal-sw" style="background:#f472b6" title="#f472b6"></div>
+      </div>
+      <div style="font-size:11px;color:var(--color-text-tertiary);margin-top:8px">3-accent neon · tokyonight stat theme</div>
+    </div>
+    <div class="pal-card" style="border:1.5px solid var(--color-border-success)">
+      <div class="pal-name">v5 — Current (same base)</div>
+      <div class="pal-swatches">
+        <div class="pal-sw" style="background:#0d1117" title="#0d1117"></div>
+        <div class="pal-sw" style="background:#7c3aed" title="#7c3aed"></div>
+        <div class="pal-sw" style="background:#c084fc" title="#c084fc"></div>
+        <div class="pal-sw" style="background:#67e8f9" title="#67e8f9"></div>
+        <div class="pal-sw" style="background:#f472b6" title="#f472b6"></div>
+        <div class="pal-sw" style="background:#1D9E75" title="#1D9E75 SVG diagram teal"></div>
+        <div class="pal-sw" style="background:#D85A30" title="#D85A30 SVG diagram coral"></div>
+      </div>
+      <div style="font-size:11px;color:var(--color-text-tertiary);margin-top:8px">v4 base + SVG diagram ramp colors</div>
+    </div>
+    <div class="pal-card">
+      <div class="pal-name">Stat card themes used</div>
+      <div class="pal-swatches">
+        <div class="pal-sw" style="background:#D4AF37" title="v1: custom gold"></div>
+        <div class="pal-sw" style="background:#ffffff" title="v3: github_dark light"></div>
+        <div class="pal-sw" style="background:#58A6FF" title="v3: title blue"></div>
+        <div class="pal-sw" style="background:#1a1b27" title="v4: tokyonight bg"></div>
+        <div class="pal-sw" style="background:#c084fc" title="v4: tokyonight purple"></div>
+        <div class="pal-sw" style="background:#67e8f9" title="v4: tokyonight cyan"></div>
+      </div>
+      <div style="font-size:11px;color:var(--color-text-tertiary);margin-top:8px">v1: gold · v3: github_dark · v4–5: tokyonight</div>
+    </div>
+  </div>
+</div>
+
+<div id="fonts" class="section">
+  <div class="font-grid">
+    <div class="font-card">
+      <div class="font-meta">v1 · Typing SVG</div>
+      <div class="font-name">Playfair Display</div>
+      <div class="font-preview" style="font-family:'Playfair Display',serif;font-size:20px;font-weight:700">Building Intelligent Web Systems</div>
+      <div class="font-used">Weight 700 · Size 22px · pause 1200ms · Gold #D4AF37 · Serif luxury feel — matched gold theme but felt editorial, not tech</div>
+    </div>
+    <div class="font-card">
+      <div class="font-meta">v2 · Body text</div>
+      <div class="font-name">GitHub Default</div>
+      <div class="font-preview" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px">-apple-system, Segoe UI, sans-serif</div>
+      <div class="font-used">No custom font. GitHub renders plain markdown with system stack. Size: browser default 16px. No heading customization.</div>
+    </div>
+    <div class="font-card">
+      <div class="font-meta">v3 · Typing SVG</div>
+      <div class="font-name">JetBrains Mono</div>
+      <div class="font-preview" style="font-family:'JetBrains Mono',monospace;font-size:16px;font-weight:600">Full Stack Developer</div>
+      <div class="font-used">Weight 600 · Size 20px · pause 1000ms · Blue #58A6FF · Monospace coding feel — first time matched developer identity</div>
+    </div>
+    <div class="font-card">
+      <div class="font-meta">v4–v5 · Typing SVG (primary)</div>
+      <div class="font-name">JetBrains Mono</div>
+      <div class="font-preview" style="font-family:'JetBrains Mono',monospace;font-size:17px;font-weight:700">Full Stack + AI Developer</div>
+      <div class="font-used">Weight 700 · Size 22px · Purple #c084fc · Upgraded weight for stronger hero presence</div>
+    </div>
+    <div class="font-card">
+      <div class="font-meta">v4–v5 · Typing SVG (secondary)</div>
+      <div class="font-name">JetBrains Mono</div>
+      <div class="font-preview" style="font-family:'JetBrains Mono',monospace;font-size:13px">Learn → Build → Integrate → Optimize</div>
+      <div class="font-used">Weight 400 · Size 14px · Cyan #67e8f9 · Secondary subtitle line — mission statement loop</div>
+    </div>
+    <div class="font-card">
+      <div class="font-meta">v1 · Capsule banner</div>
+      <div class="font-name">Capsule-render default</div>
+      <div class="font-preview" style="font-size:28px;font-weight:800;letter-spacing:-1px">Abunesh R P</div>
+      <div class="font-used">Size 62px · Gold #D4AF37 · stroke 1px — only used in v1. Dropped in v2+. Too decorative for GitHub rendering.</div>
+    </div>
+    <div class="font-card">
+      <div class="font-meta">v3–v5 · Badge label font</div>
+      <div class="font-name">Shields.io default</div>
+      <div class="font-preview" style="font-size:13px;font-weight:500;font-family:monospace">flat-square · for-the-badge</div>
+      <div class="font-used">Shields.io renders Verdana internally. v1 used for-the-badge (larger, capsule shape). v3+ uses flat-square (smaller, sharper, more professional).</div>
+    </div>
+    <div class="font-card">
+      <div class="font-meta">v5 · About Me code block</div>
+      <div class="font-name">Fira Code / monospace</div>
+      <div class="font-preview" style="font-family:monospace;font-size:13px">name : Abunesh R P<br>status : Open ✦</div>
+      <div class="font-used">GitHub renders code blocks in system monospace (Fira Code if installed). Used in v3–v4 yaml block. Replaced by prose in v5.</div>
+    </div>
+  </div>
+</div>
+
+<div id="animations" class="section">
+  <div class="anim-grid">
+    <div class="anim-card">
+      <div class="anim-name">Typing SVG — primary</div>
+      <div class="anim-desc">Cycles through role titles one by one with a blinking cursor. Main hero identity animation.</div>
+      <div class="anim-meta">
+        <span class="anim-tag">v1–v5</span>
+        <span class="anim-tag">pause 1000–1200ms</span>
+        <span class="anim-tag">readme-typing-svg</span>
+      </div>
+      <div style="margin-top:8px;font-size:11px;color:var(--color-text-tertiary)">v1: Playfair Display gold · v3: JetBrains blue · v4+: JetBrains purple</div>
+    </div>
+    <div class="anim-card">
+      <div class="anim-name">Typing SVG — secondary</div>
+      <div class="anim-desc">Subtitle line looping mission statement and location. Introduced in v4 as a second SVG row beneath the primary.</div>
+      <div class="anim-meta">
+        <span class="anim-tag">v4–v5</span>
+        <span class="anim-tag">pause 2000ms</span>
+        <span class="anim-tag">cyan #67e8f9</span>
+      </div>
+    </div>
+    <div class="anim-card">
+      <div class="anim-name">Capsule-render header</div>
+      <div class="anim-desc">Waving banner with fadeIn animation. Dark-to-gold gradient wave. Full width, 220px height.</div>
+      <div class="anim-meta">
+        <span class="anim-tag">v1 only</span>
+        <span class="anim-tag">fadeIn</span>
+        <span class="anim-tag">waving type</span>
+      </div>
+      <div style="margin-top:8px;font-size:11px;color:var(--color-text-tertiary)">Dropped in v2. Re-added subtly in v4 (purple wave, much less height 200px).</div>
+    </div>
+    <div class="anim-card">
+      <div class="anim-name">Capsule-render footer</div>
+      <div class="anim-desc">Matching wave footer. "one commit at a time ✦" text. fadeIn animation, 140px height.</div>
+      <div class="anim-meta">
+        <span class="anim-tag">v1 + v4–v5</span>
+        <span class="anim-tag">fadeIn</span>
+        <span class="anim-tag">footer section</span>
+      </div>
+    </div>
+    <div class="anim-card">
+      <div class="anim-name">Coding GIF</div>
+      <div class="anim-desc">Animated developer coding GIF placed centered below hero typing SVGs. Adds life to the profile header without badge overload.</div>
+      <div class="anim-meta">
+        <span class="anim-tag">v4–v5</span>
+        <span class="anim-tag">width 400px</span>
+        <span class="anim-tag">github user cdn</span>
+      </div>
+    </div>
+    <div class="anim-card">
+      <div class="anim-name">GitHub streak stats</div>
+      <div class="anim-desc">Streak card from demolab.com. Shows current streak, total contributions, and longest streak. Theme-matched per version.</div>
+      <div class="anim-meta">
+        <span class="anim-tag">v3–v5</span>
+        <span class="anim-tag">streak-stats.demolab.com</span>
+      </div>
+      <div style="margin-top:8px;font-size:11px;color:var(--color-text-tertiary)">v3: dark theme blue · v4–5: tokyonight purple</div>
+    </div>
+    <div class="anim-card">
+      <div class="anim-name">Activity graph</div>
+      <div class="anim-desc">Full-width contribution activity graph. Shows commit frequency over time as an area chart.</div>
+      <div class="anim-meta">
+        <span class="anim-tag">v3–v5</span>
+        <span class="anim-tag">github-readme-activity-graph</span>
+        <span class="anim-tag">area=true</span>
+      </div>
+      <div style="margin-top:8px;font-size:11px;color:var(--color-text-tertiary)">v3: blue line/area · v4–5: purple line, dark fill</div>
+    </div>
+    <div class="anim-card">
+      <div class="anim-name">GitHub trophies</div>
+      <div class="anim-desc">Profile trophy row. Shows achievements like commit milestones, star counts, follower counts. Single row layout.</div>
+      <div class="anim-meta">
+        <span class="anim-tag">v3–v5</span>
+        <span class="anim-tag">github-profile-trophy</span>
+        <span class="anim-tag">theme: algolia / tokyonight</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="compare" class="section">
+  <div class="compare-grid">
+    <div class="cmp-card">
+      <div class="cmp-stripe" style="background:#B8860B"></div>
+      <div class="cmp-title">v1 · Gold luxury</div>
+      <div class="cmp-row"><span class="cmp-key">Theme</span><span class="cmp-v">Dark + Gold</span></div>
+      <div class="cmp-row"><span class="cmp-key">Accent</span><span class="cmp-v">#FFD700</span></div>
+      <div class="cmp-row"><span class="cmp-key">Font</span><span class="cmp-v">Playfair Display</span></div>
+      <div class="cmp-row"><span class="cmp-key">Badge style</span><span class="cmp-v">for-the-badge</span></div>
+      <div class="cmp-row"><span class="cmp-key">About Me</span><span class="cmp-v">python dict</span></div>
+      <div class="cmp-row"><span class="cmp-key">Stack display</span><span class="cmp-v">Icon rows</span></div>
+      <div class="cmp-row"><span class="cmp-key">Stats theme</span><span class="cmp-v">custom gold</span></div>
+      <div class="cmp-row"><span class="cmp-key">Banner</span><span class="cmp-v">capsule-render</span></div>
+      <div class="cmp-row"><span class="cmp-key">Roadmap</span><span class="cmp-v">code block art</span></div>
+    </div>
+    <div class="cmp-card">
+      <div class="cmp-stripe" style="background:#888780"></div>
+      <div class="cmp-title">v2 · Plain text</div>
+      <div class="cmp-row"><span class="cmp-key">Theme</span><span class="cmp-v">None</span></div>
+      <div class="cmp-row"><span class="cmp-key">Accent</span><span class="cmp-v">None</span></div>
+      <div class="cmp-row"><span class="cmp-key">Font</span><span class="cmp-v">System default</span></div>
+      <div class="cmp-row"><span class="cmp-key">Badge style</span><span class="cmp-v">None</span></div>
+      <div class="cmp-row"><span class="cmp-key">About Me</span><span class="cmp-v">Plain prose</span></div>
+      <div class="cmp-row"><span class="cmp-key">Stack display</span><span class="cmp-v">Text list</span></div>
+      <div class="cmp-row"><span class="cmp-key">Stats theme</span><span class="cmp-v">Light default</span></div>
+      <div class="cmp-row"><span class="cmp-key">Banner</span><span class="cmp-v">None</span></div>
+      <div class="cmp-row"><span class="cmp-key">Roadmap</span><span class="cmp-v">Bullet list</span></div>
+    </div>
+    <div class="cmp-card">
+      <div class="cmp-stripe" style="background:#378ADD"></div>
+      <div class="cmp-title">v3 · GitHub blue</div>
+      <div class="cmp-row"><span class="cmp-key">Theme</span><span class="cmp-v">Dark + Blue</span></div>
+      <div class="cmp-row"><span class="cmp-key">Accent</span><span class="cmp-v">#58A6FF</span></div>
+      <div class="cmp-row"><span class="cmp-key">Font</span><span class="cmp-v">JetBrains Mono</span></div>
+      <div class="cmp-row"><span class="cmp-key">Badge style</span><span class="cmp-v">flat-square</span></div>
+      <div class="cmp-row"><span class="cmp-key">About Me</span><span class="cmp-v">yaml block</span></div>
+      <div class="cmp-row"><span class="cmp-key">Stack display</span><span class="cmp-v">Category table</span></div>
+      <div class="cmp-row"><span class="cmp-key">Stats theme</span><span class="cmp-v">github_dark</span></div>
+      <div class="cmp-row"><span class="cmp-key">Banner</span><span class="cmp-v">None</span></div>
+      <div class="cmp-row"><span class="cmp-key">Roadmap</span><span class="cmp-v">Code block</span></div>
+    </div>
+    <div class="cmp-card">
+      <div class="cmp-stripe" style="background:#7c3aed"></div>
+      <div class="cmp-title">v4 · Purple neon</div>
+      <div class="cmp-row"><span class="cmp-key">Theme</span><span class="cmp-v">Dark + Purple</span></div>
+      <div class="cmp-row"><span class="cmp-key">Accent</span><span class="cmp-v">#c084fc</span></div>
+      <div class="cmp-row"><span class="cmp-key">Font</span><span class="cmp-v">JetBrains Mono</span></div>
+      <div class="cmp-row"><span class="cmp-key">Badge style</span><span class="cmp-v">for-the-badge</span></div>
+      <div class="cmp-row"><span class="cmp-key">About Me</span><span class="cmp-v">yaml block</span></div>
+      <div class="cmp-row"><span class="cmp-key">Stack display</span><span class="cmp-v">Category table</span></div>
+      <div class="cmp-row"><span class="cmp-key">Stats theme</span><span class="cmp-v">tokyonight</span></div>
+      <div class="cmp-row"><span class="cmp-key">Banner</span><span class="cmp-v">capsule purple</span></div>
+      <div class="cmp-row"><span class="cmp-key">Roadmap</span><span class="cmp-v">Code block</span></div>
+    </div>
+    <div class="cmp-card" style="border:1.5px solid var(--color-border-success)">
+      <div class="cmp-stripe" style="background:#1D9E75"></div>
+      <div class="cmp-title">v5 · Current</div>
+      <div class="cmp-row"><span class="cmp-key">Theme</span><span class="cmp-v">Dark + Purple</span></div>
+      <div class="cmp-row"><span class="cmp-key">Accent</span><span class="cmp-v">#c084fc</span></div>
+      <div class="cmp-row"><span class="cmp-key">Font</span><span class="cmp-v">JetBrains Mono</span></div>
+      <div class="cmp-row"><span class="cmp-key">Badge style</span><span class="cmp-v">for-the-badge</span></div>
+      <div class="cmp-row"><span class="cmp-key">About Me</span><span class="cmp-v">Prose bullets</span></div>
+      <div class="cmp-row"><span class="cmp-key">Stack display</span><span class="cmp-v">Category table</span></div>
+      <div class="cmp-row"><span class="cmp-key">Stats theme</span><span class="cmp-v">tokyonight</span></div>
+      <div class="cmp-row"><span class="cmp-key">Banner</span><span class="cmp-v">capsule purple</span></div>
+      <div class="cmp-row"><span class="cmp-key">Roadmap</span><span class="cmp-v">SVG flowchart</span></div>
+    </div>
+  </div>
+</div>
+
+<div id="stats" class="section">
+  <div class="stats-grid">
+    <div class="stat-card"><div class="stat-n">5</div><div class="stat-l">Major versions</div></div>
+    <div class="stat-card"><div class="stat-n">3</div><div class="stat-l">Color themes</div></div>
+    <div class="stat-card"><div class="stat-n">3</div><div class="stat-l">Fonts used</div></div>
+    <div class="stat-card"><div class="stat-n">8</div><div class="stat-l">Animation types</div></div>
+  </div>
+  <div class="stats-grid">
+    <div class="stat-card"><div class="stat-n">2</div><div class="stat-l">Badge styles</div></div>
+    <div class="stat-card"><div class="stat-n">4</div><div class="stat-l">Stat card themes</div></div>
+    <div class="stat-card"><div class="stat-n">12</div><div class="stat-l">Sections (current)</div></div>
+    <div class="stat-card"><div class="stat-n">1</div><div class="stat-l">Broken username fixed</div></div>
+  </div>
+
+  <div style="margin-top:1.5rem">
+  <div style="font-size:13px;font-weight:500;color:var(--color-text-primary);margin-bottom:12px">Design decisions over time</div>
+  <div style="display:flex;flex-direction:column;gap:8px">
+    <div style="display:flex;align-items:center;gap:10px">
+      <div style="font-size:12px;color:var(--color-text-secondary);width:140px;flex-shrink:0">Decoration level</div>
+      <div style="flex:1;background:var(--color-background-secondary);border-radius:4px;height:10px;overflow:hidden">
+        <div style="width:95%;height:100%;background:#B8860B;border-radius:4px"></div>
+      </div>
+      <div style="font-size:11px;color:var(--color-text-tertiary);width:24px">v1</div>
+    </div>
+    <div style="display:flex;align-items:center;gap:10px">
+      <div style="font-size:12px;color:var(--color-text-secondary);width:140px;flex-shrink:0"></div>
+      <div style="flex:1;background:var(--color-background-secondary);border-radius:4px;height:10px;overflow:hidden">
+        <div style="width:5%;height:100%;background:#888780;border-radius:4px"></div>
+      </div>
+      <div style="font-size:11px;color:var(--color-text-tertiary);width:24px">v2</div>
+    </div>
+    <div style="display:flex;align-items:center;gap:10px">
+      <div style="font-size:12px;color:var(--color-text-secondary);width:140px;flex-shrink:0"></div>
+      <div style="flex:1;background:var(--color-background-secondary);border-radius:4px;height:10px;overflow:hidden">
+        <div style="width:55%;height:100%;background:#378ADD;border-radius:4px"></div>
+      </div>
+      <div style="font-size:11px;color:var(--color-text-tertiary);width:24px">v3</div>
+    </div>
+    <div style="display:flex;align-items:center;gap:10px">
+      <div style="font-size:12px;color:var(--color-text-secondary);width:140px;flex-shrink:0"></div>
+      <div style="flex:1;background:var(--color-background-secondary);border-radius:4px;height:10px;overflow:hidden">
+        <div style="width:75%;height:100%;background:#7c3aed;border-radius:4px"></div>
+      </div>
+      <div style="font-size:11px;color:var(--color-text-tertiary);width:24px">v4</div>
+    </div>
+    <div style="display:flex;align-items:center;gap:10px">
+      <div style="font-size:12px;color:var(--color-text-secondary);width:140px;flex-shrink:0"></div>
+      <div style="flex:1;background:var(--color-background-secondary);border-radius:4px;height:10px;overflow:hidden">
+        <div style="width:70%;height:100%;background:#1D9E75;border-radius:4px"></div>
+      </div>
+      <div style="font-size:11px;color:var(--color-text-tertiary);width:24px">v5</div>
+    </div>
+  </div>
+
+  <div style="margin-top:1.5rem;font-size:13px;font-weight:500;color:var(--color-text-primary);margin-bottom:12px">Professionalism score</div>
+  <div style="display:flex;flex-direction:column;gap:8px">
+    <div style="display:flex;align-items:center;gap:10px">
+      <div style="font-size:12px;color:var(--color-text-secondary);width:140px;flex-shrink:0">v1 gold luxury</div>
+      <div style="flex:1;background:var(--color-background-secondary);border-radius:4px;height:10px;overflow:hidden">
+        <div style="width:30%;height:100%;background:#E24B4A;border-radius:4px"></div>
+      </div>
+      <div style="font-size:11px;color:var(--color-text-tertiary);width:36px">3/10</div>
+    </div>
+    <div style="display:flex;align-items:center;gap:10px">
+      <div style="font-size:12px;color:var(--color-text-secondary);width:140px;flex-shrink:0">v2 plain text</div>
+      <div style="flex:1;background:var(--color-background-secondary);border-radius:4px;height:10px;overflow:hidden">
+        <div style="width:50%;height:100%;background:#EF9F27;border-radius:4px"></div>
+      </div>
+      <div style="font-size:11px;color:var(--color-text-tertiary);width:36px">5/10</div>
+    </div>
+    <div style="display:flex;align-items:center;gap:10px">
+      <div style="font-size:12px;color:var(--color-text-secondary);width:140px;flex-shrink:0">v3 github blue</div>
+      <div style="flex:1;background:var(--color-background-secondary);border-radius:4px;height:10px;overflow:hidden">
+        <div style="width:75%;height:100%;background:#378ADD;border-radius:4px"></div>
+      </div>
+      <div style="font-size:11px;color:var(--color-text-tertiary);width:36px">7.5/10</div>
+    </div>
+    <div style="display:flex;align-items:center;gap:10px">
+      <div style="font-size:12px;color:var(--color-text-secondary);width:140px;flex-shrink:0">v4 purple neon</div>
+      <div style="flex:1;background:var(--color-background-secondary);border-radius:4px;height:10px;overflow:hidden">
+        <div style="width:85%;height:100%;background:#7c3aed;border-radius:4px"></div>
+      </div>
+      <div style="font-size:11px;color:var(--color-text-tertiary);width:36px">8.5/10</div>
+    </div>
+    <div style="display:flex;align-items:center;gap:10px">
+      <div style="font-size:12px;color:var(--color-text-secondary);width:140px;flex-shrink:0">v5 current</div>
+      <div style="flex:1;background:var(--color-background-secondary);border-radius:4px;height:10px;overflow:hidden">
+        <div style="width:92%;height:100%;background:#1D9E75;border-radius:4px"></div>
+      </div>
+      <div style="font-size:11px;color:var(--color-text-tertiary);width:36px">9.2/10</div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+
+<script>
+function show(id, btn) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('show'));
+  document.querySelectorAll('.nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('show');
+  btn.classList.add('active');
+}
+</script>
