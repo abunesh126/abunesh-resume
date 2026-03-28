@@ -1,0 +1,242 @@
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%	Public Showcase Resume — Abunesh R P
+%	AI & Data Science Engineer | Full-Stack Developer
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+
+\documentclass[a4paper,11pt]{article}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage{url}
+\usepackage{parskip}
+
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9]{geometry}
+
+\usepackage{tabularx}
+\usepackage{enumitem}
+
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{multirow}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{6pt}
+
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+
+\usepackage{fontawesome5}
+
+%----------------------------------------------------------------------------------------
+%	CUSTOM ENVIRONMENTS
+%----------------------------------------------------------------------------------------
+\newenvironment{joblong}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill & #2 \\[2pt]
+    \end{tabularx}
+    \begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt,label=--]
+    }
+    {
+    \end{itemize}
+    \end{minipage}
+    }
+
+%----------------------------------------------------------------------------------------
+%	BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+\pagestyle{empty}
+
+%----------------------------------------------------------------------------------------
+%	TITLE / HEADER
+%----------------------------------------------------------------------------------------
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{\textbf{Abunesh R P}} \\[6pt]
+\large{AI \& Data Science Engineer \quad$|$\quad Full-Stack Developer \quad$|$\quad Computer Vision} \\[5pt]
+\href{https://github.com/Abunesh126}{\raisebox{-0.05\height}\faGithub\ Abunesh126} \
+$|$ \
+\href{https://linkedin.com/in/abunesh-r-p-803677278}{\raisebox{-0.05\height}\faLinkedin\ abunesh-r-p} \
+$|$ \
+\href{https://abuneshrp.netlify.app}{\raisebox{-0.05\height}\faGlobe\ abuneshrp.netlify.app} \
+$|$ \
+\href{mailto:abunesh2006@gmail.com}{\raisebox{-0.05\height}\faEnvelope\ abunesh2006@gmail.com} \
+$|$ \
+\href{tel:+919042845355}{\raisebox{-0.05\height}\faMobile\ +91 9042845355} \\[2pt]
+\normalsize{Karunya University, Coimbatore, Tamil Nadu, India}
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	SUMMARY
+%----------------------------------------------------------------------------------------
+\section{About Me}
+Passionate B.Tech AI \& Data Science student (2022--2026) at Karunya University, India, with a rare combination of full-stack web engineering and hands-on AI/ML development. I build complete intelligent systems end-to-end — from React/TypeScript frontends and Flask APIs to deep learning models and cloud deployment. My work spans real-world domains including accessibility technology, military defense, environmental monitoring, and data engineering. I thrive on turning ideas into working, impactful products.
+
+\textit{Approach: \textbf{Learn $\rightarrow$ Build $\rightarrow$ Integrate $\rightarrow$ Optimize}}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section{Experience}
+
+\begin{joblong}{AI Innovation Engineer \textnormal{\small{(Research \& Project Development)}}}{2024 -- Present}
+\item Led end-to-end development of three flagship AI systems: DOVE (speech-to-sign), CLAVE (military aviation AI), and HydroWatch (water quality prediction)
+\item Built full pipelines — data ingestion, model training (LSTM, CNN, YOLO), REST API deployment, and React-based dashboards
+\item Focused on real-world, high-impact domains: accessibility, national defense, and smart city infrastructure
+\end{joblong}
+
+\vspace{2pt}
+
+\begin{joblong}{Web Development Intern \textnormal{\small{--- Nandha Info Tech}}}{2024}
+\item Developed responsive web applications with React.js, Laravel (PHP), and MySQL in a professional team environment
+\item Built CRUD APIs, authentication flows, and improved UI/UX across production pages
+\item Practiced collaborative workflows using Git/GitHub, branching, and code reviews
+\end{joblong}
+
+\vspace{2pt}
+
+\begin{joblong}{Full-Stack Developer \textnormal{\small{(Academic \& Personal Projects)}}}{2023 -- Present}
+\item Built multi-page web apps using React, TypeScript, Tailwind CSS, Flask, and Node.js
+\item Integrated ML models into web interfaces; deployed projects on Netlify and Render
+\item Designed UI/UX prototypes in Figma with component-based architecture and responsive layouts
+\end{joblong}
+
+%----------------------------------------------------------------------------------------
+%	FEATURED PROJECTS
+%----------------------------------------------------------------------------------------
+\section{Featured Projects}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{DOVE --- Speech to Sign Language AI} &
+\hfill \small{React $\cdot$ Flask $\cdot$ LSTM $\cdot$ CNN $\cdot$ Whisper AI \quad 2024} \\[3pt]
+\multicolumn{2}{@{}X@{}}{
+Full-stack accessibility platform converting spoken speech to sign language gestures in real time. Audio is captured on a React frontend, transcribed via Whisper AI, and mapped to gestures using an imitation learning pipeline (LSTM + CNN). Designed to bridge communication gaps for the deaf community.
+} \\
+\end{tabularx}
+
+\vspace{5pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{CLAVE --- Military Aviation Surveillance AI} &
+\hfill \small{Computer Vision $\cdot$ OpenCV $\cdot$ YOLO $\cdot$ Radar $\cdot$ Flask \quad 2024} \\[3pt]
+\multicolumn{2}{@{}X@{}}{
+Defense-grade aerial surveillance system that detects and classifies drones and aircraft using computer vision and radar signal fusion. Combines OpenCV image processing, YOLO-style object detection, and ML classifiers for high-accuracy real-time identification in air defense scenarios.
+} \\
+\end{tabularx}
+
+\vspace{5pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{HydroWatch --- Water Quality AI System} &
+\hfill \small{IoT $\cdot$ LSTM $\cdot$ Flask $\cdot$ React $\cdot$ Time-Series \quad 2024} \\[3pt]
+\multicolumn{2}{@{}X@{}}{
+Smart water monitoring web application integrating IoT sensor streams with an LSTM-based time-series forecasting model. Predicts water tank health degradation and quality changes. Features a real-time React dashboard with alerts — built for smart city infrastructure.
+} \\
+\end{tabularx}
+
+\vspace{5pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Micro Doppler Target Classification} &
+\hfill \small{Signal Processing $\cdot$ ML $\cdot$ Python $\cdot$ SIH 2024} \\[3pt]
+\multicolumn{2}{@{}X@{}}{
+National-level Smart India Hackathon project classifying aerial objects (drone vs.\ bird) from radar micro-doppler signatures. Built a complete pipeline: \texttt{.mat} radar data ingestion $\rightarrow$ spectral feature extraction $\rightarrow$ ML classification $\rightarrow$ inference output.
+} \\
+\end{tabularx}
+
+\vspace{5pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Flower Classification Web App} &
+\hfill \small{CNN $\cdot$ Flask $\cdot$ JavaScript $\cdot$ Deep Learning \quad 2024} \\[3pt]
+\multicolumn{2}{@{}X@{}}{
+AI-powered image classification web app. Users upload flower images to a clean frontend; a Flask API serves a trained CNN model that returns species predictions (Daisy, Dandelion, Rose, Sunflower, Tulip) with confidence scores.
+} \\
+\end{tabularx}
+
+\vspace{5pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{College Attendance Management System} &
+\hfill \small{Flask $\cdot$ MySQL $\cdot$ HTML/CSS/JS \quad 2024} \\[3pt]
+\multicolumn{2}{@{}X@{}}{
+Full-stack DBMS web application for student attendance tracking. Features subject-wise reporting, admin dashboard, and student portal with authentication, data validation, and printable exports.
+} \\
+\end{tabularx}
+
+\vspace{5pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Weather Data Pipeline \& Dashboard} &
+\hfill \small{Prefect $\cdot$ PostgreSQL $\cdot$ Snowflake $\cdot$ Power BI \quad 2024} \\[3pt]
+\multicolumn{2}{@{}X@{}}{
+End-to-end data engineering pipeline covering ingestion, transformation, storage, and visualization. Orchestrated with Prefect, stored in PostgreSQL/Snowflake, and visualized in Power BI with interactive dashboards.
+} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+2022 -- 2026 &
+B.Tech in \textbf{Artificial Intelligence \& Data Science} \hfill \normalsize{3rd Year Student} \\
+& \textbf{Karunya University}, Coimbatore, Tamil Nadu, India \\
+& \textit{Core: Machine Learning, Deep Learning, Computer Vision, DBMS, Data Analytics, Algorithms} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS
+%----------------------------------------------------------------------------------------
+\section{Technical Skills}
+
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+\textbf{Frontend}        & React.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, Styled Components, Figma \\[3pt]
+\textbf{Backend}         & Python (Flask, FastAPI), Node.js, Laravel (PHP), REST API Design, Authentication Flows \\[3pt]
+\textbf{AI \& ML}        & TensorFlow, PyTorch, Keras, CNN, LSTM, RNN, OpenCV, YOLO, Whisper AI, Scikit-learn \\[3pt]
+\textbf{Data Science}    & Pandas, NumPy, Matplotlib, Seaborn, Plotly, Power BI, Tableau, Prefect, Snowflake \\[3pt]
+\textbf{Databases}       & MySQL, PostgreSQL, MongoDB, Supabase, SQL Query Optimization \\[3pt]
+\textbf{DevOps \& Cloud} & Docker, Git, GitHub, Linux (Ubuntu), AWS, Netlify, Render, GitHub Actions \\[3pt]
+\textbf{Languages}       & Python, JavaScript, TypeScript, Java, C/C++, SQL, Dart \textit{(learning)} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	ACHIEVEMENTS
+%----------------------------------------------------------------------------------------
+\section{Achievements \& Recognition}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+\textbf{Hackathon}    & Smart India Hackathon 2024 --- National Level Participant (Defense AI \& Signal Processing) \\[3pt]
+\textbf{Internship}   & Web Development Intern --- Nandha Info Tech, 2024 \\[3pt]
+\textbf{Open Source}  & Actively seeking collaboration on AI/ML, full-stack, and data science projects \\[3pt]
+\textbf{Dev Quote}    & \textit{``Code is like humor. When you have to explain it, it's bad.''} --- Cory House \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	CURRENTLY LEARNING / FUTURE GOALS
+%----------------------------------------------------------------------------------------
+\section{Currently Learning \& Future Vision}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+\textbf{Learning}    & Flutter \& Dart, advanced system design, CI/CD, model fine-tuning \& deployment optimization \\[3pt]
+\textbf{Vision}      & Build AI SaaS products, intelligent automation platforms, and high-impact AI-powered web apps \\[3pt]
+\textbf{Open To}     & Internships, research collaborations, open-source contributions, and entry-level AI/Full-Stack roles \\
+\end{tabularx}
+
+\vspace{8pt}
+\center{\footnotesize Last updated: \today \quad $\cdot$ \quad
+\href{https://abuneshrp.netlify.app}{abuneshrp.netlify.app} \quad $\cdot$ \quad
+\href{https://github.com/Abunesh126}{github.com/Abunesh126}}
+
+\end{document}

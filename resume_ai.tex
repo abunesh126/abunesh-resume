@@ -1,0 +1,199 @@
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%	Resume 2 — Artificial Intelligence & Machine Learning
+%	Abunesh R P
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+
+\documentclass[a4paper,12pt]{article}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage{url}
+\usepackage{parskip}
+
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9]{geometry}
+
+\usepackage{tabularx}
+\usepackage{enumitem}
+
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{multirow}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{6pt}
+
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\addbibresource{citations.bib}
+\setlength\bibitemsep{1em}
+
+\usepackage{fontawesome5}
+
+% job listing environments
+\newenvironment{jobshort}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill & #2 \\[3.75pt]
+    \end{tabularx}
+    }
+    {}
+
+\newenvironment{joblong}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill & #2 \\[2pt]
+    \end{tabularx}
+    \begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt,label=--]
+    }
+    {
+    \end{itemize}
+    \end{minipage}
+    }
+
+%----------------------------------------------------------------------------------------
+%	BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+\pagestyle{empty}
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Abunesh R P} \\[5pt]
+\normalsize{AI \& Machine Learning Engineer $|$ Computer Vision $|$ Deep Learning} \\[3pt]
+\href{https://github.com/Abunesh126}{\raisebox{-0.05\height}\faGithub\ Abunesh126} \ $|$ \
+\href{https://linkedin.com/in/abunesh-r-p-803677278}{\raisebox{-0.05\height}\faLinkedin\ abunesh-r-p-803677278} \ $|$ \
+\href{https://abuneshrp.netlify.app}{\raisebox{-0.05\height}\faGlobe\ abuneshrp.netlify.app} \ $|$ \
+\href{mailto:abunesh2006@gmail.com}{\raisebox{-0.05\height}\faEnvelope\ abunesh2006@gmail.com} \ $|$ \
+\href{tel:+919042845355}{\raisebox{-0.05\height}\faMobile\ +91 9042845355} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	SUMMARY
+%----------------------------------------------------------------------------------------
+\section{Summary}
+Dedicated B.Tech AI \& Data Science student at Karunya University with deep practical experience in machine learning, deep learning, and computer vision. Built real-world AI systems spanning accessibility technology, military defense, environmental monitoring, and time-series forecasting. Proficient in TensorFlow, PyTorch, OpenCV, and Whisper AI. Driven by a mission to apply cutting-edge AI to solve meaningful, high-impact problems.
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section{Work Experience}
+
+\begin{joblong}{AI Innovation Engineer (Research \& Development)}{2024 -- Present}
+\item Designed and deployed DOVE: a speech-to-sign language AI system using imitation learning, LSTM, and CNN architectures for real-time gesture generation, enhancing accessibility for the deaf community
+\item Built CLAVE: a military-grade aviation surveillance AI combining computer vision (OpenCV, YOLO-style detection) and radar signal analysis to classify drones vs. aircraft for air defense applications
+\item Developed HydroWatch: an IoT-integrated water quality monitoring system using LSTM neural networks for time-series prediction of water tank health in smart city infrastructure
+\end{joblong}
+
+\begin{joblong}{Smart India Hackathon --- AI \& Signal Processing Engineer}{2024}
+\item Developed a Micro Doppler Based Target Classification system to identify aerial objects (drones vs. birds) from radar micro-doppler signatures using Python and ML classification models
+\item Implemented a complete signal processing pipeline: \texttt{.mat} radar file ingestion, feature extraction, model training, and prediction output
+\item Competed at the national level among top engineering teams, demonstrating practical AI for defense technology
+\end{joblong}
+
+\begin{joblong}{Data Science \& AI Developer (Academic Projects)}{2023 -- Present}
+\item Applied supervised learning, deep learning (CNN, RNN, LSTM), and computer vision techniques to build classification and forecasting systems
+\item Performed exploratory data analysis (EDA), data preprocessing, and model evaluation using Pandas, Matplotlib, and Seaborn
+\item Experimented with pretrained models from Hugging Face and PyTorch Hub for NLP and vision tasks
+\end{joblong}
+
+%----------------------------------------------------------------------------------------
+%	AI PROJECTS
+%----------------------------------------------------------------------------------------
+\section{AI \& ML Projects}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{DOVE --- Speech to Sign Language AI} & \hfill Imitation Learning $|$ LSTM $|$ CNN $|$ 2024 \\[2pt]
+\multicolumn{2}{@{}X@{}}{Converts spoken speech into sign language gestures in real time using a deep imitation learning pipeline. Employed LSTM for temporal sequence modeling and CNN for gesture pattern recognition. Addresses communication accessibility barriers for the deaf and hard-of-hearing community. Built end-to-end: audio capture $\rightarrow$ transcription $\rightarrow$ gesture mapping $\rightarrow$ output rendering.} \\
+\end{tabularx}
+
+\vspace{4pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{CLAVE --- Military Aviation Surveillance AI} & \hfill Computer Vision $|$ Radar $|$ YOLO $|$ 2024 \\[2pt]
+\multicolumn{2}{@{}X@{}}{Defense-grade aerial object detection system identifying and classifying drones and aircraft using computer vision and radar signal fusion. Integrated OpenCV-based image processing with ML classifiers trained on radar data. Designed for high-stakes air defense scenarios requiring fast and accurate target identification.} \\
+\end{tabularx}
+
+\vspace{4pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{HydroWatch --- Water Quality Prediction (LSTM)} & \hfill IoT $|$ LSTM $|$ Time-Series $|$ 2024 \\[2pt]
+\multicolumn{2}{@{}X@{}}{Smart water monitoring system using LSTM-based time-series forecasting to predict water level fluctuations and tank health degradation. Integrated IoT sensor data streams with the prediction model. Supports proactive maintenance for smart city water infrastructure using historical pattern analysis.} \\
+\end{tabularx}
+
+\vspace{4pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Micro Doppler Target Classification (SIH 2024)} & \hfill Signal Processing $|$ ML $|$ Python $|$ 2024 \\[2pt]
+\multicolumn{2}{@{}X@{}}{Classifies aerial targets (drones vs. birds) from radar micro-doppler signatures. Processed \texttt{.mat} format radar datasets, extracted spectral features, and trained ML classification models. Built as a complete inference pipeline for real-time object identification from radar input.} \\
+\end{tabularx}
+
+\vspace{4pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Flower Classification System} & \hfill CNN $|$ Deep Learning $|$ Python $|$ 2024 \\[2pt]
+\multicolumn{2}{@{}X@{}}{Image classification model trained to identify five flower species: Daisy, Dandelion, Rose, Sunflower, and Tulip. Built and fine-tuned a CNN architecture for multi-class classification. Deployed as a Flask API with frontend integration for live image upload and prediction.} \\
+\end{tabularx}
+
+\vspace{4pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Real-Time Speech-to-Text System} & \hfill Whisper AI $|$ CUDA $|$ Python $|$ 2024 \\[2pt]
+\multicolumn{2}{@{}X@{}}{Real-time audio transcription system leveraging OpenAI Whisper AI with GPU acceleration (CUDA). Implemented low-latency audio capture and continuous transcription pipeline. Useful as a base for voice-controlled systems and accessibility applications.} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+2022 -- 2026 & B.Tech in AI \& Data Science at \textbf{Karunya University, Coimbatore} \hfill \normalsize{(3rd Year)} \\
+& \textit{Core Subjects: Machine Learning, Deep Learning, Computer Vision, Data Analytics, AI Applications} \\
+& \textit{Tools: Python, TensorFlow, PyTorch, Jupyter Notebook, OpenCV, Scikit-learn} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS
+%----------------------------------------------------------------------------------------
+\section{Technical Skills}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+AI Frameworks     & \normalsize{TensorFlow, PyTorch, Keras, Scikit-learn, Hugging Face Transformers} \\
+Deep Learning     & \normalsize{CNN, RNN, LSTM, Imitation Learning, Transfer Learning, Object Detection (YOLO)} \\
+Computer Vision   & \normalsize{OpenCV, Image Classification, Real-Time Detection, Video Processing, Feature Extraction} \\
+NLP \& Speech     & \normalsize{Whisper AI (OpenAI), Basic NLP Pipelines, Transformer-based Workflows} \\
+Data Science      & \normalsize{Pandas, NumPy, Matplotlib, Seaborn, Plotly, EDA, Data Preprocessing, Tableau} \\
+Signal Processing & \normalsize{Radar Signal Analysis, Micro-Doppler Feature Extraction, \texttt{.mat} File Handling} \\
+Languages         & \normalsize{Python, JavaScript, TypeScript, Java, C/C++} \\
+MLOps \& Tools    & \normalsize{Git, GitHub, Docker, Linux, Jupyter Notebook, VS Code, AWS, Google Colab} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	ACHIEVEMENTS
+%----------------------------------------------------------------------------------------
+\section{Achievements \& Activities}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Hackathon       & Smart India Hackathon 2024 --- National Level Participant (Defense AI Track) \\
+Collaboration   & Open to open-source AI/ML projects, research collaborations, and data science partnerships \\
+Currently Learning & Advanced deep learning (custom training, fine-tuning), ML deployment optimization, MLOps \\
+Interests       & AI Research, Computer Vision, NLP, Automation Agents, AI SaaS Product Development \\
+\end{tabularx}
+
+\center{\footnotesize Last updated: \today}
+
+\end{document}

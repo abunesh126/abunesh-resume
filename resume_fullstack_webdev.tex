@@ -1,0 +1,191 @@
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%	Resume 1 — Full Stack & Web Development
+%	Abunesh R P
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+
+\documentclass[a4paper,12pt]{article}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage{url}
+\usepackage{parskip}
+
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9]{geometry}
+
+\usepackage{tabularx}
+\usepackage{enumitem}
+
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{multirow}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{6pt}
+
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\addbibresource{citations.bib}
+\setlength\bibitemsep{1em}
+
+\usepackage{fontawesome5}
+
+% job listing environments
+\newenvironment{jobshort}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill & #2 \\[3.75pt]
+    \end{tabularx}
+    }
+    {}
+
+\newenvironment{joblong}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill & #2 \\[2pt]
+    \end{tabularx}
+    \begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt,label=--]
+    }
+    {
+    \end{itemize}
+    \end{minipage}
+    }
+
+%----------------------------------------------------------------------------------------
+%	BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+\pagestyle{empty}
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Abunesh R P} \\[5pt]
+\normalsize{Full-Stack Developer \& Web Engineer} \\[3pt]
+\href{https://github.com/Abunesh126}{\raisebox{-0.05\height}\faGithub\ Abunesh126} \ $|$ \
+\href{https://linkedin.com/in/abunesh-r-p-803677278}{\raisebox{-0.05\height}\faLinkedin\ abunesh-r-p-803677278} \ $|$ \
+\href{https://abuneshrp.netlify.app}{\raisebox{-0.05\height}\faGlobe\ abuneshrp.netlify.app} \ $|$ \
+\href{mailto:abunesh2006@gmail.com}{\raisebox{-0.05\height}\faEnvelope\ abunesh2006@gmail.com} \ $|$ \
+\href{tel:+919042845355}{\raisebox{-0.05\height}\faMobile\ +91 9042845355} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	SUMMARY
+%----------------------------------------------------------------------------------------
+\section{Summary}
+Motivated B.Tech AI \& Data Science student at Karunya University with strong hands-on experience in full-stack web development. Proficient in building responsive, scalable web applications using React, TypeScript, Flask, and Node.js. Skilled in end-to-end project delivery — from UI/UX design in Figma to backend API development, database management, and cloud deployment. Passionate about building clean, performant, and user-friendly web products.
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section{Work Experience}
+
+\begin{joblong}{Full-Stack Developer (Personal \& Academic Projects)}{2023 -- Present}
+\item Built multiple responsive, multi-page web applications using React.js, TypeScript, Tailwind CSS, and Styled Components
+\item Developed RESTful backend APIs using Flask (Python) and Node.js; integrated databases including MySQL, PostgreSQL, and MongoDB
+\item Implemented authentication flows, form validation, API versioning, and end-to-end deployment on Netlify and Render
+\item Designed UI/UX prototypes in Figma with dark/light mode support and component-based architecture
+\end{joblong}
+
+\begin{joblong}{Web Development Intern --- Nandha Info Tech}{2024}
+\item Developed and maintained responsive web applications using React.js, Laravel (PHP), and MySQL in a professional team environment
+\item Implemented CRUD operations, optimized form handling, and improved UI responsiveness across multiple pages
+\item Used Git and GitHub for version control, branching strategies, and collaborative development workflows
+\item Gained hands-on experience in real-world project structuring, deployment, and client-focused deliverables
+\end{joblong}
+
+\begin{joblong}{Innovation Engineer (AI-Integrated Web Systems)}{2024 -- Present}
+\item Integrated machine learning models (LSTM, CNN) into production-ready web interfaces via REST API endpoints
+\item Built full-stack systems combining React frontends with Python/Flask backends and AI model prediction pipelines
+\item Developed data visualization dashboards and dynamic UIs that consume backend API data in real time
+\end{joblong}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS
+%----------------------------------------------------------------------------------------
+\section{Projects}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Personal Portfolio Website} & \hfill \href{https://abuneshrp.netlify.app}{abuneshrp.netlify.app} $|$ React.js $|$ 2023--2024 \\[2pt]
+\multicolumn{2}{@{}X@{}}{Multi-page personal portfolio built with React.js, Styled Components, and responsive design. Sections include Experience, Education, Projects, and Contact. Deployed on Netlify with custom domain, scroll-based navigation, and dark/light mode theming.} \\
+\end{tabularx}
+
+\vspace{4pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{College Attendance Management System} & \hfill Flask $|$ MySQL $|$ 2024 \\[2pt]
+\multicolumn{2}{@{}X@{}}{Full-stack DBMS web application for tracking student attendance with subject-wise reporting. Built with Flask backend, MySQL database, and HTML/CSS/JavaScript frontend. Implemented user authentication, data validation, and printable report generation.} \\
+\end{tabularx}
+
+\vspace{4pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Flower Classification Web App} & \hfill Flask $|$ Deep Learning $|$ JavaScript $|$ 2024 \\[2pt]
+\multicolumn{2}{@{}X@{}}{Full-stack web application allowing users to upload flower images and receive AI-powered classification results. Integrated a trained deep learning model into a Flask REST API backend consumed by a clean HTML/CSS/JavaScript frontend.} \\
+\end{tabularx}
+
+\vspace{4pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Weather Data Pipeline \& Dashboard} & \hfill Prefect $|$ PostgreSQL $|$ Power BI $|$ 2024 \\[2pt]
+\multicolumn{2}{@{}X@{}}{End-to-end data engineering pipeline covering data ingestion, transformation, storage, and visualization. Used Prefect for orchestration, PostgreSQL and Snowflake for storage, and Power BI for interactive dashboards.} \\
+\end{tabularx}
+
+\vspace{4pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Nutri Choice --- Grocery Recommendation App} & \hfill Java $|$ OOP $|$ Database $|$ 2023 \\[2pt]
+\multicolumn{2}{@{}X@{}}{Java application recommending grocery items based on user salary and nutritional needs. Applied OOP principles including inheritance and polymorphism. Integrated database-driven logic for dynamic recommendations.} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+2022 -- 2026 & B.Tech in AI \& Data Science at \textbf{Karunya University, Coimbatore} \hfill \normalsize{(3rd Year)} \\
+& \textit{Relevant Coursework: Data Structures, Algorithms, Database Management, OS, Web Technologies} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS
+%----------------------------------------------------------------------------------------
+\section{Technical Skills}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Frontend         & \normalsize{React.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, Styled Components, Chakra UI} \\
+Backend          & \normalsize{Python (Flask, FastAPI), Node.js, Laravel (PHP), REST API Design, Authentication Flows} \\
+Databases        & \normalsize{MySQL, PostgreSQL, MongoDB, Supabase, Snowflake, SQL Queries \& Optimization} \\
+DevOps \& Tools  & \normalsize{Git, GitHub, Docker, Linux (Ubuntu), Netlify, Render, VS Code, Figma, Jupyter Notebook} \\
+Languages        & \normalsize{Python, JavaScript, TypeScript, Java, C/C++, PHP, Dart (learning)} \\
+Data \& Viz      & \normalsize{Pandas, Matplotlib, Plotly, Power BI, Tableau, Prefect, Airbyte} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL
+%----------------------------------------------------------------------------------------
+\section{Achievements \& Activities}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Hackathon     & Smart India Hackathon 2024 Participant --- National Level \\
+Internship    & Web Development Intern, Nandha Info Tech (2024) \\
+Open Source   & Active GitHub contributor; seeking collaboration on web and AI projects \\
+Currently Learning & Flutter \& Dart (mobile), advanced React patterns, CI/CD, system design \\
+\end{tabularx}
+
+\center{\footnotesize Last updated: \today}
+
+\end{document}

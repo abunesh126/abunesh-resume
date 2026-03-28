@@ -1,0 +1,210 @@
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%	Resume 3 — AI & Web Development (Combined)
+%	Abunesh R P
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+
+\documentclass[a4paper,12pt]{article}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage{url}
+\usepackage{parskip}
+
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9]{geometry}
+
+\usepackage{tabularx}
+\usepackage{enumitem}
+
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{multirow}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{6pt}
+
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\addbibresource{citations.bib}
+\setlength\bibitemsep{1em}
+
+\usepackage{fontawesome5}
+
+% job listing environments
+\newenvironment{jobshort}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill & #2 \\[3.75pt]
+    \end{tabularx}
+    }
+    {}
+
+\newenvironment{joblong}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill & #2 \\[2pt]
+    \end{tabularx}
+    \begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt,label=--]
+    }
+    {
+    \end{itemize}
+    \end{minipage}
+    }
+
+%----------------------------------------------------------------------------------------
+%	BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+\pagestyle{empty}
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Abunesh R P} \\[5pt]
+\normalsize{Full-Stack AI Developer $|$ Web Engineer $|$ Computer Vision $|$ Deep Learning} \\[3pt]
+\href{https://github.com/Abunesh126}{\raisebox{-0.05\height}\faGithub\ Abunesh126} \ $|$ \
+\href{https://linkedin.com/in/abunesh-r-p-803677278}{\raisebox{-0.05\height}\faLinkedin\ abunesh-r-p-803677278} \ $|$ \
+\href{https://abuneshrp.netlify.app}{\raisebox{-0.05\height}\faGlobe\ abuneshrp.netlify.app} \ $|$ \
+\href{mailto:abunesh2006@gmail.com}{\raisebox{-0.05\height}\faEnvelope\ abunesh2006@gmail.com} \ $|$ \
+\href{tel:+919042845355}{\raisebox{-0.05\height}\faMobile\ +91 9042845355} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	SUMMARY
+%----------------------------------------------------------------------------------------
+\section{Summary}
+B.Tech AI \& Data Science student at Karunya University combining deep expertise in full-stack web development with practical machine learning and computer vision engineering. Uniquely capable of building complete AI-powered web products — from React/TypeScript frontends to Flask/FastAPI backends, ML model training, and cloud deployment. Delivered real-world systems across accessibility, defense, environmental monitoring, and data engineering. Approach: \textit{Learn $\rightarrow$ Build $\rightarrow$ Integrate $\rightarrow$ Optimize}.
+
+%----------------------------------------------------------------------------------------
+%	CORE COMPETENCIES
+%----------------------------------------------------------------------------------------
+\section{Core Competencies}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Web Engineering   & \normalsize{React.js, TypeScript, Flask, Node.js, REST APIs, Responsive UI, Figma, Deployment} \\
+AI \& ML          & \normalsize{TensorFlow, PyTorch, CNN, LSTM, Computer Vision (OpenCV), YOLO, Whisper AI} \\
+Data Engineering  & \normalsize{Pandas, Prefect, PostgreSQL, Snowflake, Power BI, EDA, Data Pipelines} \\
+DevOps \& Cloud   & \normalsize{Docker, Git/GitHub, Linux, AWS, Netlify, Render, CI/CD Patterns} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section{Work Experience}
+
+\begin{joblong}{Full-Stack AI Innovation Engineer}{2024 -- Present}
+\item Architected and shipped DOVE: end-to-end speech-to-sign language AI system with React frontend, Flask REST API, and LSTM/CNN deep learning backend for real-time accessibility
+\item Built CLAVE: military aviation surveillance platform combining computer vision (OpenCV/YOLO), radar signal processing, and a web-based monitoring dashboard for air defense applications
+\item Developed HydroWatch: IoT + LSTM-powered water quality monitoring web app with real-time sensor data integration, time-series prediction, and dashboard visualization for smart cities
+\item Followed complete software lifecycle: requirement analysis $\rightarrow$ UI/UX design $\rightarrow$ API development $\rightarrow$ ML integration $\rightarrow$ testing $\rightarrow$ deployment
+\end{joblong}
+
+\begin{joblong}{Web Development Intern --- Nandha Info Tech}{2024}
+\item Developed responsive web applications using React.js, Laravel (PHP), and MySQL in a professional agile team environment
+\item Built and maintained CRUD APIs, improved UI/UX across multiple pages, and implemented authentication and session management
+\item Collaborated using Git/GitHub with branching strategies, pull requests, and code reviews; delivered production-ready features on schedule
+\end{joblong}
+
+\begin{joblong}{Smart India Hackathon --- AI Engineer}{2024}
+\item Designed a Micro Doppler Based Target Classification system for identifying drones vs. birds using radar signal processing and ML
+\item Implemented the full pipeline: \texttt{.mat} radar data ingestion $\rightarrow$ feature extraction $\rightarrow$ ML model training $\rightarrow$ live inference
+\item Competed at national level, demonstrating applied AI in a defense technology context
+\end{joblong}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS
+%----------------------------------------------------------------------------------------
+\section{Projects}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{DOVE --- Speech to Sign Language AI Platform} & \hfill React $|$ Flask $|$ LSTM $|$ CNN $|$ 2024 \\[2pt]
+\multicolumn{2}{@{}X@{}}{Full-stack AI accessibility platform converting spoken audio to sign language gestures. React.js frontend captures audio, streams to a Flask API, which runs a speech-to-text (Whisper) and imitation learning pipeline (LSTM + CNN) to produce gesture sequences. Addresses communication barriers for deaf communities with a polished, responsive web interface.} \\
+\end{tabularx}
+
+\vspace{4pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{CLAVE --- Military Aviation AI Web System} & \hfill Computer Vision $|$ Flask $|$ Radar $|$ 2024 \\[2pt]
+\multicolumn{2}{@{}X@{}}{AI-powered defense surveillance platform with React dashboard and Flask backend, integrating OpenCV computer vision and radar-based ML classifiers for real-time aerial object detection. Processes live video and radar feeds to classify drones and aircraft with results displayed on a dynamic monitoring UI.} \\
+\end{tabularx}
+
+\vspace{4pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{HydroWatch --- Smart Water Monitoring Web App} & \hfill IoT $|$ LSTM $|$ Flask $|$ React $|$ 2024 \\[2pt]
+\multicolumn{2}{@{}X@{}}{Full-stack smart city water monitoring application. IoT sensor data is ingested into a Flask API, processed by an LSTM time-series forecasting model, and displayed on a React dashboard with real-time charts and predictive maintenance alerts. Supports proactive water infrastructure management.} \\
+\end{tabularx}
+
+\vspace{4pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Flower Classification Web App} & \hfill CNN $|$ Flask $|$ JavaScript $|$ 2024 \\[2pt]
+\multicolumn{2}{@{}X@{}}{End-to-end AI web application: users upload flower images through a clean HTML/CSS/JS frontend, which posts to a Flask API serving a trained CNN classification model. Returns species prediction (Daisy, Dandelion, Rose, Sunflower, Tulip) with confidence scores in real time.} \\
+\end{tabularx}
+
+\vspace{4pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{College Attendance Management System} & \hfill Flask $|$ MySQL $|$ HTML/CSS/JS $|$ 2024 \\[2pt]
+\multicolumn{2}{@{}X@{}}{Full-stack DBMS web application for student attendance tracking with subject-wise reports, admin dashboard, and student portal. Flask backend, MySQL database, responsive HTML/CSS/JavaScript frontend with data validation and printable report exports.} \\
+\end{tabularx}
+
+\vspace{4pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Personal Portfolio Website} & \hfill \href{https://abuneshrp.netlify.app}{abuneshrp.netlify.app} $|$ React $|$ 2023--2024 \\[2pt]
+\multicolumn{2}{@{}X@{}}{Responsive multi-page portfolio built with React.js and Styled Components. Features smooth scroll navigation, dark/light mode, and sections for Experience, Education, Projects, and Contact. Deployed on Netlify with CI from GitHub.} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+2022 -- 2026 & B.Tech in AI \& Data Science at \textbf{Karunya University, Coimbatore} \hfill \normalsize{(3rd Year)} \\
+& \textit{Subjects: Machine Learning, Deep Learning, Data Analytics, Web Technologies, OS, DBMS, Algorithms} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS
+%----------------------------------------------------------------------------------------
+\section{Technical Skills}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Frontend          & \normalsize{React.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, Styled Components, Figma} \\
+Backend           & \normalsize{Python (Flask, FastAPI), Node.js, Laravel (PHP), REST API Design, Authentication} \\
+AI \& ML          & \normalsize{TensorFlow, PyTorch, Keras, CNN, LSTM, RNN, OpenCV, YOLO, Whisper AI, Scikit-learn} \\
+Databases         & \normalsize{MySQL, PostgreSQL, MongoDB, Supabase, Snowflake, SQL Optimization} \\
+Data Science      & \normalsize{Pandas, NumPy, Matplotlib, Seaborn, Plotly, Power BI, Tableau, Prefect, Airbyte} \\
+DevOps \& Cloud   & \normalsize{Docker, Git, GitHub, Linux (Ubuntu), AWS, Netlify, Render, GitHub Actions} \\
+Languages         & \normalsize{Python, JavaScript, TypeScript, Java, C/C++, Dart (learning)} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	ACHIEVEMENTS
+%----------------------------------------------------------------------------------------
+\section{Achievements \& Activities}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Hackathon       & Smart India Hackathon 2024 --- National Level (Defense AI \& Signal Processing) \\
+Internship      & Web Development Intern, Nandha Info Tech (2024) \\
+Open Source     & Actively seeking collaboration on AI/ML, Full-Stack, and Data Science projects \\
+Future Goals    & AI SaaS platforms, intelligent automation systems, AI-integrated production web apps \\
+Currently Learning & Advanced deep learning, system design, Flutter/Dart, deployment optimization \\
+\end{tabularx}
+
+\center{\footnotesize Last updated: \today}
+
+\end{document}
