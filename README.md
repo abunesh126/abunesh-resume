@@ -175,26 +175,26 @@ Engineered a **microplastic detection & water quality monitoring** system — fu
 
 ---
 
-## 📊 GitHub Stats
+## ◈ &nbsp;`{ GITHUB STATS }`
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Abunesh126&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&rank_icon=github" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abunesh126&layout=compact&langs_count=8&theme=tokyonight" />
+<img src="https://abunesh126-readme-stats.vercel.app/api?username=Abunesh126&show_icons=true&theme=github_dark&hide_border=true&count_private=true&title_color=D4AF37&icon_color=B8860B&text_color=C5A028&bg_color=0d0d0d&ring_color=D4AF37" height="165"/>
+&nbsp;&nbsp;
+<img src="https://abunesh126-readme-stats.vercel.app/api/top-langs/?username=Abunesh126&layout=compact&theme=github_dark&hide_border=true&title_color=D4AF37&text_color=C5A028&bg_color=0d0d0d" height="165"/>
+
+<br/><br/>
+
+<img src="https://streak-stats.demolab.com/?user=Abunesh126&theme=dark&hide_border=true&background=0d0d0d&ring=D4AF37&fire=B8860B&currStreakLabel=D4AF37&sideLabels=C5A028&dates=888888&currStreakNum=D4AF37&sideNums=C5A028" height="165"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abunesh126&bg_color=0d0d0d&color=D4AF37&line=B8860B&point=D4AF37&area=true&area_color=1a1200&hide_border=true" width="100%"/>
+
 
 </div>
 
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=Abunesh126&theme=tokyonight&ring=A855F7&fire=06b6d4&currStreakLabel=A855F7)](https://git.io/streak-stats)
-
-</div>
-
-<div align="center">
-
-[![Abunesh's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Abunesh126&theme=tokyo-night&bg_color=0d1117&color=A855F7&line=06b6d4&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
+<br/>
 
 ---
 
