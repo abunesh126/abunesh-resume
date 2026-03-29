@@ -64,15 +64,6 @@ Data   →  Pandas · Snowflake · Power BI · Prefect
 
 ---
 
-<!-- ================= ABOUT ================= -->
-## 🧠 About Me
-
-💡 Passionate about building **AI-powered full-stack systems**  
-⚡ Focused on **scalable apps + intelligent automation**  
-🚀 Turning ideas into **real-world products**
-
----
-
 <!-- ================= TECH STACK ================= -->
 # 🚀 TECH STACK (60 Technologies)
 
@@ -134,13 +125,6 @@ Data   →  Pandas · Snowflake · Power BI · Prefect
   <img src="https://skillicons.dev/icons?i=aws,gcp,docker,git,github,linux,vscode,netlify" />
 </p>
 
----
-
-<!-- ================= ANIMATED SECTION ================= -->
-# ⚡ Dev Flow
-
-```text
-Idea → Design → Build → Train Model → Deploy → Scale 🚀<br/>
 ---
 
 ## Featured Projects
