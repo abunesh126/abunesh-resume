@@ -110,10 +110,8 @@ My stack spans the full picture: pixel-perfect frontends in **React + TypeScript
 | ✈️ | **CLAVE** | Military Aviation Surveillance AI — drone & aircraft detection system | Computer Vision, Radar Signal Processing, YOLO |
 | 💧 | **HydroWatch** | Water Quality AI — IoT + LSTM neural network for smart city infrastructure | IoT, LSTM, Time-Series Forecasting |
 | 📡 | **Micro Doppler Classifier** | Classifies aerial targets (drone vs bird) via radar signatures — SIH 2024 | Python, Signal Processing, ML |
-| 🌸 | **Flower Classification System** | AI-powered image classifier for 5 flower species | Flask, Deep Learning, HTML/CSS/JS |
 | 🎙️ | **Real-Time Speech-to-Text** | Low-latency transcription using Whisper AI with GPU acceleration | Whisper AI, Python, CUDA |
 | 🌦️ | **Weather Data Pipeline** | End-to-end data engineering pipeline with visualization | Prefect, PostgreSQL, Snowflake, Power BI |
-| 🖥️ | **Portfolio Website** | Multi-section personal portfolio with animations | React.js, TypeScript, Styled-Components |
 
 ---
 
