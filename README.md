@@ -64,7 +64,6 @@ Data   →  Pandas · Snowflake · Power BI · Prefect
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,js,ts,java,cpp,c,dart,php,html,css,bash,matlab" />
 </p>
-
 ## 🎨 Frontend
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite,figma,styledcomponents,sass,flutter" />
@@ -84,7 +83,6 @@ Data   →  Pandas · Snowflake · Power BI · Prefect
   <img src="https://img.shields.io/badge/YOLO-FF6F00?style=for-the-badge" />
   <img src="https://img.shields.io/badge/LSTM%20%2F%20RNN-8A2BE2?style=for-the-badge" />
 </p>
-
 ## 📊 Data & Analytics
 <p align="center">
   <img src="https://skillicons.dev/icons?i=pandas,jupyter" />
