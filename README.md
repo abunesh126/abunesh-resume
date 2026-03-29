@@ -58,80 +58,99 @@ Data   →  Pandas · Snowflake · Power BI · Prefect
 ## Tech Stack
 
 **Languages**
-<p>
-<img alt="Python" src="https://img.shields.io/badge/Python-0F172A?style=flat-square&logo=python&logoColor=38BDF8"/>
-<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-0F172A?style=flat-square&logo=javascript&logoColor=38BDF8"/>
-<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-0F172A?style=flat-square&logo=typescript&logoColor=38BDF8"/>
-<img alt="Java" src="https://img.shields.io/badge/Java-0F172A?style=flat-square&logo=openjdk&logoColor=38BDF8"/>
-<img alt="C" src="https://img.shields.io/badge/C-0F172A?style=flat-square&logo=c&logoColor=38BDF8"/>
-<img alt="C++" src="https://img.shields.io/badge/C++-0F172A?style=flat-square&logo=cplusplus&logoColor=38BDF8"/>
-<img alt="Dart" src="https://img.shields.io/badge/Dart-0F172A?style=flat-square&logo=dart&logoColor=38BDF8"/>
-<img alt="HTML5" src="https://img.shields.io/badge/HTML5-0F172A?style=flat-square&logo=html5&logoColor=38BDF8"/>
-<img alt="CSS3" src="https://img.shields.io/badge/CSS3-0F172A?style=flat-square&logo=css3&logoColor=38BDF8"/>
-<img alt="SQL" src="https://img.shields.io/badge/SQL-0F172A?style=flat-square&logo=postgresql&logoColor=38BDF8"/>
-</p>
+
+<table>
+<tr>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=python" width="36"/><br/><sub>Python</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=js" width="36"/><br/><sub>JavaScript</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=ts" width="36"/><br/><sub>TypeScript</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=java" width="36"/><br/><sub>Java</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=c" width="36"/><br/><sub>C</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=cpp" width="36"/><br/><sub>C++</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=dart" width="36"/><br/><sub>Dart</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=html" width="36"/><br/><sub>HTML5</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=css" width="36"/><br/><sub>CSS3</sub></td>
+</tr>
+</table>
 
 **Frontend**
-<p>
-<img alt="React" src="https://img.shields.io/badge/React-0F172A?style=flat-square&logo=react&logoColor=38BDF8"/>
-<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-0F172A?style=flat-square&logo=typescript&logoColor=38BDF8"/>
-<img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind%20CSS-0F172A?style=flat-square&logo=tailwindcss&logoColor=38BDF8"/>
-<img alt="Next.js" src="https://img.shields.io/badge/Next.js-0F172A?style=flat-square&logo=nextdotjs&logoColor=38BDF8"/>
-<img alt="Vite" src="https://img.shields.io/badge/Vite-0F172A?style=flat-square&logo=vite&logoColor=38BDF8"/>
-<img alt="Figma" src="https://img.shields.io/badge/Figma-0F172A?style=flat-square&logo=figma&logoColor=38BDF8"/>
-</p>
+
+<table>
+<tr>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=react" width="36"/><br/><sub>React</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=ts" width="36"/><br/><sub>TypeScript</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=tailwind" width="36"/><br/><sub>Tailwind CSS</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=nextjs" width="36"/><br/><sub>Next.js</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=vite" width="36"/><br/><sub>Vite</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=figma" width="36"/><br/><sub>Figma</sub></td>
+</tr>
+</table>
 
 **Backend**
-<p>
-<img alt="Python" src="https://img.shields.io/badge/Python-0F172A?style=flat-square&logo=python&logoColor=38BDF8"/>
-<img alt="Flask" src="https://img.shields.io/badge/Flask-0F172A?style=flat-square&logo=flask&logoColor=38BDF8"/>
-<img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-0F172A?style=flat-square&logo=fastapi&logoColor=38BDF8"/>
-<img alt="Node.js" src="https://img.shields.io/badge/Node.js-0F172A?style=flat-square&logo=nodedotjs&logoColor=38BDF8"/>
-<img alt="Laravel" src="https://img.shields.io/badge/Laravel-0F172A?style=flat-square&logo=laravel&logoColor=38BDF8"/>
-<img alt="REST API" src="https://img.shields.io/badge/REST%20API-0F172A?style=flat-square&logo=api&logoColor=38BDF8"/>
-</p>
+
+<table>
+<tr>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=python" width="36"/><br/><sub>Python</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=flask" width="36"/><br/><sub>Flask</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=fastapi" width="36"/><br/><sub>FastAPI</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=nodejs" width="36"/><br/><sub>Node.js</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=laravel" width="36"/><br/><sub>Laravel</sub></td>
+</tr>
+</table>
 
 **Databases**
-<p>
-<img alt="MySQL" src="https://img.shields.io/badge/MySQL-0F172A?style=flat-square&logo=mysql&logoColor=38BDF8"/>
-<img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-0F172A?style=flat-square&logo=postgresql&logoColor=38BDF8"/>
-<img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-0F172A?style=flat-square&logo=mongodb&logoColor=38BDF8"/>
-<img alt="Supabase" src="https://img.shields.io/badge/Supabase-0F172A?style=flat-square&logo=supabase&logoColor=38BDF8"/>
-<img alt="Snowflake" src="https://img.shields.io/badge/Snowflake-0F172A?style=flat-square&logo=snowflake&logoColor=38BDF8"/>
-</p>
+
+<table>
+<tr>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=mysql" width="36"/><br/><sub>MySQL</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=postgresql" width="36"/><br/><sub>PostgreSQL</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=mongodb" width="36"/><br/><sub>MongoDB</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=supabase" width="36"/><br/><sub>Supabase</sub></td>
+<td align="center" width="80"><img src="https://img.shields.io/badge/-Snowflake-0F172A?style=flat-square&logo=snowflake&logoColor=38BDF8" height="36"/><br/><sub>Snowflake</sub></td>
+</tr>
+</table>
 
 **AI / ML**
-<p>
-<img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-0F172A?style=flat-square&logo=tensorflow&logoColor=38BDF8"/>
-<img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-0F172A?style=flat-square&logo=pytorch&logoColor=38BDF8"/>
-<img alt="Keras" src="https://img.shields.io/badge/Keras-0F172A?style=flat-square&logo=keras&logoColor=38BDF8"/>
-<img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-0F172A?style=flat-square&logo=opencv&logoColor=38BDF8"/>
-<img alt="Scikit-Learn" src="https://img.shields.io/badge/Scikit--Learn-0F172A?style=flat-square&logo=scikitlearn&logoColor=38BDF8"/>
-<img alt="Whisper AI" src="https://img.shields.io/badge/Whisper%20AI-0F172A?style=flat-square&logo=openai&logoColor=38BDF8"/>
-<img alt="YOLO" src="https://img.shields.io/badge/YOLO-0F172A?style=flat-square&logo=yolo&logoColor=38BDF8"/>
-</p>
+
+<table>
+<tr>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=tensorflow" width="36"/><br/><sub>TensorFlow</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=pytorch" width="36"/><br/><sub>PyTorch</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=keras" width="36"/><br/><sub>Keras</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=opencv" width="36"/><br/><sub>OpenCV</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=sklearn" width="36"/><br/><sub>Scikit-Learn</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=openai" width="36"/><br/><sub>Whisper AI</sub></td>
+<td align="center" width="80"><img src="https://img.shields.io/badge/-YOLO-0F172A?style=flat-square&logo=yolo&logoColor=38BDF8" height="36"/><br/><sub>YOLO</sub></td>
+</tr>
+</table>
 
 **Data & Analytics**
-<p>
-<img alt="Pandas" src="https://img.shields.io/badge/Pandas-0F172A?style=flat-square&logo=pandas&logoColor=38BDF8"/>
-<img alt="NumPy" src="https://img.shields.io/badge/NumPy-0F172A?style=flat-square&logo=numpy&logoColor=38BDF8"/>
-<img alt="Matplotlib" src="https://img.shields.io/badge/Matplotlib-0F172A?style=flat-square&logo=python&logoColor=38BDF8"/>
-<img alt="Plotly" src="https://img.shields.io/badge/Plotly-0F172A?style=flat-square&logo=plotly&logoColor=38BDF8"/>
-<img alt="Power BI" src="https://img.shields.io/badge/Power%20BI-0F172A?style=flat-square&logo=powerbi&logoColor=38BDF8"/>
-<img alt="Prefect" src="https://img.shields.io/badge/Prefect-0F172A?style=flat-square&logo=prefect&logoColor=38BDF8"/>
-</p>
+
+<table>
+<tr>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=pandas" width="36"/><br/><sub>Pandas</sub></td>
+<td align="center" width="80"><img src="https://img.shields.io/badge/-NumPy-0F172A?style=flat-square&logo=numpy&logoColor=38BDF8" height="36"/><br/><sub>NumPy</sub></td>
+<td align="center" width="80"><img src="https://img.shields.io/badge/-Matplotlib-0F172A?style=flat-square&logo=python&logoColor=38BDF8" height="36"/><br/><sub>Matplotlib</sub></td>
+<td align="center" width="80"><img src="https://img.shields.io/badge/-Plotly-0F172A?style=flat-square&logo=plotly&logoColor=38BDF8" height="36"/><br/><sub>Plotly</sub></td>
+<td align="center" width="80"><img src="https://img.shields.io/badge/-Power%20BI-0F172A?style=flat-square&logo=powerbi&logoColor=38BDF8" height="36"/><br/><sub>Power BI</sub></td>
+<td align="center" width="80"><img src="https://img.shields.io/badge/-Prefect-0F172A?style=flat-square&logo=prefect&logoColor=38BDF8" height="36"/><br/><sub>Prefect</sub></td>
+</tr>
+</table>
 
 **Cloud, DevOps & Tools**
-<p>
-<img alt="AWS" src="https://img.shields.io/badge/AWS-0F172A?style=flat-square&logo=amazonwebservices&logoColor=38BDF8"/>
-<img alt="Docker" src="https://img.shields.io/badge/Docker-0F172A?style=flat-square&logo=docker&logoColor=38BDF8"/>
-<img alt="Git" src="https://img.shields.io/badge/Git-0F172A?style=flat-square&logo=git&logoColor=38BDF8"/>
-<img alt="GitHub" src="https://img.shields.io/badge/GitHub-0F172A?style=flat-square&logo=github&logoColor=38BDF8"/>
-<img alt="Linux" src="https://img.shields.io/badge/Linux-0F172A?style=flat-square&logo=linux&logoColor=38BDF8"/>
-<img alt="VS Code" src="https://img.shields.io/badge/VS%20Code-0F172A?style=flat-square&logo=visualstudiocode&logoColor=38BDF8"/>
-<img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-0F172A?style=flat-square&logo=jupyter&logoColor=38BDF8"/>
-<img alt="Flutter" src="https://img.shields.io/badge/Flutter-0F172A?style=flat-square&logo=flutter&logoColor=38BDF8"/>
-</p>
+
+<table>
+<tr>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=aws" width="36"/><br/><sub>AWS</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=docker" width="36"/><br/><sub>Docker</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=git" width="36"/><br/><sub>Git</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=github" width="36"/><br/><sub>GitHub</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=linux" width="36"/><br/><sub>Linux</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=vscode" width="36"/><br/><sub>VS Code</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=jupyter" width="36"/><br/><sub>Jupyter</sub></td>
+<td align="center" width="80"><img src="https://skillicons.dev/icons?i=flutter" width="36"/><br/><sub>Flutter</sub></td>
+</tr>
+</table>
 ---
 
 ## Featured Projects
