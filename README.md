@@ -55,165 +55,696 @@ Data   →  Pandas · Snowflake · Power BI · Prefect
 ---
 
 
-## ◈ `{ TECH STACK }`
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Tech Stack — Abunesh R P</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --bg: #020617;
+    --surface: #0F172A;
+    --surface2: #1E293B;
+    --border: #1E293B;
+    --accent: #38BDF8;
+    --accent2: #818CF8;
+    --accent3: #34D399;
+    --text: #E2E8F0;
+    --muted: #94A3B8;
+    --dim: #475569;
+    --mono: 'Space Mono', monospace;
+    --sans: 'DM Sans', sans-serif;
+  }
 
-<table>
-<tr>
-<td valign="top" width="50%">
+  * { box-sizing: border-box; margin: 0; padding: 0; }
 
-**Languages**
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    min-height: 100vh;
+    padding: 48px 32px;
+    line-height: 1.6;
+  }
 
-<table>
-<tr>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=python" width="40"/><br/><sub>Python</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=js" width="40"/><br/><sub>JavaScript</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=ts" width="40"/><br/><sub>TypeScript</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=java" width="40"/><br/><sub>Java</sub></td>
-</tr>
-<tr>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=c" width="40"/><br/><sub>C</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=cpp" width="40"/><br/><sub>C++</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=dart" width="40"/><br/><sub>Dart</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=php" width="40"/><br/><sub>PHP</sub></td>
-</tr>
-<tr>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=html" width="40"/><br/><sub>HTML5</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=css" width="40"/><br/><sub>CSS3</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=bash" width="40"/><br/><sub>Bash</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=matlab" width="40"/><br/><sub>MATLAB</sub></td>
-</tr>
-</table>
+  /* ── Header ── */
+  .page-header {
+    max-width: 900px;
+    margin: 0 auto 56px;
+    display: flex;
+    align-items: flex-end;
+    gap: 24px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 28px;
+  }
+  .page-header .title-block { flex: 1; }
+  .page-header .eyebrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 8px;
+  }
+  .page-header h1 {
+    font-family: var(--mono);
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1.2;
+  }
+  .page-header h1 span { color: var(--accent); }
+  .page-header .subtitle {
+    margin-top: 8px;
+    font-size: 14px;
+    color: var(--muted);
+    max-width: 520px;
+  }
+  .badge {
+    font-family: var(--mono);
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    background: var(--surface2);
+    color: var(--accent);
+    border: 1px solid #334155;
+    white-space: nowrap;
+  }
 
-</td>
-<td valign="top" width="50%">
+  /* ── Layout ── */
+  .stack-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
 
-**Frontend**
+  /* ── Section ── */
+  .section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .section-label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label .dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+    flex-shrink: 0;
+  }
+  .section-label h2 {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .section-label .line {
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
 
-<table>
-<tr>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=react" width="40"/><br/><sub>React</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=nextjs" width="40"/><br/><sub>Next.js</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=tailwind" width="40"/><br/><sub>Tailwind</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=vite" width="40"/><br/><sub>Vite</sub></td>
-</tr>
-<tr>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=figma" width="40"/><br/><sub>Figma</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=styledcomponents" width="40"/><br/><sub>Styled Comp.</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=sass" width="40"/><br/><sub>Sass</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=flutter" width="40"/><br/><sub>Flutter</sub></td>
-</tr>
-</table>
+  /* ── Grid ── */
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(108px, 1fr));
+    gap: 10px;
+  }
 
-</td>
-</tr>
+  /* ── Card ── */
+  .tech-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 10px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    transition: border-color 0.2s, transform 0.2s, background 0.2s;
+    cursor: default;
+  }
+  .tech-card:hover {
+    border-color: var(--accent);
+    background: #0F1E33;
+    transform: translateY(-2px);
+  }
+  .tech-card:hover .tech-name { color: var(--accent); }
 
-<tr>
-<td valign="top" width="50%">
+  .tech-icon {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 6px rgba(56,189,248,0.10));
+  }
+  .tech-name {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    color: var(--muted);
+    text-align: center;
+    transition: color 0.2s;
+    line-height: 1.3;
+  }
 
-**Backend**
+  /* role tag */
+  .tech-role {
+    position: absolute;
+    top: 7px; right: 7px;
+    font-size: 8px;
+    font-family: var(--mono);
+    letter-spacing: 0.06em;
+    padding: 2px 5px;
+    border-radius: 3px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    background: var(--surface2);
+    color: var(--accent);
+    border: 1px solid #1e3a4a;
+    pointer-events: none;
+  }
+  .tech-card:hover .tech-role { opacity: 1; }
 
-<table>
-<tr>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=flask" width="40"/><br/><sub>Flask</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=fastapi" width="40"/><br/><sub>FastAPI</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=nodejs" width="40"/><br/><sub>Node.js</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=express" width="40"/><br/><sub>Express</sub></td>
-</tr>
-<tr>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=laravel" width="40"/><br/><sub>Laravel</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=postman" width="40"/><br/><sub>Postman</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=nginx" width="40"/><br/><sub>Nginx</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=graphql" width="40"/><br/><sub>GraphQL</sub></td>
-</tr>
-</table>
+  /* ── Two-column layout for some rows ── */
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
 
-</td>
-<td valign="top" width="50%">
+  /* ── Roles legend ── */
+  .roles-section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px 28px;
+  }
+  .roles-section h3 {
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--muted);
+    margin-bottom: 18px;
+  }
+  .roles-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 12px;
+  }
+  .role-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .role-item .tech { font-weight: 600; font-size: 13.5px; color: var(--text); }
+  .role-item .role { font-size: 12.5px; color: var(--muted); }
 
-**Databases**
+  /* ── Improvements callout ── */
+  .callout {
+    background: #0A1628;
+    border: 1px solid #1E3A4A;
+    border-left: 3px solid var(--accent);
+    border-radius: 10px;
+    padding: 20px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .callout-title {
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .callout-title::before {
+    content: '▸';
+    font-size: 13px;
+  }
+  .callout-items {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .callout-items li {
+    font-size: 13px;
+    color: var(--muted);
+    padding-left: 16px;
+    position: relative;
+  }
+  .callout-items li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: var(--dim);
+  }
+  .callout-items li strong { color: var(--text); }
 
-<table>
-<tr>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=mysql" width="40"/><br/><sub>MySQL</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=postgresql" width="40"/><br/><sub>PostgreSQL</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=mongodb" width="40"/><br/><sub>MongoDB</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=supabase" width="40"/><br/><sub>Supabase</sub></td>
-</tr>
-<tr>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=sqlite" width="40"/><br/><sub>SQLite</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=redis" width="40"/><br/><sub>Redis</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=firebase" width="40"/><br/><sub>Firebase</sub></td>
-<td align="center" width="80"><img src="https://img.shields.io/badge/❄-0F172A?style=flat-square&logoColor=38BDF8" width="40" height="40"/><br/><sub>Snowflake</sub></td>
-</tr>
-</table>
+  /* ── Footer ── */
+  .page-footer {
+    max-width: 900px;
+    margin: 56px auto 0;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .page-footer p {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--dim);
+  }
 
-</td>
-</tr>
+  @media (max-width: 640px) {
+    .two-col { grid-template-columns: 1fr; }
+    body { padding: 24px 16px; }
+    .page-header { flex-direction: column; align-items: flex-start; gap: 16px; }
+  }
+</style>
+</head>
+<body>
 
-<tr>
-<td valign="top" width="50%">
+<!-- ── PAGE HEADER ── -->
+<header class="page-header">
+  <div class="title-block">
+    <div class="eyebrow">readme · tech stack</div>
+    <h1>{ TECH <span>STACK</span> }</h1>
+    <p class="subtitle">A full reference of every technology used across Abunesh R P's projects — what each tool is and exactly why it's here.</p>
+  </div>
+  <span class="badge">v2025 · AI & Data Science</span>
+</header>
 
-**AI / ML**
+<div class="stack-wrapper">
 
-<table>
-<tr>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=tensorflow" width="40"/><br/><sub>TensorFlow</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=pytorch" width="40"/><br/><sub>PyTorch</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=keras" width="40"/><br/><sub>Keras</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=opencv" width="40"/><br/><sub>OpenCV</sub></td>
-</tr>
-<tr>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=sklearn" width="40"/><br/><sub>Scikit-Learn</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=openai" width="40"/><br/><sub>Whisper AI</sub></td>
-<td align="center" width="80"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Reverse.svg" width="40"/><br/><sub>YOLO</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=python" width="40"/><br/><sub>LSTM / RNN</sub></td>
-</tr>
-</table>
+  <!-- ── LANGUAGES ── -->
+  <div class="section">
+    <div class="section-label">
+      <div class="dot"></div>
+      <h2>Languages</h2>
+      <div class="line"></div>
+    </div>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <img class="tech-icon" src="https://skillicons.dev/icons?i=python" alt="Python"/>
+        <span class="tech-name">Python</span>
+        <span class="tech-role">primary</span>
+      </div>
+      <div class="tech-card">
+        <img class="tech-icon" src="https://skillicons.dev/icons?i=js" alt="JavaScript"/>
+        <span class="tech-name">JavaScript</span>
+        <span class="tech-role">web</span>
+      </div>
+      <div class="tech-card">
+        <img class="tech-icon" src="https://skillicons.dev/icons?i=ts" alt="TypeScript"/>
+        <span class="tech-name">TypeScript</span>
+        <span class="tech-role">typed JS</span>
+      </div>
+      <div class="tech-card">
+        <img class="tech-icon" src="https://skillicons.dev/icons?i=java" alt="Java"/>
+        <span class="tech-name">Java</span>
+        <span class="tech-role">OOP</span>
+      </div>
+      <div class="tech-card">
+        <img class="tech-icon" src="https://skillicons.dev/icons?i=c" alt="C"/>
+        <span class="tech-name">C</span>
+        <span class="tech-role">systems</span>
+      </div>
+      <div class="tech-card">
+        <img class="tech-icon" src="https://skillicons.dev/icons?i=cpp" alt="C++"/>
+        <span class="tech-name">C++</span>
+        <span class="tech-role">systems</span>
+      </div>
+      <div class="tech-card">
+        <img class="tech-icon" src="https://skillicons.dev/icons?i=dart" alt="Dart"/>
+        <span class="tech-name">Dart</span>
+        <span class="tech-role">mobile</span>
+      </div>
+      <div class="tech-card">
+        <img class="tech-icon" src="https://skillicons.dev/icons?i=php" alt="PHP"/>
+        <span class="tech-name">PHP</span>
+        <span class="tech-role">server</span>
+      </div>
+    </div>
+  </div>
 
-</td>
-<td valign="top" width="50%">
+  <!-- ── FRONTEND + BACKEND (two-col) ── -->
+  <div class="two-col">
+    <div class="section">
+      <div class="section-label">
+        <div class="dot" style="background:var(--accent2)"></div>
+        <h2>Frontend</h2>
+        <div class="line"></div>
+      </div>
+      <div class="tech-grid">
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=react" alt="React"/>
+          <span class="tech-name">React</span>
+          <span class="tech-role">UI lib</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=nextjs" alt="Next.js"/>
+          <span class="tech-name">Next.js</span>
+          <span class="tech-role">SSR</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind"/>
+          <span class="tech-name">Tailwind</span>
+          <span class="tech-role">styling</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=vite" alt="Vite"/>
+          <span class="tech-name">Vite</span>
+          <span class="tech-role">bundler</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=figma" alt="Figma"/>
+          <span class="tech-name">Figma</span>
+          <span class="tech-role">design</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=sass" alt="Sass"/>
+          <span class="tech-name">Sass</span>
+          <span class="tech-role">CSS ext.</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=flutter" alt="Flutter"/>
+          <span class="tech-name">Flutter</span>
+          <span class="tech-role">mobile</span>
+        </div>
+      </div>
+    </div>
 
-**Data & Analytics**
+    <div class="section">
+      <div class="section-label">
+        <div class="dot" style="background:var(--accent3)"></div>
+        <h2>Backend</h2>
+        <div class="line"></div>
+      </div>
+      <div class="tech-grid">
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=flask" alt="Flask"/>
+          <span class="tech-name">Flask</span>
+          <span class="tech-role">API</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI"/>
+          <span class="tech-name">FastAPI</span>
+          <span class="tech-role">API</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=nodejs" alt="Node.js"/>
+          <span class="tech-name">Node.js</span>
+          <span class="tech-role">runtime</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=express" alt="Express"/>
+          <span class="tech-name">Express</span>
+          <span class="tech-role">framework</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=laravel" alt="Laravel"/>
+          <span class="tech-name">Laravel</span>
+          <span class="tech-role">PHP fw.</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=graphql" alt="GraphQL"/>
+          <span class="tech-name">GraphQL</span>
+          <span class="tech-role">query</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=nginx" alt="Nginx"/>
+          <span class="tech-name">Nginx</span>
+          <span class="tech-role">server</span>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<table>
-<tr>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=pandas" width="40"/><br/><sub>Pandas</sub></td>
-<td align="center" width="80"><img src="https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg" width="40"/><br/><sub>NumPy</sub></td>
-<td align="center" width="80"><img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" width="40"/><br/><sub>Matplotlib</sub></td>
-<td align="center" width="80"><img src="https://raw.githubusercontent.com/plotly/plotly.py/master/doc/apidoc/static/plotly-logomark.png" width="40"/><br/><sub>Plotly</sub></td>
-</tr>
-<tr>
-<td align="center" width="80"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" width="40"/><br/><sub>Power BI</sub></td>
-<td align="center" width="80"><img src="https://avatars.githubusercontent.com/u/39480179" width="40"/><br/><sub>Prefect</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=jupyter" width="40"/><br/><sub>Jupyter</sub></td>
-<td align="center" width="80"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" width="40"/><br/><sub>Tableau</sub></td>
-</tr>
-</table>
+  <!-- ── DATABASES + AI/ML (two-col) ── -->
+  <div class="two-col">
+    <div class="section">
+      <div class="section-label">
+        <div class="dot" style="background:#FB923C"></div>
+        <h2>Databases</h2>
+        <div class="line"></div>
+      </div>
+      <div class="tech-grid">
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=mysql" alt="MySQL"/>
+          <span class="tech-name">MySQL</span>
+          <span class="tech-role">relational</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=postgresql" alt="PostgreSQL"/>
+          <span class="tech-name">PostgreSQL</span>
+          <span class="tech-role">relational</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB"/>
+          <span class="tech-name">MongoDB</span>
+          <span class="tech-role">NoSQL</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=supabase" alt="Supabase"/>
+          <span class="tech-name">Supabase</span>
+          <span class="tech-role">BaaS</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=redis" alt="Redis"/>
+          <span class="tech-name">Redis</span>
+          <span class="tech-role">cache</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=firebase" alt="Firebase"/>
+          <span class="tech-name">Firebase</span>
+          <span class="tech-role">BaaS</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=sqlite" alt="SQLite"/>
+          <span class="tech-name">SQLite</span>
+          <span class="tech-role">embedded</span>
+        </div>
+        <div class="tech-card" title="Snowflake">
+          <svg class="tech-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="18" cy="18" r="18" fill="#1E293B"/>
+            <text x="18" y="24" text-anchor="middle" font-size="20" fill="#38BDF8">❄</text>
+          </svg>
+          <span class="tech-name">Snowflake</span>
+          <span class="tech-role">cloud DW</span>
+        </div>
+      </div>
+    </div>
 
-</td>
-</tr>
+    <div class="section">
+      <div class="section-label">
+        <div class="dot" style="background:#F472B6"></div>
+        <h2>AI / ML</h2>
+        <div class="line"></div>
+      </div>
+      <div class="tech-grid">
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=tensorflow" alt="TensorFlow"/>
+          <span class="tech-name">TensorFlow</span>
+          <span class="tech-role">deep learn</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch"/>
+          <span class="tech-name">PyTorch</span>
+          <span class="tech-role">deep learn</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=keras" alt="Keras"/>
+          <span class="tech-name">Keras</span>
+          <span class="tech-role">abstraction</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=opencv" alt="OpenCV"/>
+          <span class="tech-name">OpenCV</span>
+          <span class="tech-role">vision</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=sklearn" alt="Scikit-Learn"/>
+          <span class="tech-name">Scikit-Learn</span>
+          <span class="tech-role">classical ML</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=openai" alt="Whisper AI"/>
+          <span class="tech-name">Whisper AI</span>
+          <span class="tech-role">speech</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Reverse.svg" alt="YOLO"/>
+          <span class="tech-name">YOLO</span>
+          <span class="tech-role">detection</span>
+        </div>
+        <div class="tech-card">
+          <img class="tech-icon" src="https://skillicons.dev/icons?i=python" alt="LSTM/RNN"/>
+          <span class="tech-name">LSTM / RNN</span>
+          <span class="tech-role">time series</span>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<tr>
-<td valign="top" colspan="2">
+  <!-- ── DATA & ANALYTICS ── -->
+  <div class="section">
+    <div class="section-label">
+      <div class="dot" style="background:#A78BFA"></div>
+      <h2>Data &amp; Analytics</h2>
+      <div class="line"></div>
+    </div>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <img class="tech-icon" src="https://skillicons.dev/icons?i=pandas" alt="Pandas"/>
+        <span class="tech-name">Pandas</span>
+        <span class="tech-role">dataframes</span>
+      </div>
+      <div class="tech-card">
+        <img class="tech-icon" src="https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg" alt="NumPy"/>
+        <span class="tech-name">NumPy</span>
+        <span class="tech-role">arrays</span>
+      </div>
+      <div class="tech-card">
+        <img class="tech-icon" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" alt="Matplotlib"/>
+        <span class="tech-name">Matplotlib</span>
+        <span class="tech-role">plotting</span>
+      </div>
+      <div class="tech-card">
+        <img class="tech-icon" src="https://raw.githubusercontent.com/plotly/plotly.py/master/doc/apidoc/static/plotly-logomark.png" alt="Plotly"/>
+        <span class="tech-name">Plotly</span>
+        <span class="tech-role">interactive</span>
+      </div>
+      <div class="tech-card">
+        <img class="tech-icon" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI"/>
+        <span class="tech-name">Power BI</span>
+        <span class="tech-role">dashboards</span>
+      </div>
+      <div class="tech-card">
+        <img class="tech-icon" src="https://avatars.githubusercontent.com/u/39480179" alt="Prefect"/>
+        <span class="tech-name">Prefect</span>
+        <span class="tech-role">pipelines</span>
+      </div>
+      <div class="tech-card">
+        <img class="tech-icon" src="https://skillicons.dev/icons?i=jupyter" alt="Jupyter"/>
+        <span class="tech-name">Jupyter</span>
+        <span class="tech-role">notebooks</span>
+      </div>
+      <div class="tech-card">
+        <img class="tech-icon" src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="Tableau"/>
+        <span class="tech-name">Tableau</span>
+        <span class="tech-role">viz</span>
+      </div>
+    </div>
+  </div>
 
-**Cloud, DevOps & Tools**
+  <!-- ── CLOUD & DEVOPS ── -->
+  <div class="section">
+    <div class="section-label">
+      <div class="dot" style="background:#34D399"></div>
+      <h2>Cloud, DevOps &amp; Tools</h2>
+      <div class="line"></div>
+    </div>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <img class="tech-icon" src="https://skillicons.dev/icons?i=aws" alt="AWS"/>
+        <span class="tech-name">AWS</span>
+        <span class="tech-role">cloud</span>
+      </div>
+      <div class="tech-card">
+        <img class="tech-icon" src="https://skillicons.dev/icons?i=gcp" alt="GCP"/>
+        <span class="tech-name">GCP</span>
+        <span class="tech-role">cloud</span>
+      </div>
+      <div class="tech-card">
+        <img class="tech-icon" src="https://skillicons.dev/icons?i=docker" alt="Docker"/>
+        <span class="tech-name">Docker</span>
+        <span class="tech-role">containers</span>
+      </div>
+      <div class="tech-card">
+        <img class="tech-icon" src="https://skillicons.dev/icons?i=git" alt="Git"/>
+        <span class="tech-name">Git</span>
+        <span class="tech-role">version ctrl</span>
+      </div>
+      <div class="tech-card">
+        <img class="tech-icon" src="https://skillicons.dev/icons?i=github" alt="GitHub"/>
+        <span class="tech-name">GitHub</span>
+        <span class="tech-role">hosting</span>
+      </div>
+      <div class="tech-card">
+        <img class="tech-icon" src="https://skillicons.dev/icons?i=linux" alt="Linux"/>
+        <span class="tech-name">Linux</span>
+        <span class="tech-role">OS</span>
+      </div>
+      <div class="tech-card">
+        <img class="tech-icon" src="https://skillicons.dev/icons?i=vscode" alt="VS Code"/>
+        <span class="tech-name">VS Code</span>
+        <span class="tech-role">editor</span>
+      </div>
+      <div class="tech-card">
+        <img class="tech-icon" src="https://skillicons.dev/icons?i=netlify" alt="Netlify"/>
+        <span class="tech-name">Netlify</span>
+        <span class="tech-role">deploy</span>
+      </div>
+    </div>
+  </div>
 
-<table>
-<tr>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=aws" width="40"/><br/><sub>AWS</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=docker" width="40"/><br/><sub>Docker</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=git" width="40"/><br/><sub>Git</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=github" width="40"/><br/><sub>GitHub</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=linux" width="40"/><br/><sub>Linux</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=vscode" width="40"/><br/><sub>VS Code</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=netlify" width="40"/><br/><sub>Netlify</sub></td>
-<td align="center" width="80"><img src="https://skillicons.dev/icons?i=gcp" width="40"/><br/><sub>GCP</sub></td>
-</tr>
-</table>
+  <!-- ── ROLE REFERENCE ── -->
+  <div class="roles-section">
+    <h3>What each technology does — at a glance</h3>
+    <div class="roles-list">
+      <div class="role-item"><span class="tech">Python</span><span class="role">Primary language for all AI, ML, and data pipeline work</span></div>
+      <div class="role-item"><span class="tech">React / Next.js</span><span class="role">Builds interactive UIs and server-rendered web apps</span></div>
+      <div class="role-item"><span class="tech">TypeScript</span><span class="role">Adds type safety to JavaScript for fewer runtime bugs</span></div>
+      <div class="role-item"><span class="tech">Flask / FastAPI</span><span class="role">Serves ML models and data as lightweight REST APIs</span></div>
+      <div class="role-item"><span class="tech">TensorFlow / PyTorch</span><span class="role">Trains and deploys deep learning models (DOVE, HydroWatch)</span></div>
+      <div class="role-item"><span class="tech">OpenCV + YOLO</span><span class="role">Real-time computer vision and object detection (CLAVE)</span></div>
+      <div class="role-item"><span class="tech">LSTM / RNN</span><span class="role">Sequences and time-series prediction (HydroWatch)</span></div>
+      <div class="role-item"><span class="tech">Whisper AI</span><span class="role">Low-latency speech-to-text transcription with GPU acceleration</span></div>
+      <div class="role-item"><span class="tech">Snowflake + Prefect</span><span class="role">Cloud data warehouse + orchestrated ETL pipelines</span></div>
+      <div class="role-item"><span class="tech">Power BI / Tableau</span><span class="role">Business intelligence dashboards for stakeholder reporting</span></div>
+      <div class="role-item"><span class="tech">Docker</span><span class="role">Packages applications into portable, reproducible containers</span></div>
+      <div class="role-item"><span class="tech">AWS / GCP</span><span class="role">Cloud infrastructure for training, storage, and deployment</span></div>
+    </div>
+  </div>
 
-</td>
-</tr>
-</table>
+  <!-- ── LAYOUT IMPROVEMENT NOTES ── -->
+  <div class="callout">
+    <div class="callout-title">Layout & Spacing Recommendations</div>
+    <ul class="callout-items">
+      <li><strong>Fix right-side dead space:</strong> Replace fixed <code>width="80"</code> table cells with CSS Grid using <code>auto-fill / minmax</code> — columns then expand to fill the full row evenly with no trailing gaps.</li>
+      <li><strong>Reduce overcrowding:</strong> Group Languages (12 items) across two rows of 6, not four rows of 3. A wider, shallower grid feels less cramped on desktop.</li>
+      <li><strong>Two-column pairing:</strong> Put Frontend next to Backend and AI/ML next to Databases — these pairs are logically related and the symmetric layout balances visual weight on both sides.</li>
+      <li><strong>Icon consistency:</strong> Set all icons to a single uniform size (36 × 36 px) and vertically center them. Mixed heights (e.g. Matplotlib vs Firebase) create a jagged baseline that looks unpolished.</li>
+      <li><strong>Hover tooltips for roles:</strong> Add a brief role tag on card hover ("deep learn", "vision", "BaaS") so readers immediately understand each tool's purpose without scrolling to a legend.</li>
+      <li><strong>Section color coding:</strong> Use a small accent dot of a distinct color per category (blue for Languages, indigo for Frontend, etc.) — readers can orient faster when categories have a visual signature beyond just the heading text.</li>
+      <li><strong>Cloud & DevOps full-width:</strong> This row has the fewest items (8), so give it the full page width as a single row — it ends cleanly and avoids a half-empty last row of icons.</li>
+    </ul>
+  </div>
+
+</div>
+
+<!-- ── PAGE FOOTER ── -->
+<footer class="page-footer">
+  <p>abunesh r p · ai & data science · karunya university</p>
+  <p>hover any card to see role tag</p>
+</footer>
+
+</body>
+</html>
 ---
 
 ## Featured Projects
