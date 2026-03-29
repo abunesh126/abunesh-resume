@@ -53,19 +53,10 @@ Data   →  Pandas · Snowflake · Power BI · Prefect
 <br/>
 
 ---
-<!-- ================= HEADER ================= -->
-<h1 align="center">
-  🚀 Abunesh RP | Full Stack & AI Developer
-</h1>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=3000&color=00F7FF&center=true&vCenter=true&width=800&lines=Full+Stack+Developer;AI+%2F+ML+Engineer;Data+Driven+Builder;Always+Learning+🚀" />
-</p>
-
----
 
 <!-- ================= TECH STACK ================= -->
-# 🚀 TECH STACK (60 Technologies)
+# 🚀 TECH STACK 
 
 ---
 
