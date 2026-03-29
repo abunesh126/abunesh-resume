@@ -1,225 +1,188 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:1a1200,100:0d0d0d&height=220&section=header&text=Abunesh%20R%20P&fontSize=62&fontColor=D4AF37&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20%E2%80%A2%20AI%20%E2%80%A2%20Computer%20Vision%20Engineer&descAlignY=60&descAlign=50&descSize=18&stroke=D4AF37&strokeWidth=1" width="100%"/>
+<!-- HEADER BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:a855f7,100:06b6d4&height=200&section=header&text=Abunesh%20R%20P&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20%7C%20AI%20%7C%20ML%20Developer&descAlignY=58&descSize=20&animation=twinkling" />
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=700&size=22&pause=1200&color=D4AF37&center=true&vCenter=true&width=750&lines=%E2%9C%A6+Building+Intelligent+Web+Systems+%E2%9C%A6;Full+Stack+%7C+AI+%7C+Computer+Vision+Developer;Learn+%E2%86%92+Build+%E2%86%92+Integrate+%E2%86%92+Optimize;Open+to+Opportunities+%F0%9F%9A%80" alt="Typing SVG" />
-</a>
+<!-- TYPING SVG — HERO LINE -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=A855F7&center=true&vCenter=true&width=700&lines=Hey+there!+I'm+Abunesh+R+P+%F0%9F%91%8B;Full+Stack+%7C+AI+%7C+ML+Developer;Building+Intelligent+Systems+%F0%9F%A4%96;Learn+%E2%86%92+Build+%E2%86%92+Integrate+%E2%86%92+Optimize)](https://git.io/typing-svg)
 
+<!-- CODING GIF -->
+<img src="https://raw.githubusercontent.com/gist/patevs/b007a0e98fb216438d4cbf559fac4166/raw/88f20c9d749d756be63f22b09f3c4ac570bc5101/programming.gif" width="400" alt="coding gif" />
+
+<!-- CTA BADGES -->
 <br/>
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-%237C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://abuneshrp.netlify.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abunesh-r-p-803677278)
+[![Email](https://img.shields.io/badge/Email-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abunesh2006@gmail.com)
+[![Profile Views](https://komarev.com/ghpvc/?username=Abunesh126&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS)](https://github.com/Abunesh126)
+
+</div>
+
+---
+
+## 🧑‍💻 About Me
+
+- 🎓 3rd Year **B.Tech AI & Data Science** student at **Karunya University**, Coimbatore
+- 🤖 Passionate about building **AI-powered full-stack applications** that solve real-world problems
+- 🚀 My approach: **Learn → Build → Integrate → Optimize**
+- 🏆 **Smart India Hackathon 2024** participant — built Micro Doppler Based Target Classification
+- 🌱 Currently exploring **AI Agents, Automation**, and **Advanced Deep Learning**
+- 💡 Belief: *"Code is like humor. When you have to explain it, it's bad."* — Cory House
+
+---
+
+## 🔭 What I'm Currently Working On
+
+| Area | Focus |
+|------|-------|
+| 🌐 **Full Stack** | React + TypeScript + Flask AI-integrated web apps |
+| 🤖 **AI / ML** | Custom model training, LSTM, YOLO, Whisper AI |
+| 📱 **Mobile** | Flutter & Dart for cross-platform development |
+| ⚙️ **Automation** | AI Agents & intelligent workflow automation (n8n) |
+| 📊 **Data Engineering** | Pipelines: Prefect → PostgreSQL → Snowflake → Power BI |
+
+---
+
+## 🛠️ Tech Stack & Skills
+
+### 💻 Programming Languages
 <p>
-  <img src="https://img.shields.io/badge/STATUS-Open%20to%20Work-D4AF37?style=for-the-badge&labelColor=0d0d0d"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/FOCUS-Full%20Stack%20%2B%20AI-B8860B?style=for-the-badge&labelColor=0d0d0d"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/LOCATION-India%20%F0%9F%87%AE%F0%9F%87%B3-C5A028?style=for-the-badge&labelColor=0d0d0d"/>
+  <img src="https://skillicons.dev/icons?i=python,js,ts,java,c,cpp,dart,php,html,css" />
 </p>
 
-[![Portfolio](https://img.shields.io/badge/◈_Portfolio-D4AF37?style=for-the-badge&logoColor=0d0d0d&logo=google-chrome)](https://abuneshrp.netlify.app/)
-&nbsp;
-[![LinkedIn](https://img.shields.io/badge/◈_LinkedIn-B8860B?style=for-the-badge&logoColor=0d0d0d&logo=linkedin)](https://www.linkedin.com/in/abunesh-r-p-803677278/)
-&nbsp;
-[![Email](https://img.shields.io/badge/◈_Email-C5A028?style=for-the-badge&logoColor=0d0d0d&logo=gmail)](mailto:abunesh2006@gmail.com)
+### 🎨 Frontend Development
+<p>
+  <img src="https://skillicons.dev/icons?i=react,tailwind,nextjs,figma,vite" />
+</p>
 
-</div>
+### 🔧 Backend Development
+<p>
+  <img src="https://skillicons.dev/icons?i=flask,fastapi,nodejs,laravel" />
+</p>
 
-<br/>
+### 🗄️ Databases
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,supabase,sqlite" />
+</p>
 
----
+### 🤖 AI / ML & Data Science
+<p>
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn" />
+</p>
+<p>
+  <img alt="Keras" src="https://img.shields.io/badge/Keras-%23D00000?style=for-the-badge&logo=keras&logoColor=white"/>
+  <img alt="Pandas" src="https://img.shields.io/badge/Pandas-%23150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img alt="Plotly" src="https://img.shields.io/badge/Plotly-%233F4F75?style=for-the-badge&logo=plotly&logoColor=white"/>
+  <img alt="Power BI" src="https://img.shields.io/badge/Power%20BI-%23F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+  <img alt="Whisper AI" src="https://img.shields.io/badge/Whisper%20AI-%23412991?style=for-the-badge&logo=openai&logoColor=white"/>
+</p>
 
-## ◈ &nbsp;`{ ABOUT ME }`
-
-```python
-developer = {
-    "name"       : "Abunesh R P",
-    "title"      : "Full Stack Developer  |  AI & Computer Vision Engineer",
-    "location"   : "Coimbatore, Tamil Nadu, India 🇮🇳",
-    "university" : "Karunya University",
-    "degree"     : "B.Tech — Artificial Intelligence & Data Science",
-    "mission"    : "Building intelligent, scalable web applications",
-    "approach"   : ["Learn ⟶", "Build ⟶", "Integrate ⟶", "Optimize"],
-    "status"     : "✦ Open to Opportunities ✦"
-}
-```
-
-> B.Tech AI & Data Science student — building at the intersection of **modern web engineering** and **real-world AI systems**. I design and ship end-to-end intelligent applications, from computer vision pipelines to production full-stack apps.
-
-<br/>
-
----
-
-## ◈ &nbsp;`{ TECH ARSENAL }`
-
-### ✦ Languages
-<div align="center">
-
-![Python](https://skillicons.dev/icons?i=python&theme=dark)
-![JavaScript](https://skillicons.dev/icons?i=js&theme=dark)
-![TypeScript](https://skillicons.dev/icons?i=ts&theme=dark)
-![Java](https://skillicons.dev/icons?i=java&theme=dark)
-![C](https://skillicons.dev/icons?i=c&theme=dark)
-![C++](https://skillicons.dev/icons?i=cpp&theme=dark)
-
-</div>
-
-### ✦ Frontend
-<div align="center">
-
-![React](https://skillicons.dev/icons?i=react&theme=dark)
-![Next.js](https://skillicons.dev/icons?i=nextjs&theme=dark)
-![HTML](https://skillicons.dev/icons?i=html&theme=dark)
-![CSS](https://skillicons.dev/icons?i=css&theme=dark)
-![Tailwind](https://skillicons.dev/icons?i=tailwind&theme=dark)
-![Flutter](https://skillicons.dev/icons?i=flutter&theme=dark)
-![Figma](https://skillicons.dev/icons?i=figma&theme=dark)
-
-</div>
-
-### ✦ Backend & Databases
-<div align="center">
-
-![Flask](https://skillicons.dev/icons?i=flask&theme=dark)
-![FastAPI](https://skillicons.dev/icons?i=fastapi&theme=dark)
-![NodeJS](https://skillicons.dev/icons?i=nodejs&theme=dark)
-![MySQL](https://skillicons.dev/icons?i=mysql&theme=dark)
-![PostgreSQL](https://skillicons.dev/icons?i=postgres&theme=dark)
-![Supabase](https://skillicons.dev/icons?i=supabase&theme=dark)
-
-</div>
-
-### ✦ AI / ML
-<div align="center">
-
-![PyTorch](https://skillicons.dev/icons?i=pytorch&theme=dark)
-![TensorFlow](https://skillicons.dev/icons?i=tensorflow&theme=dark)
-![OpenCV](https://skillicons.dev/icons?i=opencv&theme=dark)
-![sklearn](https://skillicons.dev/icons?i=sklearn&theme=dark)
-
-</div>
-
-<div align="center">
-
-![Whisper AI](https://img.shields.io/badge/Whisper_AI-D4AF37?style=for-the-badge&logo=openai&logoColor=0d0d0d)
-![YOLO](https://img.shields.io/badge/YOLOv8-B8860B?style=for-the-badge&logo=python&logoColor=0d0d0d)
-![LSTM](https://img.shields.io/badge/LSTM_RNN-C5A028?style=for-the-badge&logo=python&logoColor=0d0d0d)
-![Pandas](https://img.shields.io/badge/Pandas-D4AF37?style=for-the-badge&logo=pandas&logoColor=0d0d0d)
-![Snowflake](https://img.shields.io/badge/Snowflake-C5A028?style=for-the-badge&logo=snowflake&logoColor=0d0d0d)
-
-</div>
-
-### ✦ DevOps & Tools
-<div align="center">
-
-![Git](https://skillicons.dev/icons?i=git&theme=dark)
-![GitHub](https://skillicons.dev/icons?i=github&theme=dark)
-![Docker](https://skillicons.dev/icons?i=docker&theme=dark)
-![Linux](https://skillicons.dev/icons?i=linux&theme=dark)
-![VSCode](https://skillicons.dev/icons?i=vscode&theme=dark)
-![Jupyter](https://skillicons.dev/icons?i=jupyter&theme=dark)
-
-</div>
-
-<br/>
+### ☁️ Cloud, DevOps & Tools
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,docker,git,github,linux,vscode,jupyter" />
+</p>
 
 ---
 
+## 🚀 Featured Projects
 
-
-## ◈ &nbsp;`{ EXPERIENCE }`
-
-<table width="100%">
-<tr><td>
-
-### 🏢 &nbsp; Web Development Intern — Nandha Info Tech
-![Internship](https://img.shields.io/badge/Internship-D4AF37?style=flat-square&logoColor=0d0d0d)
-
-Hands-on full-stack development in a production environment — real-world project structuring, team collaboration, frontend-backend integration & deployment workflows.
-
-</td></tr>
-<tr><td>
-
-### 🏅 &nbsp; Smart India Hackathon 2024 &nbsp; `Team: Clave`
-![SIH 2024](https://img.shields.io/badge/SIH%202024-B8860B?style=flat-square&logoColor=0d0d0d)
-
-Built an AI pipeline for **Micro-Doppler aerial object detection** (Drone vs Bird) — signal processing → ML inference → classification output.
-
-</td></tr>
-<tr><td>
-
-### 🏅 &nbsp; Smart India Hackathon 2025 &nbsp; `Team: Code-Adamantor`
-![SIH 2025](https://img.shields.io/badge/SIH%202025-C5A028?style=flat-square&logoColor=0d0d0d)
-
-Engineered a **microplastic detection & water quality monitoring** system — full pipeline from sensor data ingestion → analytics → interactive Chart.js dashboards. Multi-module UI: Dashboard · Graph Analytics · Sensor Logs · Settings. Scalable IoT architecture for smart-city deployment.
-
-</td></tr>
-</table>
-
-<br/>
+| # | Project | Description | Tech Stack |
+|---|---------|-------------|------------|
+| 🕊️ | **DOVE** | Speech-to-Sign Language AI — accessibility platform for the deaf community | Python, Deep Learning, Imitation Learning |
+| ✈️ | **CLAVE** | Military Aviation Surveillance AI — drone & aircraft detection system | Computer Vision, Radar Signal Processing, YOLO |
+| 💧 | **HydroWatch** | Water Quality AI — IoT + LSTM neural network for smart city infrastructure | IoT, LSTM, Time-Series Forecasting |
+| 📡 | **Micro Doppler Classifier** | Classifies aerial targets (drone vs bird) via radar signatures — SIH 2024 | Python, Signal Processing, ML |
+| 🌸 | **Flower Classification System** | AI-powered image classifier for 5 flower species | Flask, Deep Learning, HTML/CSS/JS |
+| 🎙️ | **Real-Time Speech-to-Text** | Low-latency transcription using Whisper AI with GPU acceleration | Whisper AI, Python, CUDA |
+| 🌦️ | **Weather Data Pipeline** | End-to-end data engineering pipeline with visualization | Prefect, PostgreSQL, Snowflake, Power BI |
+| 🖥️ | **Portfolio Website** | Multi-section personal portfolio with animations | React.js, TypeScript, Styled-Components |
 
 ---
 
-## ◈ &nbsp;`{ GITHUB STATS }`
+## 💼 Experience
+
+### 🔬 Innovation Engineer *(2024 – Present)*
+> Led end-to-end development of **DOVE**, **CLAVE**, and **HydroWatch** — three AI systems tackling accessibility, defense, and environmental challenges.
+
+### 🌐 Full Stack Developer *(2023 – Present)*
+> Built AI-powered web apps using React, TypeScript & Flask. Integrated ML models via REST APIs with full frontend → backend → database → deployment pipelines.
+
+### 🏢 Web Development Intern — **Nandha Info Tech**
+> Gained real-world experience in team-based web application development, frontend-backend integration, and professional project structuring.
+
+---
+
+## 🎯 2025 Goals
+
+- [ ] 🚀 Build and deploy a production AI SaaS product
+- [ ] 🤖 Deep dive into AI Agents & Agentic Workflows
+- [ ] 📱 Launch a Flutter-based cross-platform mobile app
+- [ ] 🌍 Contribute to 3+ open-source AI/ML projects
+- [ ] 🏆 Compete in 2+ national-level hackathons
+- [ ] ☁️ Earn an AWS Cloud Practitioner certification
+
+---
+
+## 🤝 Open to Collaborate On
+
+- 🧠 Open-source **AI & ML** projects
+- 🌐 **Full Stack AI Applications** (web + backend + ML)
+- 📊 **Data Science & Analytics** pipelines
+- 📱 **Mobile App** development with Flutter
+- ⚙️ **Automation & AI Agents** platforms
+
+---
+
+## 📊 GitHub Stats
 
 <div align="center">
 
-<img src="https://abunesh126-readme-stats.vercel.app/api?username=Abunesh126&show_icons=true&theme=github_dark&hide_border=true&count_private=true&title_color=D4AF37&icon_color=B8860B&text_color=C5A028&bg_color=0d0d0d&ring_color=D4AF37" height="165"/>
-&nbsp;&nbsp;
-<img src="https://abunesh126-readme-stats.vercel.app/api/top-langs/?username=Abunesh126&layout=compact&theme=github_dark&hide_border=true&title_color=D4AF37&text_color=C5A028&bg_color=0d0d0d" height="165"/>
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com/?user=Abunesh126&theme=dark&hide_border=true&background=0d0d0d&ring=D4AF37&fire=B8860B&currStreakLabel=D4AF37&sideLabels=C5A028&dates=888888&currStreakNum=D4AF37&sideNums=C5A028" height="165"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abunesh126&bg_color=0d0d0d&color=D4AF37&line=B8860B&point=D4AF37&area=true&area_color=1a1200&hide_border=true" width="100%"/>
-
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Abunesh126&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&rank_icon=github" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abunesh126&layout=compact&langs_count=8&theme=tokyonight" />
 
 </div>
 
-<br/>
+<div align="center">
 
----
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Abunesh126&theme=tokyonight&ring=A855F7&fire=06b6d4&currStreakLabel=A855F7)](https://git.io/streak-stats)
 
-## ◈ &nbsp;`{ VISION }`
-
-```
-✦  MISSION — Full Stack AI Engineer
-   ┌──────────────────────────────────────────────────────────┐
-   │  Design and ship intelligent platforms that combine      │
-   │  modern web engineering with practical AI/ML systems.    │
-   └──────────────────────────────────────────────────────────┘
-
-✦  ROADMAP
-   ├── ⚡ Build AI SaaS products at production scale
-   ├── 🤖 Develop intelligent automation platforms (n8n, agents)
-   ├── 👁️ Create vision + language model powered web apps
-   └── 🚀 AI product engineering — or build my own startup
-```
-
-<br/>
-
----
-
-## ◈ &nbsp;`{ DEV PHILOSOPHY }`
+</div>
 
 <div align="center">
 
-> *✦ &nbsp; "Code is like humor. When you have to explain it, it's bad." &nbsp; ✦*
->
-> — Cory House
+[![Abunesh's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Abunesh126&theme=tokyo-night&bg_color=0d1117&color=A855F7&line=06b6d4&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+---
+
+## 🏅 Achievements & Highlights
+
+- 🥇 **Smart India Hackathon 2024** — National Level Participant, Karunya University
+- 🤖 Built **3 impactful AI systems** in domains of Accessibility, Defense & Smart Cities
+- 🌐 **17+ Repositories** covering AI, Full Stack, and Data Engineering
+- 🎓 3rd Year **B.Tech AI & Data Science** — Karunya University
+
+---
+
+<div align="center">
+
+<!-- TYPING MOTIVATIONAL LINE -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=06b6d4&center=true&vCenter=true&width=700&lines=Open+to+internships%2C+collaborations+%26+opportunities!;Let's+build+something+impactful+together+%F0%9F%9A%80;Reach+out+via+email+or+LinkedIn+%F0%9F%93%AC)](https://git.io/typing-svg)
 
 <br/>
 
-![Quote](https://img.shields.io/badge/Learn%20%E2%86%92%20Build%20%E2%86%92%20Integrate%20%E2%86%92%20Optimize-D4AF37?style=for-the-badge&labelColor=0d0d0d)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%237C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://abuneshrp.netlify.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abunesh-r-p-803677278)
+[![Email](https://img.shields.io/badge/Email-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abunesh2006@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-%23181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abunesh126)
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Abunesh126&label=Profile+Views&color=D4AF37&style=for-the-badge&labelColor=0d0d0d)
+*"Build things that matter. Code solutions that scale. Create impact."*
 
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:1a1200,100:0d0d0d&height=140&section=footer&animation=fadeIn&fontColor=D4AF37&fontSize=16&text=✦%20%20one%20commit%20at%20a%20time%20%20✦" width="100%"/>
+<!-- FOOTER BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:a855f7,100:7C3AED&height=120&section=footer" />
 
 </div>
