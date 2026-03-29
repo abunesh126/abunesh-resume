@@ -157,12 +157,37 @@
 
 ---
 
-## 🏅 Achievements & Highlights
+## 🥇 Achievements & Badges
+
+<div align="center">
+
+<!-- GitHub Profile Summary Cards — Row 1: Profile Details + Contribution Graph -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Abunesh126&theme=tokyonight" width="100%" />
+
+<!-- Row 2: Top Languages by Repo + Top Languages by Commit -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Abunesh126&theme=tokyonight" width="49%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Abunesh126&theme=tokyonight" width="49%" />
+
+<!-- Row 3: Stats + Productive Time -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Abunesh126&theme=tokyonight" width="49%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Abunesh126&theme=tokyonight&utcOffset=5.5" width="49%" />
+
+</div>
+
+### 🏆 GitHub Trophies
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=Abunesh126&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+### ⭐ Milestone Highlights
 
 - 🥇 **Smart India Hackathon 2024** — National Level Participant, Karunya University
-- 🤖 Built **3 impactful AI systems** in domains of Accessibility, Defense & Smart Cities
-- 🌐 **17+ Repositories** covering AI, Full Stack, and Data Engineering
-- 🎓 3rd Year **B.Tech AI & Data Science** — Karunya University
+- 🤖 Built **3 impactful AI systems** — Accessibility (DOVE), Defense (CLAVE), Smart Cities (HydroWatch)
+- 🌐 **17+ Repositories** spanning AI, Full Stack, and Data Engineering
+- 🎓 **B.Tech AI & Data Science** — Karunya University (2022–2026)
 
 ---
 
