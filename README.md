@@ -212,6 +212,8 @@ Data   →  Pandas · Snowflake · Power BI · Prefect
 </td>
 </tr>
 </table>
+<br/>
+
 ---
 
 ## Featured Projects
