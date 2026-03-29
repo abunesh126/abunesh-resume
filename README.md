@@ -6,12 +6,6 @@
 <!-- TYPING SVG — HERO LINE -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=A855F7&center=true&vCenter=true&width=700&lines=Hey+there!+I'm+Abunesh+R+P+%F0%9F%91%8B;Full+Stack+%7C+AI+%7C+ML+Developer;Building+Intelligent+Systems+%F0%9F%A4%96;Learn+%E2%86%92+Build+%E2%86%92+Integrate+%E2%86%92+Optimize)](https://git.io/typing-svg)
 
-<!-- CODING GIF -->
-<img src="https://raw.githubusercontent.com/gist/patevs/b007a0e98fb216438d4cbf559fac4166/raw/88f20c9d749d756be63f22b09f3c4ac570bc5101/programming.gif" width="400" alt="coding gif" />
-
-<!-- CTA BADGES -->
-<br/>
-
 [![Portfolio](https://img.shields.io/badge/Portfolio-%237C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://abuneshrp.netlify.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abunesh-r-p-803677278)
 [![Email](https://img.shields.io/badge/Email-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abunesh2006@gmail.com)
@@ -21,14 +15,37 @@
 
 ---
 
-## 🧑‍💻 About Me
+<!-- INTRO SECTION — Two column: Bio left, GIF right -->
+<table>
+<tr>
+<td valign="top" width="55%">
 
-- 🎓 3rd Year **B.Tech AI & Data Science** student at **Karunya University**, Coimbatore
-- 🤖 Passionate about building **AI-powered full-stack applications** that solve real-world problems
-- 🚀 My approach: **Learn → Build → Integrate → Optimize**
-- 🏆 **Smart India Hackathon 2024** participant — built Micro Doppler Based Target Classification
-- 🌱 Currently exploring **AI Agents, Automation**, and **Advanced Deep Learning**
-- 💡 Belief: *"Code is like humor. When you have to explain it, it's bad."* — Cory House
+### Hi there 👋
+
+I'm **Abunesh R P** — a 3rd year **B.Tech AI & Data Science** student at **Karunya University**, Coimbatore.
+
+I don't just study AI — I build with it. From speech-to-sign language systems to military aerial surveillance AI, I turn real-world problems into working intelligent solutions.
+
+My stack spans the full picture: pixel-perfect frontends in **React + TypeScript**, robust backends in **Python + Flask**, and production ML models using **TensorFlow, PyTorch & OpenCV**.
+
+> 🧠 *Philosophy:* **Learn → Build → Integrate → Optimize**
+> 💡 *Belief:* Code should explain itself. If it can't, rewrite it.
+
+- 🏠 Based in **Coimbatore, Tamil Nadu, India**
+- 🎓 **AI & Data Science**, Karunya University (2022–2026)
+- 🚀 Currently exploring **AI Agents** & **Intelligent Automation**
+- 🤝 Open to **internships, collabs & open-source contributions**
+
+</td>
+<td valign="top" width="45%" align="center">
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/gist/patevs/b007a0e98fb216438d4cbf559fac4166/raw/88f20c9d749d756be63f22b09f3c4ac570bc5101/programming.gif" width="320" alt="coding gif" />
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -100,16 +117,42 @@
 
 ---
 
-## 💼 Experience
+## ◈ `{ EXPERIENCE }`
 
-### 🔬 Innovation Engineer *(2024 – Present)*
-> Led end-to-end development of **DOVE**, **CLAVE**, and **HydroWatch** — three AI systems tackling accessibility, defense, and environmental challenges.
+<table>
+<tr>
+<td width="4%" align="center">🏢</td>
+<td>
 
-### 🌐 Full Stack Developer *(2023 – Present)*
-> Built AI-powered web apps using React, TypeScript & Flask. Integrated ML models via REST APIs with full frontend → backend → database → deployment pipelines.
+**Web Development Intern — Nandha Info Tech**
 
-### 🏢 Web Development Intern — **Nandha Info Tech**
-> Gained real-world experience in team-based web application development, frontend-backend integration, and professional project structuring.
+Hands-on full-stack development in a production environment — real-world project structuring, team collaboration, frontend-backend integration & deployment workflows.
+
+</td>
+</tr>
+<tr><td colspan="2"><br/></td></tr>
+<tr>
+<td width="4%" align="center">🏅</td>
+<td>
+
+**Smart India Hackathon 2024** &nbsp; `Team: Clave`
+
+Built an AI pipeline for **Micro-Doppler aerial object detection** (Drone vs Bird) — signal processing → ML inference → classification output.
+
+</td>
+</tr>
+<tr><td colspan="2"><br/></td></tr>
+<tr>
+<td width="4%" align="center">🏅</td>
+<td>
+
+**Smart India Hackathon 2025** &nbsp; `Team: Code-Adamantor`
+
+Engineered a **microplastic detection & water quality monitoring** system — full pipeline from sensor data ingestion → analytics → interactive Chart.js dashboards. Multi-module UI: Dashboard · Graph Analytics · Sensor Logs · Settings. Scalable IoT architecture for smart-city deployment.
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -174,20 +217,6 @@
 
 </div>
 
-### 🏆 GitHub Trophies
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=Abunesh126&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
-### ⭐ Milestone Highlights
-
-- 🥇 **Smart India Hackathon 2024** — National Level Participant, Karunya University
-- 🤖 Built **3 impactful AI systems** — Accessibility (DOVE), Defense (CLAVE), Smart Cities (HydroWatch)
-- 🌐 **17+ Repositories** spanning AI, Full Stack, and Data Engineering
-- 🎓 **B.Tech AI & Data Science** — Karunya University (2022–2026)
 
 ---
 
