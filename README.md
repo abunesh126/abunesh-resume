@@ -57,182 +57,142 @@ Data   →  Pandas · Snowflake · Power BI · Prefect
 
 <br/>
 
-<table width="100%">
+<div align="center">
 
-<tr>
-<td valign="top" width="50%">
+![Languages](https://img.shields.io/badge/─────────────────────────────────────────────────────────────────-0F172A?style=flat-square)
 
-**💻 Programming Languages**
+</div>
 
-<table>
-<tr>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=python" width="36"/><br/><sub>Python</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=js" width="36"/><br/><sub>JavaScript</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=ts" width="36"/><br/><sub>TypeScript</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=java" width="36"/><br/><sub>Java</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=c" width="36"/><br/><sub>C</sub></td>
-</tr>
-<tr>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=cpp" width="36"/><br/><sub>C++</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=mysql" width="36"/><br/><sub>SQL</sub></td>
-<td></td><td></td><td></td>
-</tr>
-</table>
+---
 
-</td>
-<td valign="top" width="50%">
+### 💻 &nbsp; Languages
 
-**🖥️ Frontend Development**
-
-<table>
-<tr>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=react" width="36"/><br/><sub>React.js</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=ts" width="36"/><br/><sub>TypeScript</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=html" width="36"/><br/><sub>HTML5</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=css" width="36"/><br/><sub>CSS3</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=tailwind" width="36"/><br/><sub>Tailwind CSS</sub></td>
-</tr>
-<tr>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=styledcomponents" width="36"/><br/><sub>Styled Comp.</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=figma" width="36"/><br/><sub>Figma</sub></td>
-<td></td><td></td><td></td>
-</tr>
-</table>
-
-</td>
-</tr>
-
-<!-- gap -->
-<tr><td colspan="2"><br/></td></tr>
-
-<tr>
-<td valign="top" width="50%">
-
-**⚙️ Backend Development**
-
-<table>
-<tr>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=python" width="36"/><br/><sub>Python</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=flask" width="36"/><br/><sub>Flask</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=fastapi" width="36"/><br/><sub>FastAPI</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=nodejs" width="36"/><br/><sub>Node.js</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=laravel" width="36"/><br/><sub>Laravel</sub></td>
-</tr>
-<tr>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=postman" width="36"/><br/><sub>Postman</sub></td>
-<td></td><td></td><td></td><td></td>
-</tr>
-</table>
-
-</td>
-<td valign="top" width="50%">
-
-**🗄️ Database Management**
-
-<table>
-<tr>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=mysql" width="36"/><br/><sub>MySQL</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=postgresql" width="36"/><br/><sub>PostgreSQL</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=mongodb" width="36"/><br/><sub>MongoDB</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=supabase" width="36"/><br/><sub>Supabase</sub></td>
-<td></td>
-</tr>
-</table>
-
-</td>
-</tr>
-
-<!-- gap -->
-<tr><td colspan="2"><br/></td></tr>
-
-<tr>
-<td valign="top" width="50%">
-
-**🤖 AI / Machine Learning**
-
-<table>
-<tr>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=tensorflow" width="36"/><br/><sub>TensorFlow</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=pytorch" width="36"/><br/><sub>PyTorch</sub></td>
-<td align="center" width="76"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" width="36"/><br/><sub>Keras</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=opencv" width="36"/><br/><sub>OpenCV</sub></td>
-<td align="center" width="76"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Reverse.svg" width="36"/><br/><sub>YOLO</sub></td>
-</tr>
-<tr>
-<td align="center" width="76"><img src="https://img.shields.io/badge/Whisper-000?style=flat-square&logo=openai&logoColor=white" height="36"/><br/><sub>Whisper AI</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=sklearn" width="36"/><br/><sub>Scikit-Learn</sub></td>
-<td align="center" width="76"><img src="https://img.shields.io/badge/CNN · RNN · LSTM-0F172A?style=flat-square&logoColor=38BDF8" height="36"/><br/><sub>CNN/RNN/LSTM</sub></td>
-<td></td><td></td>
-</tr>
-</table>
-
-</td>
-<td valign="top" width="50%">
-
-**📊 Data Science & Analytics**
-
-<table>
-<tr>
-<td align="center" width="76"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" width="60"/><br/><sub>Pandas</sub></td>
-<td align="center" width="76"><img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" width="36"/><br/><sub>Matplotlib</sub></td>
-<td align="center" width="76"><img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" width="36"/><br/><sub>Seaborn</sub></td>
-<td align="center" width="76"><img src="https://images.plot.ly/logo/new-branding/plotly-logomark.png" width="36"/><br/><sub>Plotly</sub></td>
-<td align="center" width="76"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" width="36"/><br/><sub>Power BI</sub></td>
-</tr>
-<tr>
-<td align="center" width="76"><img src="https://avatars.githubusercontent.com/u/39480179" width="36"/><br/><sub>Prefect</sub></td>
-<td></td><td></td><td></td><td></td>
-</tr>
-</table>
-
-</td>
-</tr>
-
-<!-- gap -->
-<tr><td colspan="2"><br/></td></tr>
-
-<tr>
-<td valign="top" width="50%">
-
-**☁️ Cloud & DevOps**
-
-<table>
-<tr>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=aws" width="36"/><br/><sub>AWS</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=docker" width="36"/><br/><sub>Docker</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=git" width="36"/><br/><sub>Git</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=github" width="36"/><br/><sub>GitHub</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=githubactions" width="36"/><br/><sub>GH Actions</sub></td>
-</tr>
-<tr>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=linux" width="36"/><br/><sub>Linux</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=netlify" width="36"/><br/><sub>Netlify</sub></td>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=render" width="36"/><br/><sub>Render</sub></td>
-<td></td><td></td>
-</tr>
-</table>
-
-</td>
-<td valign="top" width="50%">
-
-**🛠️ Tools & Platforms**
-
-<table>
-<tr>
-<td align="center" width="76"><img src="https://skillicons.dev/icons?i=vscode" width="36"/><br/><sub>VS Code</sub></td>
-<td align="center" width="76"><img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" width="36"/><br/><sub>Jupyter</sub></td>
-<td align="center" width="76"><img src="https://img.shields.io/badge/Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white" height="36"/><br/><sub>Cisco PKT</sub></td>
-<td align="center" width="76"><img src="https://img.shields.io/badge/🤗 HuggingFace-FFD21E?style=flat-square&logoColor=black" height="36"/><br/><sub>Hugging Face</sub></td>
-<td></td>
-</tr>
-</table>
-
-</td>
-</tr>
-
-</table>
+<div align="left">
+<img src="https://skillicons.dev/icons?i=python,js,ts,java,c,cpp&perline=6" />
+<br/>
+<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" height="44"/>
+</div>
 
 <br/>
+
+---
+
+### 🖥️ &nbsp; Frontend Development
+
+<div align="left">
+<img src="https://skillicons.dev/icons?i=react,ts,html,css,tailwind,sass,vite,nextjs&perline=8" />
+<br/><br/>
+<img src="https://img.shields.io/badge/Styled_Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" height="44"/>
+&nbsp;
+<img src="https://skillicons.dev/icons?i=figma" height="44"/>
+</div>
+
+<br/>
+
+---
+
+### ⚙️ &nbsp; Backend Development
+
+<div align="left">
+<img src="https://skillicons.dev/icons?i=python,flask,fastapi,nodejs,express,laravel,nginx,graphql&perline=8" />
+<br/><br/>
+<img src="https://skillicons.dev/icons?i=postman" height="44"/>
+&nbsp;
+<img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=fastapi&logoColor=white" height="44"/>
+</div>
+
+<br/>
+
+---
+
+### 🗄️ &nbsp; Database Management
+
+<div align="left">
+<img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,supabase,redis,firebase,sqlite&perline=8" />
+<br/><br/>
+<img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" height="44"/>
+</div>
+
+<br/>
+
+---
+
+### 🤖 &nbsp; AI / Machine Learning
+
+<div align="left">
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn&perline=8" />
+<br/><br/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" height="44"/>
+&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Reverse.svg" height="44"/>
+&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Whisper_AI-000000?style=for-the-badge&logo=openai&logoColor=white" height="44"/>
+&nbsp;
+<img src="https://img.shields.io/badge/CNN_·_RNN_·_LSTM-0F172A?style=for-the-badge&logoColor=38BDF8" height="44"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Signal_Processing-1a1a2e?style=for-the-badge&logo=python&logoColor=white" height="44"/>
+</div>
+
+<br/>
+
+---
+
+### 📊 &nbsp; Data Science & Analytics
+
+<div align="left">
+<img src="https://skillicons.dev/icons?i=jupyter&perline=8" />
+&nbsp;&nbsp;
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" height="44"/>
+&nbsp;&nbsp;
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" height="44"/>
+&nbsp;&nbsp;
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" height="44"/>
+&nbsp;&nbsp;
+<img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" height="44"/>
+<br/><br/>
+<img src="https://images.plot.ly/logo/new-branding/plotly-logomark.png" height="44"/>
+&nbsp;&nbsp;
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" height="44"/>
+&nbsp;&nbsp;
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" height="44"/>
+&nbsp;&nbsp;
+<img src="https://avatars.githubusercontent.com/u/39480179" height="44"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Prefect-024DFD?style=for-the-badge&logo=prefect&logoColor=white" height="44"/>
+</div>
+
+<br/>
+
+---
+
+### ☁️ &nbsp; Cloud & DevOps
+
+<div align="left">
+<img src="https://skillicons.dev/icons?i=aws,gcp,docker,git,github,githubactions,linux,netlify&perline=8" />
+<br/><br/>
+<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" height="44"/>
+</div>
+
+<br/>
+
+---
+
+### 🛠️ &nbsp; Tools & Platforms
+
+<div align="left">
+<img src="https://skillicons.dev/icons?i=vscode,figma,postman,linux&perline=8" />
+<br/><br/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" height="44"/>
+&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Cisco_PKT-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" height="44"/>
+&nbsp;
+<img src="https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge&logoColor=black" height="44"/>
+&nbsp;
+<img src="https://img.shields.io/badge/PyTorch_Hub-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" height="44"/>
+</div>
+
+<br/>
+
 ---
 
 ## Featured Projects
