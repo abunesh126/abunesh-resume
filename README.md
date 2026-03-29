@@ -77,6 +77,10 @@ Data   →  Pandas · Snowflake · Power BI · Prefect
   <img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,supabase,sqlite,redis,firebase" />
   <img src="https://img.shields.io/badge/Snowflake-0F172A?style=for-the-badge&logoColor=38BDF8" />
 </p>
+## ☁️ Cloud, DevOps & Tools
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,gcp,docker,git,github,linux,vscode,netlify" />
+</p>
 ## 🤖 AI / ML
 <p align="center">
   <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,keras,opencv,sklearn,openai" />
@@ -93,10 +97,7 @@ Data   →  Pandas · Snowflake · Power BI · Prefect
   <img src="https://img.shields.io/badge/Prefect-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge" />
 </p>
-## ☁️ Cloud, DevOps & Tools
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=aws,gcp,docker,git,github,linux,vscode,netlify" />
-</p>
+
 
 ---
 
