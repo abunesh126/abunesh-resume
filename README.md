@@ -57,20 +57,104 @@ Data   →  Pandas · Snowflake · Power BI · Prefect
 
 <br/>
 
-<div align="center">
-
-| | |
-|:---|:---|
-| **💻 Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) |
-| **🖥️ Frontend** | ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) |
-| **⚙️ Backend** | ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white) ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) |
-| **🗄️ Databases** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white) |
-| **🤖 AI / ML** | ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) ![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white) ![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=yolo&logoColor=black) ![Whisper AI](https://img.shields.io/badge/Whisper_AI-000000?style=for-the-badge&logo=openai&logoColor=white) |
-| **📊 Data Science** | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white) ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Prefect](https://img.shields.io/badge/Prefect-024DFD?style=for-the-badge&logo=prefect&logoColor=white) |
-| **☁️ Cloud & DevOps** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white) ![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![GH Actions](https://img.shields.io/badge/GH_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white) |
-| **🛠️ Tools** | ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Cisco PKT](https://img.shields.io/badge/Cisco_PKT-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black) |
-
-</div>
+<table>
+<tr>
+<td width="140px"><sub>🔵 <b>Languages</b></sub></td>
+<td>
+<code>Python</code>&nbsp;
+<code>JavaScript</code>&nbsp;
+<code>TypeScript</code>&nbsp;
+<code>Java</code>&nbsp;
+<code>C</code>&nbsp;
+<code>C++</code>&nbsp;
+<code>SQL</code>
+</td>
+</tr>
+<tr>
+<td><sub>🟢 <b>Frontend</b></sub></td>
+<td>
+<code>React</code>&nbsp;
+<code>Next.js</code>&nbsp;
+<code>Tailwind</code>&nbsp;
+<code>HTML5</code>&nbsp;
+<code>CSS3</code>&nbsp;
+<code>Sass</code>&nbsp;
+<code>Vite</code>&nbsp;
+<code>Figma</code>
+</td>
+</tr>
+<tr>
+<td><sub>🩷 <b>Backend</b></sub></td>
+<td>
+<code>Flask</code>&nbsp;
+<code>FastAPI</code>&nbsp;
+<code>Node.js</code>&nbsp;
+<code>Express</code>&nbsp;
+<code>Laravel</code>&nbsp;
+<code>GraphQL</code>&nbsp;
+<code>Nginx</code>
+</td>
+</tr>
+<tr>
+<td><sub>🟡 <b>Databases</b></sub></td>
+<td>
+<code>MySQL</code>&nbsp;
+<code>PostgreSQL</code>&nbsp;
+<code>MongoDB</code>&nbsp;
+<code>Supabase</code>&nbsp;
+<code>Redis</code>&nbsp;
+<code>Firebase</code>&nbsp;
+<code>SQLite</code>
+</td>
+</tr>
+<tr>
+<td><sub>🟣 <b>AI / ML</b></sub></td>
+<td>
+<code>TensorFlow</code>&nbsp;
+<code>PyTorch</code>&nbsp;
+<code>Keras</code>&nbsp;
+<code>OpenCV</code>&nbsp;
+<code>Scikit-Learn</code>&nbsp;
+<code>YOLO</code>&nbsp;
+<code>Whisper AI</code>
+</td>
+</tr>
+<tr>
+<td><sub>🟠 <b>Data Science</b></sub></td>
+<td>
+<code>Pandas</code>&nbsp;
+<code>NumPy</code>&nbsp;
+<code>Matplotlib</code>&nbsp;
+<code>Seaborn</code>&nbsp;
+<code>Plotly</code>&nbsp;
+<code>Power BI</code>&nbsp;
+<code>Prefect</code>
+</td>
+</tr>
+<tr>
+<td><sub>🩵 <b>Cloud & DevOps</b></sub></td>
+<td>
+<code>AWS</code>&nbsp;
+<code>GCP</code>&nbsp;
+<code>Docker</code>&nbsp;
+<code>Git</code>&nbsp;
+<code>GitHub</code>&nbsp;
+<code>GH Actions</code>&nbsp;
+<code>Linux</code>&nbsp;
+<code>Netlify</code>
+</td>
+</tr>
+<tr>
+<td><sub>⚫ <b>Tools</b></sub></td>
+<td>
+<code>VS Code</code>&nbsp;
+<code>Jupyter</code>&nbsp;
+<code>Postman</code>&nbsp;
+<code>Cisco PKT</code>&nbsp;
+<code>Hugging Face</code>
+</td>
+</tr>
+</table>
 <br/>
 
 ---
