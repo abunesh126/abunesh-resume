@@ -53,116 +53,94 @@ Data   →  Pandas · Snowflake · Power BI · Prefect
 <br/>
 
 ---
-## ◈ `{ TECH STACK }`
+<!-- ================= HEADER ================= -->
+<h1 align="center">
+  🚀 Abunesh RP | Full Stack & AI Developer
+</h1>
 
-<br/>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=3000&color=00F7FF&center=true&vCenter=true&width=800&lines=Full+Stack+Developer;AI+%2F+ML+Engineer;Data+Driven+Builder;Always+Learning+🚀" />
+</p>
 
-<table>
-<tr>
-<td width="130px"><sub>🔵 <b>Languages</b></sub></td>
-<td>
-<a href="#"><img src="https://skillicons.dev/icons?i=python" width="28" title="Python"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=js" width="28" title="JavaScript"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=ts" width="28" title="TypeScript"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=java" width="28" title="Java"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=c" width="28" title="C"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=cpp" width="28" title="C++"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=dart" width="28" title="Dart"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=php" width="28" title="PHP"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=html" width="28" title="HTML5"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=css" width="28" title="CSS3"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=bash" width="28" title="Bash"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=matlab" width="28" title="MATLAB"/></a>
-</td>
-</tr>
-<tr>
-<td><sub>🟢 <b>Frontend</b></sub></td>
-<td>
-<a href="#"><img src="https://skillicons.dev/icons?i=react" width="28" title="React"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=nextjs" width="28" title="Next.js"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=tailwind" width="28" title="Tailwind CSS"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=vite" width="28" title="Vite"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=figma" width="28" title="Figma"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=styledcomponents" width="28" title="Styled Components"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=sass" width="28" title="Sass"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=flutter" width="28" title="Flutter"/></a>
-</td>
-</tr>
-<tr>
-<td><sub>🩷 <b>Backend</b></sub></td>
-<td>
-<a href="#"><img src="https://skillicons.dev/icons?i=flask" width="28" title="Flask"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=fastapi" width="28" title="FastAPI"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=nodejs" width="28" title="Node.js"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=express" width="28" title="Express"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=laravel" width="28" title="Laravel"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=graphql" width="28" title="GraphQL"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=nginx" width="28" title="Nginx"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=postman" width="28" title="Postman"/></a>
-</td>
-</tr>
-<tr>
-<td><sub>🟡 <b>Databases</b></sub></td>
-<td>
-<a href="#"><img src="https://skillicons.dev/icons?i=mysql" width="28" title="MySQL"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=postgresql" width="28" title="PostgreSQL"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=mongodb" width="28" title="MongoDB"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=supabase" width="28" title="Supabase"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=redis" width="28" title="Redis"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=firebase" width="28" title="Firebase"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=sqlite" width="28" title="SQLite"/></a>&nbsp;
-<a href="#"><img src="https://img.shields.io/badge/Snowflake-0F172A?style=flat-square&logo=snowflake&logoColor=38BDF8" height="28" title="Snowflake"/></a>
-</td>
-</tr>
-<tr>
-<td><sub>🟣 <b>AI / ML</b></sub></td>
-<td>
-<a href="#"><img src="https://skillicons.dev/icons?i=tensorflow" width="28" title="TensorFlow"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=pytorch" width="28" title="PyTorch"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=keras" width="28" title="Keras"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=opencv" width="28" title="OpenCV"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=sklearn" width="28" title="Scikit-Learn"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=openai" width="28" title="Whisper AI / OpenAI"/></a>&nbsp;
-<a href="#"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Reverse.svg" width="72" height="28" title="YOLO / Ultralytics"/></a>
-</td>
-</tr>
-<tr>
-<td><sub>🟠 <b>Data Science</b></sub></td>
-<td>
-<a href="#"><img src="https://skillicons.dev/icons?i=jupyter" width="28" title="Jupyter"/></a>&nbsp;
-<a href="#"><img src="https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg" width="56" height="28" title="NumPy"/></a>&nbsp;
-<a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" width="28" height="28" title="Matplotlib"/></a>&nbsp;
-<a href="#"><img src="https://raw.githubusercontent.com/plotly/plotly.py/master/doc/apidoc/static/plotly-logomark.png" width="28" height="28" title="Plotly"/></a>&nbsp;
-<a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" width="28" height="28" title="Power BI"/></a>&nbsp;
-<a href="#"><img src="https://avatars.githubusercontent.com/u/39480179" width="28" height="28" title="Prefect"/></a>&nbsp;
-<a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" width="72" height="28" title="Tableau"/></a>
-</td>
-</tr>
-<tr>
-<td><sub>🩵 <b>Cloud & DevOps</b></sub></td>
-<td>
-<a href="#"><img src="https://skillicons.dev/icons?i=aws" width="28" title="AWS"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=gcp" width="28" title="GCP"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=docker" width="28" title="Docker"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=git" width="28" title="Git"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=github" width="28" title="GitHub"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=linux" width="28" title="Linux"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=netlify" width="28" title="Netlify"/></a>
-</td>
-</tr>
-<tr>
-<td><sub>⚫ <b>Tools</b></sub></td>
-<td>
-<a href="#"><img src="https://skillicons.dev/icons?i=vscode" width="28" title="VS Code"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=jupyter" width="28" title="Jupyter"/></a>&nbsp;
-<a href="#"><img src="https://skillicons.dev/icons?i=postman" width="28" title="Postman"/></a>&nbsp;
-<a href="#"><img src="https://img.shields.io/badge/Cisco_PKT-1BA0D7?style=flat-square&logo=cisco&logoColor=white" height="28" title="Cisco Packet Tracer"/></a>&nbsp;
-<a href="#"><img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" height="28" title="Hugging Face"/></a>
-</td>
-</tr>
-</table>
+---
 
-<br/>
+<!-- ================= ABOUT ================= -->
+## 🧠 About Me
+
+💡 Passionate about building **AI-powered full-stack systems**  
+⚡ Focused on **scalable apps + intelligent automation**  
+🚀 Turning ideas into **real-world products**
+
+---
+
+<!-- ================= TECH STACK ================= -->
+# 🚀 TECH STACK (60 Technologies)
+
+---
+
+## 💻 Languages
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,js,ts,java,cpp,c,dart,php,html,css,bash,matlab" />
+</p>
+
+---
+
+## 🎨 Frontend
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite,figma,styledcomponents,sass,flutter" />
+</p>
+
+---
+
+## ⚙️ Backend
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=flask,fastapi,nodejs,express,laravel,postman,nginx,graphql" />
+</p>
+
+---
+
+## 🗄️ Databases
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,supabase,sqlite,redis,firebase" />
+  <img src="https://img.shields.io/badge/Snowflake-0F172A?style=for-the-badge&logoColor=38BDF8" />
+</p>
+
+---
+
+## 🤖 AI / ML
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,keras,opencv,sklearn,openai" />
+  <img src="https://img.shields.io/badge/YOLO-FF6F00?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LSTM%20%2F%20RNN-8A2BE2?style=for-the-badge" />
+</p>
+
+---
+
+## 📊 Data & Analytics
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=pandas,jupyter" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Prefect-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge" />
+</p>
+
+---
+
+## ☁️ Cloud, DevOps & Tools
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,gcp,docker,git,github,linux,vscode,netlify" />
+</p>
+
+---
+
+<!-- ================= ANIMATED SECTION ================= -->
+# ⚡ Dev Flow
+
+```text
+Idea → Design → Build → Train Model → Deploy → Scale 🚀<br/>
 ---
 
 ## Featured Projects
