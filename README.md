@@ -64,29 +64,35 @@ Data   →  Pandas · Snowflake · Power BI · Prefect
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,js,ts,java,cpp,c,dart,php,html,css,bash,matlab" />
 </p>
+
 ## 🎨 Frontend
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite,figma,styledcomponents,sass,flutter" />
 </p>
+
 ## ⚙️ Backend
 <p align="center">
   <img src="https://skillicons.dev/icons?i=flask,fastapi,nodejs,express,laravel,postman,nginx,graphql" />
 </p>
+
 ## 🗄️ Databases
 <p align="center">
   <img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,supabase,sqlite,redis,firebase" />
   <img src="https://img.shields.io/badge/Snowflake-0F172A?style=for-the-badge&logoColor=38BDF8" />
 </p>
+
 ## ☁️ Cloud, DevOps & Tools
 <p align="center">
   <img src="https://skillicons.dev/icons?i=aws,gcp,docker,git,github,linux,vscode,netlify" />
 </p>
+
 ## 🤖 AI / ML
 <p align="center">
   <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,keras,opencv,sklearn,openai" />
   <img src="https://img.shields.io/badge/YOLO-FF6F00?style=for-the-badge" />
   <img src="https://img.shields.io/badge/LSTM%20%2F%20RNN-8A2BE2?style=for-the-badge" />
 </p>
+
 ## 📊 Data & Analytics
 <p align="center">
   <img src="https://skillicons.dev/icons?i=pandas,jupyter" />
